@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Arbor</title>
+  <generator uri="https://github.com/jekyll/jekyll">Jekyll v3.1.6</generator>
+    <icon>/arborCollections/apple-touch-icon-precomposed.png</icon>
+  <subtitle>Arbor workflows</subtitle>
+  <link href="/arborCollections/atom.xml" rel="self"/>
+  <link href="/arborCollections/" rel="alternate" type="text/html"/>
+  <updated>2016-08-11T15:12:38-07:00</updated>
+  <id>/arborCollections/</id>
+  <author>
+    <name>Luke Harmon</name>
+    <uri>/arborCollections/</uri>
+    <email>lukeh@uidaho.edu</email>
+  </author>
+
+  
+  <entry>
+    <title>Fitting models of trait evolution with Arbor</title>
+    <link href="/arborCollections/tasks/trait-models/"/>
+    <updated>2016-08-04T00:00:00-07:00</updated>
+    <id>/arborCollections/tasks/trait-models</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      &lt;img src=&quot;/arborCollections/images/traitevol.jpg&quot;&gt;&lt;br/&gt;
+      &lt;p&gt;We can fit a model of evolution - for example, Brownian motion or an Mk model - to comparative data, estimating model parameters and assessing model fit. For example, if we were interested in the evolution of body size among mammals (snakes and lizards), we could fit a variety of models. For each model, we could estimate the model parameters that best fit the data. We could also compare the fit of the models and use model selection to select the best of them.&lt;/p&gt;
+
+&lt;p&gt;Fitting models of trait evolution requires:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a phylogenetic tree with branch lengths&lt;/li&gt;
+  &lt;li&gt;data for the tips of the tree. In Arbor, you don’t have to have a perfect match between the species in the tree and in your data file - but anything that is missing from either of those will be dropped from the analysis.&lt;/li&gt;
+  &lt;li&gt;a model of evolution&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how-to-do-this-analysis-in-arbor&quot;&gt;How to do this analysis in Arbor&lt;/h2&gt;
+
+&lt;p&gt;There are two functions to fit models of trait evolution in Arbor Workflows:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/arborCollections/collections/traitModelFitting/fitContinuous&quot;&gt;&lt;img src=&quot;/arborCollections/images/fitContinuous.png&quot; alt=&quot;fitContinuous fxn&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/arborCollections/collections/traitModelFitting/fitContinuous&quot;&gt;fitContinuous&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/arborCollections/collections/traitModelFitting/fitDiscrete&quot;&gt;&lt;img src=&quot;/arborCollections/images/fitDiscrete.png&quot; alt=&quot;fitDiscrete fxn&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/arborCollections/docs/fitDiscrete&quot;&gt;fitDiscrete&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;method-assumptions&quot;&gt;Method assumptions&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;known phylogenetic tree with branch lengths&lt;/li&gt;
+  &lt;li&gt;specified model of evolution&lt;/li&gt;
+  &lt;li&gt;tip character states known without error&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;example&quot;&gt;Example&lt;/h3&gt;
+
+&lt;p&gt;From the &lt;a href=&quot;/arborCollections/../docs/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
+Load these files into Arbor, and use them as inputs to the fitDiscrete function (choose the “ecomorph” character).&lt;/p&gt;
+
+&lt;h3 id=&quot;example-of-use-in-a-workflow&quot;&gt;Example of use in a workflow&lt;/h3&gt;
+
+&lt;p&gt;TBA&lt;/p&gt;
+
+&lt;h3 id=&quot;citations&quot;&gt;Citations&lt;/h3&gt;
+
+&lt;p&gt;Harmon, L. J., J. B. Losos, J. Davies, R. G. Gillespie, J. L. Gittleman, W. B. Jennings, K. Kozak, M. A. McPeek, F. Moreno-Roark, T. J. Near, A. Purvis, R. E. Ricklefs, D. Schluter, J. A. Schulte II, O. Seehausen, B. Sidlauskas, O. Torres-Carvajal, J. T. Weir, &amp;amp; A. Ø. Mooers. 2010. Early bursts of body size and shape evolution are rare in comparative data. Evolution 64: 2385.&lt;/p&gt;
+
+&lt;p&gt;Lewis, P.O. 2001. A likelihood approach to estimating phylogeny from discrete morphological character data. Systematic Biology 50:913-925.&lt;/p&gt;
+
+&lt;p&gt;Pennell, M. W., J. M. Eastman, G. J. Slater, J. W. Brown, J. C. Uyeda, R. G. Fitzjohn, M. E. Alfaro, and L. J. Harmon. 2014. geiger v2.0: an expanded suite of methods for fitting macroevolutionary models to phylogenetic trees. Bioinformatics 30: 2216-2218.&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Ancestral character state estimation with Arbor</title>
+    <link href="/arborCollections/tasks/ace/"/>
+    <updated>2016-08-03T00:00:00-07:00</updated>
+    <id>/arborCollections/tasks/ace</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      &lt;img src=&quot;/arborCollections/images/ace.jpg&quot;&gt;&lt;br/&gt;
+      &lt;p&gt;Ancestral state estimate uses some model of evolution - for example, Brownian motion or an Mk model - and estimates ancestral character states for each node in a phylogenetic tree. For example, if we were interested in the evolution of limb presence or absence among squamates (snakes and lizards), we could use ancestral state estimation. We would use a tree and character data from living species to reconstruct character states (limbs or not) for each internal node in the tree.&lt;/p&gt;
+
+&lt;p&gt;It can be difficult to estimate ancestral character states, so most methods return estimates along with some measure of uncertainty. For example, an ancestral state estimate for limbs in squamates might return an estimate with 80% of the marginal likelihood for a limbless state, and 20% for a limbed state - in other words, we think that this species did not have limbs but we are not sure based only on the tree, data, and model of evolution.&lt;/p&gt;
+
+&lt;p&gt;Estimating ancestral character states requires three things:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a phylogenetic tree with branch lengths&lt;/li&gt;
+  &lt;li&gt;data for the tips of the tree. In Arbor, you don’t have to have a perfect match between the species in the tree and in your data file - but anything that is missing from either of those will be dropped from the analysis.&lt;/li&gt;
+  &lt;li&gt;a model of evolution&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how-to-do-this-analysis-in-arbor&quot;&gt;How to do this analysis in Arbor&lt;/h2&gt;
+
+&lt;p&gt;Arbor provides several ways to estimate ancestral character states. The easiest option is to use the Arbor App &lt;a href=&quot;/arborCollections/arborapps/ancestral-state/&quot;&gt;Ancestral state estimation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can also estimate ancestral character states in Arbor Workflows using the aceArbor function.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/images/acearbor.png&quot; alt=&quot;aceArbor&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;more-details-acearbor-arbor-workflows-function&quot;&gt;More details: aceArbor (Arbor Workflows function)&lt;/h2&gt;
+
+&lt;p&gt;aceArbor is a function for carrying out ancestral state reconstruction. It works for
+both discrete and continuous variables, and can reconstruct ancestral character states
+under both a maximum-likelihood and a Bayesian framework. The function returns results
+in two formats: a table of ancestral state estimates for each node in the tree, and a plot
+of the results.&lt;/p&gt;
+
+&lt;h3 id=&quot;acearbor-assumptions&quot;&gt;aceArbor assumptions&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;known phylogenetic tree with branch lengths&lt;/li&gt;
+  &lt;li&gt;specified model of evolution (see below)&lt;/li&gt;
+  &lt;li&gt;tip character states known without error&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;acearbor-inputs&quot;&gt;aceArbor inputs&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;table: A data table including species names&lt;/li&gt;
+  &lt;li&gt;tree: A phylogenetic tree&lt;/li&gt;
+  &lt;li&gt;column: The name of the column to analyze&lt;/li&gt;
+  &lt;li&gt;type: The character type
+    &lt;ul&gt;
+      &lt;li&gt;discrete: a character with a discrete number of states&lt;/li&gt;
+      &lt;li&gt;continuous: a continuously varying character&lt;/li&gt;
+      &lt;li&gt;fromData: will attempt to determine the data type from the data itself&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;method: specifies the method used to reconstruct ancestral character states
+    &lt;ul&gt;
+      &lt;li&gt;marginal: marginal ancestral state reconstructions, which reconstruct each node integrating over all possibilities at all other nodes in the tree; this is typically the method used in the literature to reconstruce ACEs&lt;/li&gt;
+      &lt;li&gt;joint: joint ancestral reconstructions, which give the configuration of ancestral states that together maximize the likelihood of the data given model parameters&lt;/li&gt;
+      &lt;li&gt;mcmc: reconstruct ancestral states using Bayesian MCMC. Note that the discrete version of this doesn’t seem to work, and even if it did work it is not a full MCMC ancestral state method&lt;/li&gt;
+      &lt;li&gt;stochastic: create stochastic character map&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;acearbor-outputs&quot;&gt;aceArbor outputs&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a table and a plot with results of the ancestral state reconstruction.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;acearbor-example&quot;&gt;aceArbor example&lt;/h3&gt;
+
+&lt;p&gt;From the &lt;a href=&quot;/arborCollections/../docs/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
+Load these files into Arbor, and use them as inputs to the aceArbor function. Choose
+the “ecomorph” column for analysis, and select type: discrete and method: marginal.&lt;/p&gt;
+
+&lt;p&gt;Your results should look like this.&lt;/p&gt;
+
+&lt;p&gt;Table: A table showing the internal nodes of the tree (numbered following ape’s scheme) along with marginal likelihoods for each character state.
+&lt;img src=&quot;/arborCollections/images/acearbor-exampletable.png&quot; alt=&quot;acearbor-plot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Plot: A plot of the tree with ancestral state estimates at every node.
+&lt;img src=&quot;/arborCollections/images/acearbor-exampleplot.png&quot; alt=&quot;acearbor-plot&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;acearbor-example-of-use-in-a-workflow&quot;&gt;aceArbor example of use in a workflow&lt;/h3&gt;
+
+&lt;p&gt;You can see a tutorial for constructing a workflow that involves aceArbor
+&lt;a href=&quot;/arborCollections/tutorials/reconstructing-ancestral-characters-discrete&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;acearbor-citations&quot;&gt;aceArbor citations&lt;/h3&gt;
+
+&lt;p&gt;Lewis, P.O. 2001. A likelihood approach to estimating phylogeny from discrete morphological character data. Systematic Biology 50:913-925.&lt;/p&gt;
+
+&lt;p&gt;Pagel, M. 1999. The maximum likelihood approach to reconstructing ancestral character states of discrete characters on phylogenies. Systematic Biology. 48: 612-622.&lt;/p&gt;
+
+&lt;p&gt;Schluter, D., T. Price, A. O. Mooers, and D. Ludwig. 1997. Likelihood of ancestor states in adaptive radiation. Evolution 51: 1699.&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Timetrees</title>
+    <link href="/arborCollections/tutorials/timetrees/"/>
+    <updated>2016-04-18T00:00:00-07:00</updated>
+    <id>/arborCollections/tutorials/timetrees</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;creating-timetrees&quot;&gt;Creating timetrees&lt;/h2&gt;
+
+&lt;p&gt;Arbor has a few tools to create time-scaled phylogenetic trees. You can rescale your tree using standard methods like &lt;a href=&quot;&quot;&gt;pathd8&lt;/a&gt;, &lt;a href=&quot;&quot;&gt;penalized likelihood&lt;/a&gt;, or other methods that have been implemented in R. Alternatively, you can use our new tree rescaling method, described below, that calibrates a tree using dates from &lt;a href=&quot;http://timetree.org&quot;&gt;timetree&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;using-arbor-to-rescale-your-tree&quot;&gt;Using Arbor to rescale your tree&lt;/h2&gt;
+
+&lt;p&gt;In this example, we will obtain a tree from &lt;a href=&quot;http://opentree.org&quot;&gt;open tree of life&lt;/a&gt; and rescale it using dates from &lt;a href=&quot;http://timetree.org&quot;&gt;timetree of life&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We start with a list of taxa, &lt;a href=&quot;/arborCollections/assets/testTaxa.csv&quot;&gt;testTaxa.csv&lt;/a&gt;. You can upload that csv file to your arbor instance, or just find it stored in the “treeTimer” collection.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/timetree/timetree-screen1.png&quot; alt=&quot;screen1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, choose and run the function called “Match taxa to the timetree of life” from the treeTimer collection.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/timetree/timetree-screen2.png&quot; alt=&quot;screen2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Use the following settings for this function:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/timetree/timetree-screen3.png&quot; alt=&quot;screen3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When the function has stopped running, you should see a success message:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/timetree/timetree-screen4.png&quot; alt=&quot;screen4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can see a plot of the output by choosing the right settings in the Visualization tab.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/timetree/timetree-screen5.png&quot; alt=&quot;screen5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is your timetree:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/timetree/timetree-output.png&quot; alt=&quot;screen6&quot; /&gt;&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Megaphylogenies</title>
+    <link href="/arborCollections/tutorials/megatrees/"/>
+    <updated>2016-04-18T00:00:00-07:00</updated>
+    <id>/arborCollections/tutorials/megatrees</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;what-is-a-megaphylogeny&quot;&gt;What is a megaphylogeny?&lt;/h2&gt;
+
+&lt;p&gt;Megaphylogenies are very large phylogenetic trees with thousands of tips.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-can-arbor-help-with-my-megaphylogenetic-analysis&quot;&gt;How can Arbor help with my megaphylogenetic analysis?&lt;/h2&gt;
+
+&lt;p&gt;Arbor can help in three ways. First, using web services, Arbor can help you obtain large trees and time-scale these trees when necessary. Second, Arbor can help you match phylogenetic and character data, a complex task with very large trees. Finally, Arbor can analyze large datasets quickly and efficiently.&lt;/p&gt;
+
+&lt;h1 id=&quot;obtaining-and-time-scaling-large-trees&quot;&gt;Obtaining and time-scaling large trees&lt;/h1&gt;
+
+&lt;p&gt;You can use Arbor’s &lt;a href=&quot;/arborCollections/tutorials/webservices/&quot;&gt;web services&lt;/a&gt; to obtain large phylogenetic trees from &lt;a href=&quot;http://www.opentreeoflife.org/&quot;&gt;Open Tree of Life&lt;/a&gt;. You can then use Arbor’s &lt;a href=&quot;/arborCollections/tutorials/timetrees/&quot;&gt;method for time-scaling trees&lt;/a&gt; to add branch lengths to this tree.&lt;/p&gt;
+
+&lt;h1 id=&quot;matching-phylogenetic-and-character-data&quot;&gt;Matching phylogenetic and character data&lt;/h1&gt;
+
+&lt;p&gt;Our new &lt;a href=&quot;https://github.com/uyedaj/treeplyr&quot;&gt;treeplyr&lt;/a&gt; package is made to help match tree and character data, and manipulate the combined dataset. Try the &lt;a href=&quot;https://github.com/uyedaj/treeplyr/wiki&quot;&gt;treeplyr tutorial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;analyzing-large-datasets&quot;&gt;Analyzing large datasets&lt;/h1&gt;
+
+&lt;p&gt;Arbor code has been optimized to handle &lt;a href=&quot;/arborCollections/tutorials/verylargetrees/&quot;&gt;very large datasets&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>testTaxa.csv</title>
+    <link href="/arborCollections/collections/timetree/data/testTaxa-csv/"/>
+    <updated>2016-04-18T00:00:00-07:00</updated>
+    <id>/arborCollections/collections/timetree/data/testTaxa-csv</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;List of species that can be used to query both open tree of life and timetree.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>phelsuma.phy</title>
+    <link href="/arborCollections/collections/phylogeny/data/phelsuma-phy/"/>
+    <updated>2016-04-18T00:00:00-07:00</updated>
+    <id>/arborCollections/collections/phylogeny/data/phelsuma-phy</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Phylogenetic tree of Phelsuma lizards.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>phelsuma.csv</title>
+    <link href="/arborCollections/collections/phylogeny/data/phelsuma-csv/"/>
+    <updated>2016-04-18T00:00:00-07:00</updated>
+    <id>/arborCollections/collections/phylogeny/data/phelsuma-csv</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Character data for Phelsuma lizards.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>anolis.phy</title>
+    <link href="/arborCollections/collections/phylogeny/data/anolis-phy/"/>
+    <updated>2016-04-18T00:00:00-07:00</updated>
+    <id>/arborCollections/collections/phylogeny/data/anolis-phy</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Phylogenetic tree of anolis lizards.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>mammal_species_list.csv</title>
+    <link href="/arborCollections/collections/opentree/data/mammal-species-list-csv/"/>
+    <updated>2016-04-18T00:00:00-07:00</updated>
+    <id>/arborCollections/collections/opentree/data/mammal-species-list-csv</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;A list of mammal species for the example on pulling from Open Tree of Life&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>anolis.csv</title>
+    <link href="/arborCollections/collections/base/phylogeny/data/anolis-csv/"/>
+    <updated>2016-04-18T00:00:00-07:00</updated>
+    <id>/arborCollections/collections/base/phylogeny/data/anolis-csv</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Data on anolis lizards.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Web services</title>
+    <link href="/arborCollections/tutorials/webservices/"/>
+    <updated>2016-03-11T00:00:00-08:00</updated>
+    <id>/arborCollections/tutorials/webservices</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;what-are-web-services&quot;&gt;What are web services?&lt;/h2&gt;
+
+&lt;p&gt;Web services are protocols for computers to exchange information over the web (see &lt;a href=&quot;https://en.wikipedia.org/wiki/Web_service&quot;&gt;wikipedia: web service&lt;/a&gt;), typically via an &lt;a href=&quot;https://en.wikipedia.org/wiki/Application_programming_interface&quot;&gt;API&lt;/a&gt;. In biology, web services are becoming more and more common. You can obtain, for example, phylogenetic trees from &lt;a href=&quot;http://opentreeoflife.org/&quot;&gt;Open Tree of Life&lt;/a&gt;, geographic occurrences from &lt;a href=&quot;http://www.gbif.org/&quot;&gt;GBIF&lt;/a&gt;, and trait data from &lt;a href=&quot;http://eol.org/&quot;&gt;Encyclopedia of Life&lt;/a&gt;, all using web services.&lt;/p&gt;
+
+&lt;p&gt;We have a number of pre-made functions in Arbor that can obtain data through web services. These functions can be included in workflows that make it easy to combine your data with data obtained over the web and carry out analyses. In this tutorial we will illustrate one of these applications, starting with a list of species and obtaining a phylogenetic tree from Open Tree of Life.&lt;/p&gt;
+
+&lt;h2 id=&quot;example-from-a-list-of-species-to-a-phylogenetic-tree&quot;&gt;Example: from a list of species to a phylogenetic tree&lt;/h2&gt;
+
+&lt;p&gt;We are going to start with a list of species. You can obtain this list as a csv file &lt;a href=&quot;/arborCollections/assets/mammal_species_list.csv&quot;&gt;here&lt;/a&gt;; download and save this file somewhere to your computer.&lt;/p&gt;
+
+&lt;p&gt;Now, open an Arbor instance (e.g. &lt;a href=&quot;http://arbor1.arborworkflows.com/#&quot;&gt;arbor1.arborworkflows.com&lt;/a&gt;). You will now need to load in your species list. You can do this by dragging the file that you just downloaded onto the “Browse or drop files” box:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/webServices/webserv-screen1.png&quot; alt=&quot;screen1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(you can also see our tutorial on &lt;a href=&quot;/arborCollections/tutorials/using-the-arbor-webapp/&quot;&gt;using the Arbor webapp&lt;/a&gt;) for more information on loading data into Arbor)&lt;/p&gt;
+
+&lt;p&gt;We will be building a workflow to do this analysis. Note that you need to be logged in and have write access to a collection to make the next parts work!&lt;/p&gt;
+
+&lt;p&gt;Click over to the “Analysis” tab, and create a new workflow. To do that, type the name of the new workflow it the box under “Create new analysis.” Let’s call our workflow “getOTLTreeAndPlot.”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/webServices/webserv-screen2.png&quot; alt=&quot;screen2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have created the workflow, you should be able to view and edit (but right now it is just a blank white space!)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/webServices/webserv-screen3.png&quot; alt=&quot;screen3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first step in this workflow is to match the species names with the names in the Open Tree of Life Taxonomy (OTT). To do this, we will use a function in the “OpenTree” collection called “Lookup Names Using OpenTree Taxonomy.” Add this function to your workflow using the “+ add to workflow” button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/webServices/webserv-screen4.png&quot; alt=&quot;screen4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We can click the tab on the left side of that new workflow step to indicate that the user will send a data table directly to this function. So our workflow is now:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/webServices/webserv-screen5.png&quot; alt=&quot;screen5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we need to pull out an “induced subtree” from open tree of life using the OTT ids that we obtained in the previous step. To do that, add a new function to your workflow, again from the OpenTree collection: “Return the Open Tree Subtree from a node list.” Add and connect that next step to your workflow:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/webServices/webserv-screen6.png&quot; alt=&quot;screen6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we just need to plot our resulting tree. You can use a function from the “Phylogenies” collection called “PlotTreeWithApe.” Add that function, connect it to your workflow, and specify that the last output be sent to the user:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/webServices/webserv-screen7.png&quot; alt=&quot;screen7&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now just click “Setup and run.” In the box that appears, choose your input file with the list of mammal species names.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/webServices/webserv-screen8.png&quot; alt=&quot;screen8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The workflow will run for a while:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/webServices/webserv-screen9.png&quot; alt=&quot;screen9&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And then finish:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/webServices/webserv-screen10.png&quot; alt=&quot;screen10&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can then change to the “visualization” tab, and select the output from your workflow.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/webServices/webserv-screen11.png&quot; alt=&quot;screen11&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We then see the final result:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/webServices/webserv-screen12.png&quot; alt=&quot;screen12&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a phylogenetic tree pulled from the Open Tree of Life synthesis that includes all of the species in the table that you supplied.&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>fitDiscrete</title>
+    <link href="/arborCollections/collections/traitmodelfitting/fitDiscrete/"/>
+    <updated>2016-03-08T00:00:00-08:00</updated>
+    <id>/arborCollections/collections/traitmodelfitting/fitDiscrete</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Fits a particular model of evolution to a discrete character on a phylogenetic tree.&lt;/p&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+
+&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;table: Table including species names and the column of interest&lt;/li&gt;
+  &lt;li&gt;tree: Phylogenetic tree with branch lengths&lt;/li&gt;
+  &lt;li&gt;column: Column name in table to analyze&lt;/li&gt;
+  &lt;li&gt;model: Model of evolution; must match one of the options in &lt;a href=&quot;https://cran.r-project.org/web/packages/geiger/geiger.pdf&quot;&gt;geiger&lt;/a&gt; fitDiscrete, currently one of: “ER”,”SYM”,”ARD”,”meristic”. Tree transforms not yet implemented.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Q: fitted Q matrix&lt;/li&gt;
+  &lt;li&gt;res: List showing model fit: lnL, aic, aicc, k&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>fitContinuous</title>
+    <link href="/arborCollections/collections/phylogeny/charactercalculate/fitContinuous/"/>
+    <updated>2016-03-08T00:00:00-08:00</updated>
+    <id>/arborCollections/collections/phylogeny/charactercalculate/fitContinuous</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Fits a particular model of evolution to a continuous character on a phylogenetic tree.&lt;/p&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+
+&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;table: Table including species names and the column of interest&lt;/li&gt;
+  &lt;li&gt;tree: Phylogenetic tree with branch lengths&lt;/li&gt;
+  &lt;li&gt;column: Column name in table to analyze&lt;/li&gt;
+  &lt;li&gt;model: Model of evolution; must match one of the options in &lt;a href=&quot;https://cran.r-project.org/web/packages/geiger/geiger.pdf&quot;&gt;geiger&lt;/a&gt; fitContinuous, currently one of: “BM”,”OU”,”EB”,”trend”,”lambda”,”kappa”,”delta”,”drift”,”white”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;treeplot: plot of independent contrasts as a check for model adequacy. See &lt;a href=&quot;https://github.com/arborworkflows/aRbor/blob/master/R/plotting.R&quot;&gt;plotContrasts&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;result: Transformed tree&lt;/li&gt;
+  &lt;li&gt;fit: List of model fit results: model parameters, lnL, AIC, AICc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>multi2di</title>
+    <link href="/arborCollections/collections/phylogeny/treemanipulate/multi2di/"/>
+    <updated>2016-03-08T00:00:00-08:00</updated>
+    <id>/arborCollections/collections/phylogeny/treemanipulate/multi2di</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Changes multifurcations to bifurcations by randomly resolving polytomies and adding zero-length branch lengths&lt;/p&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+
+&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;phy: Phylogenetic tree&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;phy.di: Tree with no polytomies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>makeFakeBranchLengths</title>
+    <link href="/arborCollections/collections/phylogeny/treemanipulate/makeFakeBranchLengths/"/>
+    <updated>2016-03-08T00:00:00-08:00</updated>
+    <id>/arborCollections/collections/phylogeny/treemanipulate/makeFakeBranchLengths</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Makes fake branch lengths for phylogenetic tree using ape’s compute.brlen, method “Grafen”. These branch lengths are entirely made up and should only be used as a last resort!&lt;/p&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+
+&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;phy: Phylogenetic tree&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;blphy: Tree with Grafen branch lengths&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>calculateKForAllCharacters</title>
+    <link href="/arborCollections/collections/phylogeny/charactercalculate/kCalc/"/>
+    <updated>2016-03-08T00:00:00-08:00</updated>
+    <id>/arborCollections/collections/phylogeny/charactercalculate/kCalc</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Calculate phylogenetic signal for all characters in a matrix&lt;/p&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+
+&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;traits: Trait data with species names&lt;/li&gt;
+  &lt;li&gt;phy: Phylogenetic tree with branch lengths&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;KCalc_out: single column table with K for each character&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>hclustDendrogram</title>
+    <link href="/arborCollections/collections/phylogeny/treebuild/hclustDendrogram/"/>
+    <updated>2016-03-08T00:00:00-08:00</updated>
+    <id>/arborCollections/collections/phylogeny/treebuild/hclustDendrogram</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Build tree from distance matrix using hierarchical clustering algorithm&lt;/p&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+
+&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dist: Pairwise distance matrix&lt;/li&gt;
+  &lt;li&gt;y_label: y label for plot&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;plotClust: plot of dendogram&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>graftTreeOntoNamedNode</title>
+    <link href="/arborCollections/collections/phylogeny/treemanipulate/graftTreeOntoNamedNode/"/>
+    <updated>2016-03-08T00:00:00-08:00</updated>
+    <id>/arborCollections/collections/phylogeny/treemanipulate/graftTreeOntoNamedNode</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Attach two trees by grafting a subtree onto a named node in a recipient tree&lt;/p&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+
+&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;receivingTree: Phylogenetic tree that will get subtree attached to it&lt;/li&gt;
+  &lt;li&gt;subTree: Tree that will be attached&lt;/li&gt;
+  &lt;li&gt;nodename: Name of node in receivingTree to attach subTree&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;combinedTree: tree with subtree attached to receivingTree&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>getTipNames</title>
+    <link href="/arborCollections/collections/phylogeny/treemanipulate/getTipNames/"/>
+    <updated>2016-03-08T00:00:00-08:00</updated>
+    <id>/arborCollections/collections/phylogeny/treemanipulate/getTipNames</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Extract column of tip names from phylogenetic tree&lt;/p&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+
+&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;tree: Phylogenetic tree&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;tiplabels: single column matrix with tip labels&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>fitDiscrete</title>
+    <link href="/arborCollections/collections/phylogeny/charactercalculate/fitDiscrete/"/>
+    <updated>2016-03-08T00:00:00-08:00</updated>
+    <id>/arborCollections/collections/phylogeny/charactercalculate/fitDiscrete</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Fits a particular model of evolution to a discrete character on a phylogenetic tree.&lt;/p&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+
+&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;table: Table including species names and the column of interest&lt;/li&gt;
+  &lt;li&gt;tree: Phylogenetic tree with branch lengths&lt;/li&gt;
+  &lt;li&gt;column: Column name in table to analyze&lt;/li&gt;
+  &lt;li&gt;model: Model of evolution; must match one of the options in &lt;a href=&quot;https://cran.r-project.org/web/packages/geiger/geiger.pdf&quot;&gt;geiger&lt;/a&gt; fitDiscrete, currently one of: “ER”,”SYM”,”ARD”,”meristic”. Tree transforms not yet implemented.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Q: fitted Q matrix&lt;/li&gt;
+  &lt;li&gt;res: List showing model fit: lnL, aic, aicc, k&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>fitContinuous</title>
+    <link href="/arborCollections/collections/traitmodelfitting/fitContinuous/"/>
+    <updated>2016-03-08T00:00:00-08:00</updated>
+    <id>/arborCollections/collections/traitmodelfitting/fitContinuous</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Fits a particular model of evolution to a continuous character on a phylogenetic tree.&lt;/p&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+
+&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;table: Table including species names and the column of interest&lt;/li&gt;
+  &lt;li&gt;tree: Phylogenetic tree with branch lengths&lt;/li&gt;
+  &lt;li&gt;column: Column name in table to analyze&lt;/li&gt;
+  &lt;li&gt;model: Model of evolution; must match one of the options in &lt;a href=&quot;https://cran.r-project.org/web/packages/geiger/geiger.pdf&quot;&gt;geiger&lt;/a&gt; fitContinuous, currently one of: “BM”,”OU”,”EB”,”trend”,”lambda”,”kappa”,”delta”,”drift”,”white”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;treeplot: plot of independent contrasts as a check for model adequacy. See &lt;a href=&quot;https://github.com/arborworkflows/aRbor/blob/master/R/plotting.R&quot;&gt;plotContrasts&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;result: Transformed tree&lt;/li&gt;
+  &lt;li&gt;fit: List of model fit results: model parameters, lnL, AIC, AICc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>extractSpeciesNamesFromMatrix</title>
+    <link href="/arborCollections/collections/base/matrix/extractSpeciesNamesFromATraitMatrix/"/>
+    <updated>2016-03-08T00:00:00-08:00</updated>
+    <id>/arborCollections/collections/base/matrix/extractSpeciesNamesFromATraitMatrix</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Identify the column that contains species names and returns a table with only that column. Looks for the first of the following column names: ‘Scientific Name’,’species’,’Species’,’scientific name’,’name’&lt;/p&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+
+&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;table: A data matrix including species names&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;outtable: Table with one column, the species names.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Arbor apps</title>
+    <link href="/arborCollections/tutorials/arborapps/"/>
+    <updated>2016-03-03T00:00:00-08:00</updated>
+    <id>/arborCollections/tutorials/arborapps</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      &lt;img src=&quot;/arborCollections/images/easyButtons-1600x800.png&quot;&gt;&lt;br/&gt;
+      &lt;h2 id=&quot;what-are-arbor-apps&quot;&gt;What are Arbor apps?&lt;/h2&gt;
+
+&lt;p&gt;As a part of the Arbor project, we are developing a few simple-to-use web apps that allow users to quickly and easily carry out a few of the most common comparative methods. These pages present a drag-and-drop interface to test for phylogenetic signal, reconstruct ancestral character states, test for character correlations, and other common analyses.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-can-i-do-in-arbor-apps&quot;&gt;What can I do in Arbor apps?&lt;/h2&gt;
+
+&lt;p&gt;To use an Arbor app, you can navigate to our &lt;a href=&quot;/arborCollections/arborapps/&quot;&gt;app index&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;walkthrough---phylogenetic-signal-arbor-app&quot;&gt;Walkthrough - Phylogenetic Signal Arbor app&lt;/h2&gt;
+
+&lt;p&gt;Let’s walk through one example analysis in an Arbor app. We will work on testing for phylogenetic signal. I will use two data files for &lt;em&gt;Anolis&lt;/em&gt; lizards, linked below.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/arborCollections/assets/anolis.phy&quot;&gt;anolis.phy&lt;/a&gt;: a phylogenetic tree of anoles&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/arborCollections/assets/anolis.csv&quot;&gt;anolis.csv&lt;/a&gt;: character data for anoles (comma-separated format)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Download these two files, and locate them on your computer’s file browser.&lt;/p&gt;
+
+&lt;p&gt;Now, navigate to the Arbor app for phylogenetic signal. You should see something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/easymode_1.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, you need to input your datafiles into the website. You can do that by dragging and dropping the files onto the blue box that says “browse or drop files here.”&lt;/p&gt;
+
+&lt;p&gt;When you hover over the correct place, the box will turn green. Arbor can automatically detect whether you have uploaded a tree or a data file.&lt;/p&gt;
+
+&lt;p&gt;After you upload both files, you should see them listed in the appropriate place, like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/easymode_2.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/easymode_3.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You might also notice that you can see a preview of your input table at the bottom of the page:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/easymode_4.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now you need to specify a column that will define the trait that you want to use for the phylogenetic signal test. Right now, this test can only handle one trait at a time! Let’s choose “SVL.” Grab that column name from the left hand side and drag and drop it onto the box that says “Drag column of interest here.” You should end up with this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/easymode_5.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;No just press “Go!” and your analysis will run. You should get back a table of results, like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/easymode_6.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The last table shows the results of the analysis. The first two columns are the likelihoods of a Brownian motion model and Brownian motion + lambda. The third and fourth represent a chi-squared test comparing a “full” phylogenetic signal model (Brownian motion) with a model where signal is less than Brownian motion (lambda). P &amp;lt; 0.05 means that you can reject BM in favor of the lambda model. The last two columns show AICC scores for these two models. This output is formatted in a very confusing way, we are going to fix it!&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>appendColumnsAccoringToParameterValue</title>
+    <link href="/arborCollections/collections/base/matrix/appendColumnsAccordingToParameterValue/"/>
+    <updated>2016-03-03T00:00:00-08:00</updated>
+    <id>/arborCollections/collections/base/matrix/appendColumnsAccordingToParameterValue</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+
+&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;inTable1: first input table to be joined&lt;/li&gt;
+  &lt;li&gt;inTable2: second table to be joined&lt;/li&gt;
+  &lt;li&gt;parameterTable: single row, single column table containing the field name to use for a join&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;outTable: table containing columns from both input tables&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>aggregateTableByMax</title>
+    <link href="/arborCollections/collections/base/matrix/aggregateTableByMax/"/>
+    <updated>2016-03-03T00:00:00-08:00</updated>
+    <id>/arborCollections/collections/base/matrix/aggregateTableByMax</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/arborCollections/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Roll up the values of a table’s rows according to discrete values in a selected “groupBy” column. The number of output rows in the table will be equal to the number of discrete values in the groupBy column.&lt;/p&gt;
+
+&lt;p&gt;This is the MAX version of aggregation, so the values in the other columns will be the max value encountered out of all rows which belonged to this group from the input table.&lt;/p&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+
+&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;table: input table of continuous values&lt;/li&gt;
+  &lt;li&gt;column: column name used as the “group by” control&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;output: output table&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  
+</feed>

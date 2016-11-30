@@ -1,0 +1,26 @@
+# Site navigation links
+
+- title: Help
+  url: /help/
+  excerpt: "Get help"
+  image: 400x250.gif
+
+- title: Use Arbor
+  url: /usearbor/
+  excerpt: "Run Arbor over the web or install it yourself"
+  image: 400x250.gif
+
+- title: Tutorials
+  url: /tutorials/
+  excerpt: "How to use Arbor"
+  image: 400x250.gif
+
+- title: Documentation
+  url: /documentation/
+  excerpt: "Full documentation for functions and workflows"
+  image: 400x250.gif
+
+- title: Contact
+  url: /team/
+  excerpt: "Contact us"
+  image: 400x250.gif

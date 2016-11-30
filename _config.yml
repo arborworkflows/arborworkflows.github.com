@@ -1,0 +1,52 @@
+# Site settings
+title:       Arbor
+email:       lukeh@uidaho.edu
+author:      Luke Harmon
+url:         ""
+baseurl:     "/arborCollections"
+
+description: "Arbor workflows"
+logo: 120x120.gif
+teaser: 400x250.gif
+locale: en_US
+
+
+# Jekyll configuration
+
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+gems:
+  - jekyll-sitemap
+
+
+# Site owner
+owner:
+  name: Luke Harmon
+  web: http://lukejharmon.github.io
+  email: lukeh@uidaho.edu
+  twitter: lukejharmon
+  bio: "Associate professor, UIdaho."
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+  google:
+    plus: +LukeHarmon1
+    ad-client:
+    ad-slot:
+  disqus-shortname: arborworkflows
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+
+# heroku stuff
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
+
+# Google analytics
+google_analytics:   UA-63774905-2
+
+# disqus
+disqus-shortname: arborworkflows
