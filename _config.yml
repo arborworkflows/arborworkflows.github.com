@@ -3,7 +3,7 @@ title:       Arbor
 email:       lukeh@uidaho.edu
 author:      Luke Harmon
 url:         "www.arborworkflows.com"
-baseurl:     "/"
+baseurl:     
 
 description: "Arbor workflows"
 logo: 120x120.gif
