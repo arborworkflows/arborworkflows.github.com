@@ -7,6 +7,62 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Example datasets</title>
+        <description>&lt;p&gt;Example datasets that you need for &lt;a href=&quot;/tutorials/&quot;&gt;tutorials&lt;/a&gt; and other activities on this site. These also have &lt;a href=&quot;/documentation/&quot;&gt;documentaion&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Anolis data: &lt;a href=&quot;/assets/datasets/anolis.csv&quot;&gt;anolis.csv&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Anolis tree: &lt;a href=&quot;/assets/datasets/anolis.phy&quot;&gt;anolis.phy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 04 Jan 2017 00:00:00 -0800</pubDate>
+        <link>/media/datasets/</link>
+        <guid isPermaLink="true">/media/datasets/</guid>
+      </item>
+    
+      <item>
+        <title>bisseMLE</title>
+        <description>&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;bisseMLE is a function for finding the maximum-likelihood parameter estimates for a BiSSE model.&lt;/p&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+
+&lt;p&gt;From the &lt;a href=&quot;/../docs/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
+Load these files into Arbor, and …&lt;/p&gt;
+
+&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;table: A data table including species names&lt;/li&gt;
+  &lt;li&gt;tree: A phylogenetic tree&lt;/li&gt;
+  &lt;li&gt;column: The name of the column to analyze&lt;/li&gt;
+  &lt;li&gt;type: The character type
+    &lt;ul&gt;
+      &lt;li&gt;discrete: a character with a discrete number of states&lt;/li&gt;
+      &lt;li&gt;continuous: a continuously varying character&lt;/li&gt;
+      &lt;li&gt;fromData: will attempt to determine the data type from the data itself&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;method: specifies the method used to reconstruct ancestral character states
+    &lt;ul&gt;
+      &lt;li&gt;marginal: marginal ancestral state reconstructions, which reconstruct each node integrating over all possibilities at all other nodes in the tree; this is typically the method used in the literature to reconstruce ACEs&lt;/li&gt;
+      &lt;li&gt;joint: joint ancestral reconstructions, which give the configuration of ancestral states that together maximize the likelihood of the data given model parameters&lt;/li&gt;
+      &lt;li&gt;mcmc: reconstruct ancestral states using Bayesian MCMC. Note that the discrete version of this doesn’t seem to work, and even if it did work it is not a full MCMC ancestral state method&lt;/li&gt;
+      &lt;li&gt;stochastic: create stochastic character map&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+</description>
+        <pubDate>Wed, 04 Jan 2017 00:00:00 -0800</pubDate>
+        <link>/collections/diversificationmodels/aceArbor/</link>
+        <guid isPermaLink="true">/collections/diversificationmodels/aceArbor/</guid>
+      </item>
+    
+      <item>
         <title>aceArbor</title>
         <description>&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
 
@@ -314,32 +370,6 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
         <pubDate>Mon, 18 Apr 2016 00:00:00 -0700</pubDate>
         <link>/collections/phylogeny/data/phelsuma-csv/</link>
         <guid isPermaLink="true">/collections/phylogeny/data/phelsuma-csv/</guid>
-      </item>
-    
-      <item>
-        <title>anolis.phy</title>
-        <description>&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;Phylogenetic tree of anolis lizards.&lt;/p&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-</description>
-        <pubDate>Mon, 18 Apr 2016 00:00:00 -0700</pubDate>
-        <link>/collections/phylogeny/data/anolis-phy/</link>
-        <guid isPermaLink="true">/collections/phylogeny/data/anolis-phy/</guid>
-      </item>
-    
-      <item>
-        <title>mammal_species_list.csv</title>
-        <description>&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;A list of mammal species for the example on pulling from Open Tree of Life&lt;/p&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-</description>
-        <pubDate>Mon, 18 Apr 2016 00:00:00 -0700</pubDate>
-        <link>/collections/opentree/data/mammal-species-list-csv/</link>
-        <guid isPermaLink="true">/collections/opentree/data/mammal-species-list-csv/</guid>
       </item>
     
   </channel>

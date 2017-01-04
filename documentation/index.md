@@ -14,3 +14,4 @@ image:
 
 ## Documentation for each collection
 - [ancestral states]({{site.baseurl}}/documentation/ancestralStates/)
+- [diversification models]({{site.baseurl}}/documentation/diversificationModels/)
