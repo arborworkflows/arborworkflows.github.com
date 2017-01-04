@@ -17,7 +17,7 @@
 	<meta name="twitter:creator" content="@lukejharmon">
 	
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:image" content="/arborCollections/images/120x120.gif">
+	<meta name="twitter:image" content="/images/120x120.gif">
 	
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
@@ -26,24 +26,24 @@
 	<meta property="og:description" content="Use PGLS to test for a correlation between two continuous variables
 
 ">
-	<meta property="og:url" content="/arborCollections/tutorials/PGLS-basic/">
+	<meta property="og:url" content="/tutorials/PGLS-basic/">
 	<meta property="og:site_name" content="Arbor">
 
-    <link rel="canonical" href="/arborCollections/tutorials/PGLS-basic/">
+    <link rel="canonical" href="/tutorials/PGLS-basic/">
 
-    <link href="/arborCollections/atom.xml" type="application/atom+xml" rel="alternate" title="Arbor Atom Feed">
-    <link href="/arborCollections/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Arbor Atom Feed">
+    <link href="/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
 
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cleartype" content="on">
 
-    <link rel="stylesheet" href="/arborCollections/css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
-      <script src="/arborCollections/js/vendor/html5shiv.min.js"></script>
-      <script src="/arborCollections/js/vendor/respond.min.js"></script>
+      <script src="/js/vendor/html5shiv.min.js"></script>
+      <script src="/js/vendor/respond.min.js"></script>
     <![endif]-->
 
   </head>
@@ -53,25 +53,25 @@
 
     <header id="masthead">
   <div class="inner-wrap">
-    <a href="/arborCollections/" class="site-title">Arbor</a>
+    <a href="/" class="site-title">Arbor</a>
     <nav role="navigation" class="menu top-menu">
         <ul class="menu-item">
 	<li class="home"><a href="/">Arbor</a></li>
 	
     
-    <li><a href="/arborCollections/help/" >Help</a></li>
+    <li><a href="/help/" >Help</a></li>
   
     
-    <li><a href="/arborCollections/usearbor/" >Use Arbor</a></li>
+    <li><a href="/usearbor/" >Use Arbor</a></li>
   
     
-    <li><a href="/arborCollections/tutorials/" >Tutorials</a></li>
+    <li><a href="/tutorials/" >Tutorials</a></li>
   
     
-    <li><a href="/arborCollections/documentation/" >Documentation</a></li>
+    <li><a href="/documentation/" >Documentation</a></li>
   
     
-    <li><a href="/arborCollections/team/" >Contact</a></li>
+    <li><a href="/team/" >Contact</a></li>
   
 </ul>
 
@@ -83,32 +83,32 @@
   <h5>Arbor <span>Table of Contents</span></h5>
   <ul class="menu-item">
     <li>
-      <a href="/arborCollections/help/">
-        <img src="/arborCollections/images/400x250.gif" alt="teaser" class="teaser">
+      <a href="/help/">
+        <img src="/images/400x250.gif" alt="teaser" class="teaser">
         <div class="title">Help</div>
         <p class="excerpt">Get help</p>
       </a>
     </li><li>
-      <a href="/arborCollections/usearbor/">
-        <img src="/arborCollections/images/400x250.gif" alt="teaser" class="teaser">
+      <a href="/usearbor/">
+        <img src="/images/400x250.gif" alt="teaser" class="teaser">
         <div class="title">Use Arbor</div>
         <p class="excerpt">Run Arbor over the web or install it yourself</p>
       </a>
     </li><li>
-      <a href="/arborCollections/tutorials/">
-        <img src="/arborCollections/images/400x250.gif" alt="teaser" class="teaser">
+      <a href="/tutorials/">
+        <img src="/images/400x250.gif" alt="teaser" class="teaser">
         <div class="title">Tutorials</div>
         <p class="excerpt">How to use Arbor</p>
       </a>
     </li><li>
-      <a href="/arborCollections/documentation/">
-        <img src="/arborCollections/images/400x250.gif" alt="teaser" class="teaser">
+      <a href="/documentation/">
+        <img src="/images/400x250.gif" alt="teaser" class="teaser">
         <div class="title">Documentation</div>
         <p class="excerpt">Full documentation for functions and workflows</p>
       </a>
     </li><li>
-      <a href="/arborCollections/team/">
-        <img src="/arborCollections/images/400x250.gif" alt="teaser" class="teaser">
+      <a href="/team/">
+        <img src="/images/400x250.gif" alt="teaser" class="teaser">
         <div class="title">Contact</div>
         <p class="excerpt">Contact us</p>
       </a>
@@ -129,11 +129,11 @@
 		
   <nav class="breadcrumbs">
     <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-      <a href="/arborCollections" itemprop="url">
+      <a href="" itemprop="url">
         <span itemprop="title">Home</span>
       </a> ›
     <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-      <a href="/arborCollections/tutorials/" itemprop="url">
+      <a href="/tutorials/" itemprop="url">
         <span itemprop="title">Tutorials</span>
       </a>
     </span>
@@ -153,7 +153,7 @@
 
 <h2 id="loading-example-data">Loading example data</h2>
 
-<p>For this example, we will use anolis again. Obtain the anolis example data files, phelsuma.phy and phelsuma.csv, from <a href="/arborCollections/docs_datasets.html">Arbor datasets</a>. Save those files somewhere on your computer.</p>
+<p>For this example, we will use anolis again. Obtain the anolis example data files, phelsuma.phy and phelsuma.csv, from <a href="/docs_datasets.html">Arbor datasets</a>. Save those files somewhere on your computer.</p>
 
 <p>Now open the <a href="http://arbor1.arborworkflows.com">Arbor web app</a>. Drag and drop the two anolis data files on the blue “Browse or drop files” box to load them into your browser.</p>
 
@@ -163,7 +163,7 @@
 
 <p>At this point, you should have the two anolis datafiles stored in Arbor and the “phylogeny” collection available.</p>
 
-<p><img src="/arborCollections/assets/PGLS/screen1.jpg" alt="Screenshot" /></p>
+<p><img src="/assets/PGLS/screen1.jpg" alt="Screenshot" /></p>
 
 <p><em>In this screenshot I am logged in but that is not necessary for this analysis.</em></p>
 
@@ -171,11 +171,11 @@
 
 <p>Find the PGLS function in the “phylogeny” collection. Select that function now. You can view the source code for it by choosing “show script” (it is in R).</p>
 
-<p><img src="/arborCollections/assets/PGLS/screen2.jpg" alt="Screenshot" /></p>
+<p><img src="/assets/PGLS/screen2.jpg" alt="Screenshot" /></p>
 
 <p>We could use this function in a workflow, as we did in other Arbor tutorials. But for this tutorial let’s just run the function. To do that, click on the button that says “Setup and run.” In the resulting pop-up menu select the following options:</p>
 
-<p><img src="/arborCollections/assets/PGLS/screen3.jpg" alt="Screenshot" /></p>
+<p><img src="/assets/PGLS/screen3.jpg" alt="Screenshot" /></p>
 
 <p><em>We will be fitting the model SVL ~ awesomeness, so that SVL is the dependent and awesomeness the independent variable. “BM” means that we will fit a model that assumes that the residuals are distributed as expected under a Brownian motion model of evolution along the branches of the tree.</em></p>
 
@@ -183,7 +183,7 @@
 
 <p>Click “&gt; Run” to run the function. Select these options. If your analysis worked, you should see the following message:</p>
 
-<p><img src="/arborCollections/assets/PGLS/screen4.jpg" alt="Screenshot" />.</p>
+<p><img src="/assets/PGLS/screen4.jpg" alt="Screenshot" />.</p>
 
 <h2 id="see-your-results">See your results</h2>
 
@@ -191,37 +191,37 @@
 
 <p>To see the table results, choose “table” and choose one of the outputs, either “PGLS coefficients” or “PGLS modelfit_summary”. Update shows you the table. For example, the coefficients look like this:</p>
 
-<p><img src="/arborCollections/assets/PGLS/screen5.jpg" alt="Screenshot" />.</p>
+<p><img src="/assets/PGLS/screen5.jpg" alt="Screenshot" />.</p>
 
 <p>To see the plot, select “image” under “Select visualization”, and choose your  plot under “data” (it should be called PGLS pglsPlot). Click “update” to see this result:</p>
 
-<p><img src="/arborCollections/assets/PGLS/screen6.jpg" alt="Screenshot" /></p>
+<p><img src="/assets/PGLS/screen6.jpg" alt="Screenshot" /></p>
 
 <h2 id="try-another-model">Try another model</h2>
 
 <p>If you want to use a different option for PGLS, you can choose that in the setup and run window. For example, we can try OU like this:</p>
 
-<p><img src="/arborCollections/assets/PGLS/screen7.jpg" alt="Screenshot" /></p>
+<p><img src="/assets/PGLS/screen7.jpg" alt="Screenshot" /></p>
 
 <p>You will notice that the coefficients are slightly different, though the main conclusion is unchanged.</p>
 
-<p><img src="/arborCollections/assets/PGLS/screen8.jpg" alt="Screenshot" /></p>
+<p><img src="/assets/PGLS/screen8.jpg" alt="Screenshot" /></p>
 
 				<hr />
 				<footer class="page-footer">
 					
 
 <div class="author-image">
-	<img src="/arborCollections/images/bio-photo.jpg" alt="Luke Harmon">
+	<img src="/images/bio-photo.jpg" alt="Luke Harmon">
 </div><!-- ./author-image -->
 <div class="author-content">
 	<h3 class="author-name" >Written by <a href="http://lukejharmon.github.io" itemprop="author">Luke Harmon</a></h3>
 	<p class="author-bio">Associate professor, UIdaho.</p>
 </div><!-- ./author-content -->
 					<div class="inline-btn">
-	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=PGLS&amp;url=/arborCollections/tutorials/PGLS-basic/&amp;via=lukejharmon" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
-	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=/arborCollections/tutorials/PGLS-basic/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
-	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=/arborCollections/tutorials/PGLS-basic/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
+	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=PGLS&amp;url=/tutorials/PGLS-basic/&amp;via=lukejharmon" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=/tutorials/PGLS-basic/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
+	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=/tutorials/PGLS-basic/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
 </div><!-- /.share-this -->
 					<div class="page-meta">
 	<p>Updated <time datetime="2015-07-17T00:00:00Z" itemprop="datePublished">July 17, 2015</time></p>
@@ -255,26 +255,26 @@
 		<ul class="menu-item">
 		
       
-			<li><a href="/arborCollections/" >Home</a></li>
+			<li><a href="/" >Home</a></li>
 		
       
-			<li><a href="/arborCollections/getting-started/" >Getting Started</a></li>
+			<li><a href="/getting-started/" >Getting Started</a></li>
 		
       
-			<li><a href="/arborCollections/about/" >About</a></li>
+			<li><a href="/about/" >About</a></li>
 		
       
-			<li><a href="/arborCollections/team/" >Team</a></li>
+			<li><a href="/team/" >Team</a></li>
 		
 		</ul>
 	</nav><!-- /.bottom-menu -->
-	<p class="copyright">&#169; 2017 <a href="/arborCollections/">Arbor</a> powered by <a href="http://jekyllrb.com">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/">Skinny Bones</a>.</p>
+	<p class="copyright">&#169; 2017 <a href="/">Arbor</a> powered by <a href="http://jekyllrb.com">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/">Skinny Bones</a>.</p>
 </footer>
 
     </div>
 
-    <script src="/arborCollections/js/vendor/jquery-1.9.1.min.js"></script>
-    <script src="/arborCollections/js/main.js"></script>
+    <script src="/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="/js/main.js"></script>
 
   </body>
 </html>

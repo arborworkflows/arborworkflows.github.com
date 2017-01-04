@@ -3,8 +3,56 @@
   <channel>
     <title>Arbor</title>
     <description>Arbor workflows</description>
-    <link>/arborCollections/arborCollections/</link>
-    <atom:link href="/arborCollections/arborCollections/feed.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>aceArbor</title>
+        <description>&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;aceArbor is a function for carrying out ancestral state reconstruction. It works for
+both discrete and continuous variables, and can reconstruct ancestral character states
+under both a maximum-likelihood and a Bayesian framework. The function returns results
+in two formats: a table of ancestral state estimates for each node in the tree, and a plot
+of the results.&lt;/p&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+
+&lt;p&gt;From the &lt;a href=&quot;/../docs/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
+Load these files into Arbor, and use them as inputs to the aceArbor function. Choose
+the “ecomorph” column for analysis, and select type: discrete and method: marginal.&lt;/p&gt;
+
+&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;table: A data table including species names&lt;/li&gt;
+  &lt;li&gt;tree: A phylogenetic tree&lt;/li&gt;
+  &lt;li&gt;column: The name of the column to analyze&lt;/li&gt;
+  &lt;li&gt;type: The character type
+    &lt;ul&gt;
+      &lt;li&gt;discrete: a character with a discrete number of states&lt;/li&gt;
+      &lt;li&gt;continuous: a continuously varying character&lt;/li&gt;
+      &lt;li&gt;fromData: will attempt to determine the data type from the data itself&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;method: specifies the method used to reconstruct ancestral character states
+    &lt;ul&gt;
+      &lt;li&gt;marginal: marginal ancestral state reconstructions, which reconstruct each node integrating over all possibilities at all other nodes in the tree; this is typically the method used in the literature to reconstruce ACEs&lt;/li&gt;
+      &lt;li&gt;joint: joint ancestral reconstructions, which give the configuration of ancestral states that together maximize the likelihood of the data given model parameters&lt;/li&gt;
+      &lt;li&gt;mcmc: reconstruct ancestral states using Bayesian MCMC. Note that the discrete version of this doesn’t seem to work, and even if it did work it is not a full MCMC ancestral state method&lt;/li&gt;
+      &lt;li&gt;stochastic: create stochastic character map&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
+&lt;p&gt;Function outputs a table and a plot with results of the ancestral state reconstruction.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+</description>
+        <pubDate>Wed, 04 Jan 2017 00:00:00 -0800</pubDate>
+        <link>/collections/ancestralstates/aceArbor/</link>
+        <guid isPermaLink="true">/collections/ancestralstates/aceArbor/</guid>
+      </item>
     
       <item>
         <title>Fitting models of trait evolution with Arbor</title>
@@ -22,16 +70,16 @@
 
 &lt;p&gt;There are two functions to fit models of trait evolution in Arbor Workflows:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/arborCollections/collections/traitModelFitting/fitContinuous&quot;&gt;&lt;img src=&quot;/arborCollections/images/fitContinuous.png&quot; alt=&quot;fitContinuous fxn&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/collections/traitModelFitting/fitContinuous&quot;&gt;&lt;img src=&quot;/images/fitContinuous.png&quot; alt=&quot;fitContinuous fxn&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/arborCollections/collections/traitModelFitting/fitContinuous&quot;&gt;fitContinuous&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/collections/traitModelFitting/fitContinuous&quot;&gt;fitContinuous&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;/arborCollections/collections/traitModelFitting/fitDiscrete&quot;&gt;&lt;img src=&quot;/arborCollections/images/fitDiscrete.png&quot; alt=&quot;fitDiscrete fxn&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/collections/traitModelFitting/fitDiscrete&quot;&gt;&lt;img src=&quot;/images/fitDiscrete.png&quot; alt=&quot;fitDiscrete fxn&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/arborCollections/docs/fitDiscrete&quot;&gt;fitDiscrete&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/docs/fitDiscrete&quot;&gt;fitDiscrete&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;method-assumptions&quot;&gt;Method assumptions&lt;/h2&gt;
@@ -44,7 +92,7 @@
 
 &lt;h3 id=&quot;example&quot;&gt;Example&lt;/h3&gt;
 
-&lt;p&gt;From the &lt;a href=&quot;/arborCollections/../docs/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
+&lt;p&gt;From the &lt;a href=&quot;/../docs/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
 Load these files into Arbor, and use them as inputs to the fitDiscrete function (choose the “ecomorph” character).&lt;/p&gt;
 
 &lt;h3 id=&quot;example-of-use-in-a-workflow&quot;&gt;Example of use in a workflow&lt;/h3&gt;
@@ -60,8 +108,8 @@ Load these files into Arbor, and use them as inputs to the fitDiscrete function 
 &lt;p&gt;Pennell, M. W., J. M. Eastman, G. J. Slater, J. W. Brown, J. C. Uyeda, R. G. Fitzjohn, M. E. Alfaro, and L. J. Harmon. 2014. geiger v2.0: an expanded suite of methods for fitting macroevolutionary models to phylogenetic trees. Bioinformatics 30: 2216-2218.&lt;/p&gt;
 </description>
         <pubDate>Thu, 04 Aug 2016 00:00:00 -0700</pubDate>
-        <link>/arborCollections/arborCollections/tasks/trait-models/</link>
-        <guid isPermaLink="true">/arborCollections/arborCollections/tasks/trait-models/</guid>
+        <link>/tasks/trait-models/</link>
+        <guid isPermaLink="true">/tasks/trait-models/</guid>
       </item>
     
       <item>
@@ -80,11 +128,11 @@ Load these files into Arbor, and use them as inputs to the fitDiscrete function 
 
 &lt;h2 id=&quot;how-to-do-this-analysis-in-arbor&quot;&gt;How to do this analysis in Arbor&lt;/h2&gt;
 
-&lt;p&gt;Arbor provides several ways to estimate ancestral character states. The easiest option is to use the Arbor App &lt;a href=&quot;/arborCollections/arborapps/ancestral-state/&quot;&gt;Ancestral state estimation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Arbor provides several ways to estimate ancestral character states. The easiest option is to use the Arbor App &lt;a href=&quot;/arborapps/ancestral-state/&quot;&gt;Ancestral state estimation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;You can also estimate ancestral character states in Arbor Workflows using the aceArbor function.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/arborCollections/images/acearbor.png&quot; alt=&quot;aceArbor&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/acearbor.png&quot; alt=&quot;aceArbor&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;more-details-acearbor-arbor-workflows-function&quot;&gt;More details: aceArbor (Arbor Workflows function)&lt;/h2&gt;
 
@@ -133,22 +181,22 @@ of the results.&lt;/p&gt;
 
 &lt;h3 id=&quot;acearbor-example&quot;&gt;aceArbor example&lt;/h3&gt;
 
-&lt;p&gt;From the &lt;a href=&quot;/arborCollections/../docs/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
+&lt;p&gt;From the &lt;a href=&quot;/../docs/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
 Load these files into Arbor, and use them as inputs to the aceArbor function. Choose
 the “ecomorph” column for analysis, and select type: discrete and method: marginal.&lt;/p&gt;
 
 &lt;p&gt;Your results should look like this.&lt;/p&gt;
 
 &lt;p&gt;Table: A table showing the internal nodes of the tree (numbered following ape’s scheme) along with marginal likelihoods for each character state.
-&lt;img src=&quot;/arborCollections/images/acearbor-exampletable.png&quot; alt=&quot;acearbor-plot&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/images/acearbor-exampletable.png&quot; alt=&quot;acearbor-plot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Plot: A plot of the tree with ancestral state estimates at every node.
-&lt;img src=&quot;/arborCollections/images/acearbor-exampleplot.png&quot; alt=&quot;acearbor-plot&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/images/acearbor-exampleplot.png&quot; alt=&quot;acearbor-plot&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;acearbor-example-of-use-in-a-workflow&quot;&gt;aceArbor example of use in a workflow&lt;/h3&gt;
 
 &lt;p&gt;You can see a tutorial for constructing a workflow that involves aceArbor
-&lt;a href=&quot;/arborCollections/tutorials/reconstructing-ancestral-characters-discrete&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&quot;/tutorials/reconstructing-ancestral-characters-discrete&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;acearbor-citations&quot;&gt;aceArbor citations&lt;/h3&gt;
 
@@ -159,8 +207,8 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
 &lt;p&gt;Schluter, D., T. Price, A. O. Mooers, and D. Ludwig. 1997. Likelihood of ancestor states in adaptive radiation. Evolution 51: 1699.&lt;/p&gt;
 </description>
         <pubDate>Wed, 03 Aug 2016 00:00:00 -0700</pubDate>
-        <link>/arborCollections/arborCollections/tasks/ace/</link>
-        <guid isPermaLink="true">/arborCollections/arborCollections/tasks/ace/</guid>
+        <link>/tasks/ace/</link>
+        <guid isPermaLink="true">/tasks/ace/</guid>
       </item>
     
       <item>
@@ -173,33 +221,33 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
 
 &lt;p&gt;In this example, we will obtain a tree from &lt;a href=&quot;http://opentree.org&quot;&gt;open tree of life&lt;/a&gt; and rescale it using dates from &lt;a href=&quot;http://timetree.org&quot;&gt;timetree of life&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;We start with a list of taxa, &lt;a href=&quot;/arborCollections/assets/testTaxa.csv&quot;&gt;testTaxa.csv&lt;/a&gt;. You can upload that csv file to your arbor instance, or just find it stored in the “treeTimer” collection.&lt;/p&gt;
+&lt;p&gt;We start with a list of taxa, &lt;a href=&quot;/assets/testTaxa.csv&quot;&gt;testTaxa.csv&lt;/a&gt;. You can upload that csv file to your arbor instance, or just find it stored in the “treeTimer” collection.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/timetree/timetree-screen1.png&quot; alt=&quot;screen1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/timetree/timetree-screen1.png&quot; alt=&quot;screen1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now, choose and run the function called “Match taxa to the timetree of life” from the treeTimer collection.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/timetree/timetree-screen2.png&quot; alt=&quot;screen2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/timetree/timetree-screen2.png&quot; alt=&quot;screen2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Use the following settings for this function:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/timetree/timetree-screen3.png&quot; alt=&quot;screen3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/timetree/timetree-screen3.png&quot; alt=&quot;screen3&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When the function has stopped running, you should see a success message:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/timetree/timetree-screen4.png&quot; alt=&quot;screen4&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/timetree/timetree-screen4.png&quot; alt=&quot;screen4&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can see a plot of the output by choosing the right settings in the Visualization tab.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/timetree/timetree-screen5.png&quot; alt=&quot;screen5&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/timetree/timetree-screen5.png&quot; alt=&quot;screen5&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here is your timetree:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/arborCollections/assets/timetree/timetree-output.png&quot; alt=&quot;screen6&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/timetree/timetree-output.png&quot; alt=&quot;screen6&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 18 Apr 2016 00:00:00 -0700</pubDate>
-        <link>/arborCollections/arborCollections/tutorials/timetrees/</link>
-        <guid isPermaLink="true">/arborCollections/arborCollections/tutorials/timetrees/</guid>
+        <link>/tutorials/timetrees/</link>
+        <guid isPermaLink="true">/tutorials/timetrees/</guid>
       </item>
     
       <item>
@@ -214,7 +262,7 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
 
 &lt;h1 id=&quot;obtaining-and-time-scaling-large-trees&quot;&gt;Obtaining and time-scaling large trees&lt;/h1&gt;
 
-&lt;p&gt;You can use Arbor’s &lt;a href=&quot;/arborCollections/tutorials/webservices/&quot;&gt;web services&lt;/a&gt; to obtain large phylogenetic trees from &lt;a href=&quot;http://www.opentreeoflife.org/&quot;&gt;Open Tree of Life&lt;/a&gt;. You can then use Arbor’s &lt;a href=&quot;/arborCollections/tutorials/timetrees/&quot;&gt;method for time-scaling trees&lt;/a&gt; to add branch lengths to this tree.&lt;/p&gt;
+&lt;p&gt;You can use Arbor’s &lt;a href=&quot;/tutorials/webservices/&quot;&gt;web services&lt;/a&gt; to obtain large phylogenetic trees from &lt;a href=&quot;http://www.opentreeoflife.org/&quot;&gt;Open Tree of Life&lt;/a&gt;. You can then use Arbor’s &lt;a href=&quot;/tutorials/timetrees/&quot;&gt;method for time-scaling trees&lt;/a&gt; to add branch lengths to this tree.&lt;/p&gt;
 
 &lt;h1 id=&quot;matching-phylogenetic-and-character-data&quot;&gt;Matching phylogenetic and character data&lt;/h1&gt;
 
@@ -222,11 +270,11 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
 
 &lt;h1 id=&quot;analyzing-large-datasets&quot;&gt;Analyzing large datasets&lt;/h1&gt;
 
-&lt;p&gt;Arbor code has been optimized to handle &lt;a href=&quot;/arborCollections/tutorials/verylargetrees/&quot;&gt;very large datasets&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Arbor code has been optimized to handle &lt;a href=&quot;/tutorials/verylargetrees/&quot;&gt;very large datasets&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 18 Apr 2016 00:00:00 -0700</pubDate>
-        <link>/arborCollections/arborCollections/tutorials/megatrees/</link>
-        <guid isPermaLink="true">/arborCollections/arborCollections/tutorials/megatrees/</guid>
+        <link>/tutorials/megatrees/</link>
+        <guid isPermaLink="true">/tutorials/megatrees/</guid>
       </item>
     
       <item>
@@ -238,8 +286,8 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 </description>
         <pubDate>Mon, 18 Apr 2016 00:00:00 -0700</pubDate>
-        <link>/arborCollections/arborCollections/collections/timetree/data/testTaxa-csv/</link>
-        <guid isPermaLink="true">/arborCollections/arborCollections/collections/timetree/data/testTaxa-csv/</guid>
+        <link>/collections/timetree/data/testTaxa-csv/</link>
+        <guid isPermaLink="true">/collections/timetree/data/testTaxa-csv/</guid>
       </item>
     
       <item>
@@ -251,8 +299,8 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 </description>
         <pubDate>Mon, 18 Apr 2016 00:00:00 -0700</pubDate>
-        <link>/arborCollections/arborCollections/collections/phylogeny/data/phelsuma-phy/</link>
-        <guid isPermaLink="true">/arborCollections/arborCollections/collections/phylogeny/data/phelsuma-phy/</guid>
+        <link>/collections/phylogeny/data/phelsuma-phy/</link>
+        <guid isPermaLink="true">/collections/phylogeny/data/phelsuma-phy/</guid>
       </item>
     
       <item>
@@ -264,8 +312,8 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 </description>
         <pubDate>Mon, 18 Apr 2016 00:00:00 -0700</pubDate>
-        <link>/arborCollections/arborCollections/collections/phylogeny/data/phelsuma-csv/</link>
-        <guid isPermaLink="true">/arborCollections/arborCollections/collections/phylogeny/data/phelsuma-csv/</guid>
+        <link>/collections/phylogeny/data/phelsuma-csv/</link>
+        <guid isPermaLink="true">/collections/phylogeny/data/phelsuma-csv/</guid>
       </item>
     
       <item>
@@ -277,8 +325,8 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 </description>
         <pubDate>Mon, 18 Apr 2016 00:00:00 -0700</pubDate>
-        <link>/arborCollections/arborCollections/collections/phylogeny/data/anolis-phy/</link>
-        <guid isPermaLink="true">/arborCollections/arborCollections/collections/phylogeny/data/anolis-phy/</guid>
+        <link>/collections/phylogeny/data/anolis-phy/</link>
+        <guid isPermaLink="true">/collections/phylogeny/data/anolis-phy/</guid>
       </item>
     
       <item>
@@ -290,21 +338,8 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 </description>
         <pubDate>Mon, 18 Apr 2016 00:00:00 -0700</pubDate>
-        <link>/arborCollections/arborCollections/collections/opentree/data/mammal-species-list-csv/</link>
-        <guid isPermaLink="true">/arborCollections/arborCollections/collections/opentree/data/mammal-species-list-csv/</guid>
-      </item>
-    
-      <item>
-        <title>anolis.csv</title>
-        <description>&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;Data on anolis lizards.&lt;/p&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-</description>
-        <pubDate>Mon, 18 Apr 2016 00:00:00 -0700</pubDate>
-        <link>/arborCollections/arborCollections/collections/base/phylogeny/data/anolis-csv/</link>
-        <guid isPermaLink="true">/arborCollections/arborCollections/collections/base/phylogeny/data/anolis-csv/</guid>
+        <link>/collections/opentree/data/mammal-species-list-csv/</link>
+        <guid isPermaLink="true">/collections/opentree/data/mammal-species-list-csv/</guid>
       </item>
     
   </channel>
