@@ -20,7 +20,7 @@ Once you are logged in, your screen should look like this:
 
 ![Screenshot 1]({{ site.baseurl}}/assets/creatingaCollection/screen1.png)
 
-You will eventually need the anolis example data files, anolis.phy and anolis.csv, from [Arbor datasets] ({{ site.baseurl}}/docs_datasets/). Save those files somewhere on your computer.
+You will need the anolis example data files, [anolis.phy]({{ site.baseurl }}/assets/datasets/anolis.phy) and [anolis.csv]({{ site.baseurl }}/assets/datasets/anolis.csv). Save those files somewhere on your computer.
 
 ## Create a new collection
 
@@ -56,3 +56,5 @@ You can see the new workflow by clicking "Show script."
 ![Screenshot 7]({{ site.baseurl}}/assets/creatingaCollection/screen7.png)
 
 You can even edit this workflow using the "Edit" button (keep in mind that you have to hit "Save" for the changes to go into effect).
+
+Finally, you can download your new workflow using the "Save" button, which generates a json-formatted version of your workflow. This text file includes all of the information and code that you need to run your workflow - but not the data! You can easily share these json files with collaborators or make them available on Github or other archives.
