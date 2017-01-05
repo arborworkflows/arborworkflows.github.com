@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Using the Arbor webapp • Arbor</title>
-    <meta name="description" content="How to use the Arbor webapp for comparative analyses
+    <meta name="description" content="How to run functions for comparative analyses in Arbor
 
 ">
     <meta name="keywords" content="">
     
     	<!-- Twitter Cards -->
 	<meta name="twitter:title" content="Using the Arbor webapp">
-	<meta name="twitter:description" content="How to use the Arbor webapp for comparative analyses
+	<meta name="twitter:description" content="How to run functions for comparative analyses in Arbor
 
 ">
 	<meta name="twitter:site" content="@lukejharmon">
@@ -23,13 +23,13 @@
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Using the Arbor webapp">
-	<meta property="og:description" content="How to use the Arbor webapp for comparative analyses
+	<meta property="og:description" content="How to run functions for comparative analyses in Arbor
 
 ">
-	<meta property="og:url" content="/tutorials/using-the-arbor-webapp/">
+	<meta property="og:url" content="/ssbarbor/runningfunctions/">
 	<meta property="og:site_name" content="Arbor">
 
-    <link rel="canonical" href="/tutorials/using-the-arbor-webapp/">
+    <link rel="canonical" href="/ssbarbor/runningfunctions/">
 
     <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Arbor Atom Feed">
     <link href="/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -133,8 +133,8 @@
         <span itemprop="title">Home</span>
       </a> ›
     <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-      <a href="/tutorials/" itemprop="url">
-        <span itemprop="title">Tutorials</span>
+      <a href="/ssbarbor/" itemprop="url">
+        <span itemprop="title">Ssbarbor</span>
       </a>
     </span>
   </nav><!-- /.breadcrumbs -->
@@ -145,7 +145,7 @@
 		</div>
 		<div class="inner-wrap">
 			<div id="content" class="page-content" itemprop="articleBody">
-				<h2 id="how-to-use-the-arbor-webapp-for-comparative-analyses">How to use the Arbor webapp for comparative analyses</h2>
+				<h2 id="how-to-run-functions-for-comparative-analyses-in-arbor">How to run functions for comparative analyses in Arbor</h2>
 
 <p>So, you want to use the Arbor web app to do some comparative analyses?</p>
 
@@ -159,11 +159,13 @@ basic analysis of a correlation between two continuous characters using independ
 
 <p>You will need the anolis example data files, <a href="/assets/datasets/anolis.phy">anolis.phy</a> and <a href="/assets/datasets/anolis.csv">anolis.csv</a>. Save those files somewhere on your computer.</p>
 
-<p>Now open the <a href="http://54.83.6.133:9080">Arbor web app</a>. Your screen should look something like this:</p>
+<p>Now open the <a href="http://54.83.6.133:9080">Arbor web app</a> (this is a special instance of Arbor hosted on Amazon Web Services just for this meeting). Your screen should look something like this:</p>
 
 <p><img src="/assets/usingArborwebapp/usingArborwebapp_1.png" alt="Screenshot 1" /></p>
 
-<p>If you want, you can log in here; we will post more information about Arbor user accounts later. For now, you don’t need to log in, you can do the analyses for this example without an account.</p>
+<p>You might notice some differences between this screen and the particular collections that are available to you - don’t worry too much about that.</p>
+
+<p>If you want, you can log in here; your user name should match the personal part of the email address you used to register for the meeting. For example, if your registration email is lukeh@uidaho.edu, then your user name is lukeh. The password will be given to you by the instructor. Note also that for this and some other examples in the workshop,  you don’t actually need to log in, you can do the analyses on the web without an account.</p>
 
 <h2 id="upload-your-data">Upload your data</h2>
 
@@ -182,28 +184,28 @@ basic analysis of a correlation between two continuous characters using independ
   <li>anolis.phy</li>
 </ul>
 
-<p>You may also see the same files stored in a collection, depending on how your web app is set up. If you see versions of those stored files from the “datasets” collection, for example, they will look like this:</p>
+<p>You may also see the same files stored in a collection, depending on how your web app is set up. If you see versions of those stored files from the “sampleDatasets” collection, for example, they will look like this:</p>
 
 <ul>
-  <li>anolis.csv (datasets)</li>
-  <li>anolis.phy (datasets)</li>
+  <li>anolis.csv (sampleDatasets)</li>
+  <li>anolis.phy (sampleDatasets)</li>
 </ul>
 
 <p>Those stored files will work fine for the exercise, but try to use the ones you uploaded so that you can get the hang of using your own data in Arbor. Also, since these datasets are uploaded but not saved, if you <strong>refresh your browser</strong> or even <strong>accidentally go to a different page</strong>, the datasets will be gone when you come back. If you want to save your uploaded data then you should login and make a personal collection.</p>
 
 <h2 id="select-the-collections-you-want">Select the collections you want</h2>
 
-<p>For this exercise, you will use functions from two arbor collections, “base” and “phylogeny.” All available collections are listed to the right side of the Data Management tab.</p>
+<p>For this exercise, you will use functions from one arbor collections, “generalLinearModels.” This collection contains functions to test for linear relationships among a set of variables. All available collections are listed to the right side of the Data Management tab.</p>
 
-<p>To gain access to functions in those collections, click the little eyeball next to “base” and “phylogeny.” Your screen should now look like this:</p>
+<p>To gain access to functions in those collections, click the little eyeball next to “generalLinearModels.” Your screen should now look like this:</p>
 
-<p><img src="/assets/usingArborwebapp/usingArborwebapp_3.png" alt="Screenshot 3" /></p>
+<p><img src="/assets/usingArborwebapp/usingArborwebapp_3_alt.png" alt="Screenshot 3" /></p>
 
 <h2 id="navigate-to-the-analysis-tab">Navigate to the “analysis” tab</h2>
 
 <p>You are done with the Data Management tab, and will need to move to the “Analysis” tab to carry out your analysis. Click on the Analysis tab to switch. Your screen should now look like this:</p>
 
-<p><img src="/assets/usingArborwebapp/usingArborwebapp_4.png" alt="Screenshot 4" /></p>
+<p><img src="/assets/usingArborwebapp/alt_4.png" alt="Screenshot 4" /></p>
 
 <h2 id="try-out-the-piccorrelation-function">Try out the picCorrelation <strong>function</strong></h2>
 
@@ -336,12 +338,12 @@ basic analysis of a correlation between two continuous characters using independ
 	<p class="author-bio">Associate professor, UIdaho.</p>
 </div><!-- ./author-content -->
 					<div class="inline-btn">
-	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Using%20the%20Arbor%20webapp&amp;url=/tutorials/using-the-arbor-webapp/&amp;via=lukejharmon" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
-	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=/tutorials/using-the-arbor-webapp/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
-	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=/tutorials/using-the-arbor-webapp/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
+	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=Using%20the%20Arbor%20webapp&amp;url=/ssbarbor/runningfunctions/&amp;via=lukejharmon" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=/ssbarbor/runningfunctions/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
+	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=/ssbarbor/runningfunctions/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
 </div><!-- /.share-this -->
 					<div class="page-meta">
-	<p>Updated <time datetime="2015-06-02T00:00:00Z" itemprop="datePublished">June 02, 2015</time></p>
+	<p>Updated <time datetime="2017-01-05T00:00:00Z" itemprop="datePublished">January 05, 2017</time></p>
 </div><!-- /.page-meta -->
 				</footer><!-- /.footer -->
 				<aside>
