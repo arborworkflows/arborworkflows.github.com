@@ -211,7 +211,7 @@ basic analysis of a correlation between two continuous characters using independ
 
 <p>We can now do some comparative analyses! Arbor has two types of analyses: functions and workflows. Later, we will build a workflow - but actually, for this problem, there is a single function that we can use to get output immediately.</p>
 
-<p>The function we need is called <strong>picCorrelation</strong>, and it is part of the <em>phylogeny</em> package.</p>
+<p>The function we need is called <strong>picCorrelation</strong>, and it is part of the <em>generalLinearModels</em> collection.</p>
 
 <p>First, select this function (in the <em>Select analysis</em> dropdown menu). You can inspect the function by clicking “Show script” (this example is in R). You should see this:</p>
 
@@ -253,78 +253,6 @@ basic analysis of a correlation between two continuous characters using independ
 <p><img src="/assets/usingArborwebapp/usingArborwebapp_10.png" alt="Screenshot 10" /></p>
 
 <p>The p-value is the top number in the column denoted “Pr(&gt;F).”</p>
-
-<h2 id="build-a-pic-workflow">Build a pic <strong>workflow</strong></h2>
-
-<p>Now let’s try to harness the real power of Arbor by building a simple visual workflow for our analysis. For this part to work you need to be logged in! If you are not logged in you can run existing functions and workflows but you cannot create new ones. You can create an account in Arbor quite easily.</p>
-
-<p>Follow the instructions on <a href="/2015/06/09/creating-a-new-collection/">this page</a> to create an account and start a private collection. Make sure to click on the “write” tab in your new collection, then come back here and finish the tutorial!</p>
-
-<hr />
-
-<p>OK I will assume you did that. Now, go back to the “Analysis” tab. To start your workflow, type a name into the box under “Create new analysis,” then click the “+ New workflow” button. I am going to call my analysis “myPICWorkflow.”</p>
-
-<p><img src="/assets/usingArborwebapp/usingArborwebapp_11.png" alt="Screenshot 11" /></p>
-
-<p>Once you have done that, your new (empty) workflow will be available under the “Select analysis” tab. To confirm that it is there (and empty!), select it, and click “Show script.” As we’ll be building this workflow, you can also click “Edit.”</p>
-
-<p><img src="/assets/usingArborwebapp/usingArborwebapp_12.png" alt="Screenshot 12" /></p>
-
-<p>Now all of that empty white space is a blank canvass for your new workflow.</p>
-
-<p>We will build our workflow in three steps:</p>
-
-<ol>
-  <li>Select the function that we need, picCorrelation</li>
-  <li>Link the function inputs that we need</li>
-  <li>Link the function outputs that we need</li>
-</ol>
-
-<p>For step one, use the drop-down menu labeled “Select analysis.” Find the picCorrelation function - it should be labeled “picCorrelation (phylogeny)” to let you know which collection it belongs with. Then click “+ Add to workflow” and you should see this function appear in the workflow as a block.</p>
-
-<p><img src="/assets/usingArborwebapp/usingArborwebapp_13.png" alt="Screenshot 13" /></p>
-
-<p>The function itself is a large rectangular block. The things sticking out on the left are inputs - you can see their type by hovering the mouse over each one. Squares are data matrices, triangles are phylogenies, and circles represent text values - typically, these circles control how the function works.</p>
-
-<p>Now let’s make some inputs. Click on each of the input tabs for your function to automatically generate function input boxes.</p>
-
-<p>These input boxes are blue to differentiate them from grey functions. They also only have output tabs, no inputs. All of the input boxes that you create will have to be specified by the user when you run the function, as you will see in a second.</p>
-
-<p>In more complicated workflows later, you will use outputs from previous steps as inputs for the next - but don’t worry about that for now.</p>
-
-<p><em>Beware! Sometimes new input blocks pop up right on top of function blocks - so it might look like nothing has happened. Don’t panic - just click on their center and drag them out of the way.</em></p>
-
-<p>You can also rearrange the inputs to look nice.</p>
-
-<p><img src="/assets/usingArborwebapp/usingArborwebapp_14.png" alt="Screenshot 14" /></p>
-
-<p><em>Note: every tab for function input needs to be connected to something! Either a block that is specified by the user, or another part of the workflow.</em></p>
-
-<p>Almost done - we only need to connect some outputs to see our results. We can do that in the same way that we created inputs - by clicking on function tabs, in this case on the output side, and creating output boxes.</p>
-
-<p>Output boxes are the same color as input boxes but they only have connectors on the left side. Your workflow will create a different output object for each of the output boxes that you create.</p>
-
-<p>You can arrange these to look nice too.</p>
-
-<p><img src="/assets/usingArborwebapp/usingArborwebapp_15.png" alt="Screenshot 15" /></p>
-
-<h2 id="run-mypicworkflow-workflow">Run myPICWorkflow <strong>workflow</strong></h2>
-
-<p>Once you have built your workflow, you need to save it before running.</p>
-
-<p><em>If you just click run then Arbor will run the workflow as it was the last time you saved - which might not match the workflow you see on the screen!</em></p>
-
-<p>Once you have saved, then click “Setup and run” to start the workflow. You will again have to specify inputs and options. Let’s do the same analysis we did before.</p>
-
-<p><img src="/assets/usingArborwebapp/usingArborwebapp_16.png" alt="Screenshot 16" /></p>
-
-<p>Now click “&gt; Run.” If your workflow works you will see a green <em>success</em> message.</p>
-
-<p><img src="/assets/usingArborwebapp/usingArborwebapp_17.png" alt="Screenshot 17" /></p>
-
-<p>You will see that we have two new output objects, one is an image and one is a table. You can visualize both of them in the same way as above, using the “Visualization” tab.</p>
-
-<p>If you made it this far, nice work - you built and ran an Arbor workflow!</p>
 
 				<hr />
 				<footer class="page-footer">
