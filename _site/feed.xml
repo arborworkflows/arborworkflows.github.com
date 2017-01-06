@@ -103,6 +103,92 @@ rescaledPhy$edge.length &amp;lt;- rescaledPhy$edge.length * x
 
 &lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor11.png&quot; alt=&quot;Screenshot ssbarbor11&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;Now, let’s try running your new function. Once you have saved the function, click on “&amp;gt; Setup and run.” Fill out the box that appears:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor12.png&quot; alt=&quot;Screenshot ssbarbor12&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the function runs, you should get a green success message:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor13.png&quot; alt=&quot;Screenshot ssbarbor13&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, we will try to use this rescaled tree to do something.&lt;/p&gt;
+
+&lt;h2 id=&quot;building-a-workflow-that-includes-your-new-function&quot;&gt;Building a workflow that includes your new function&lt;/h2&gt;
+
+&lt;p&gt;We will now build a workflow that includes two steps: rescaling your tree, and then fitting a model of evolution for a trait on that rescaled tree.&lt;/p&gt;
+
+&lt;p&gt;Create a new analysis called “rescaledTraitEvo,” but this time make sure to click the button that says “New workflow.”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor14.png&quot; alt=&quot;Screenshot ssbarbor14&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As long as you have “Show script” and “Edit” active, you should see a blank space where your workflow will go.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor15.png&quot; alt=&quot;Screenshot ssbarbor15&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s add the two functions that will be part of our workflow. First. using the “Select analysis” chooser, find your new function (multiplyBranchLengths) and use the “+Add to workflow” button to add it to your workflow.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor16.png&quot; alt=&quot;Screenshot ssbarbor16&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you do that, your function should appear as a workflow block.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor17.png&quot; alt=&quot;Screenshot ssbarbor17&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now add a block for the other function you need, “fit discrete.” It is part of the “traitModels” collection, so make sure that collection is highlighted as visible under the Data Management tab.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor18.png&quot; alt=&quot;Screenshot ssbarbor18&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now select the function you need and click “+Add to workflow”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor19.png&quot; alt=&quot;Screenshot ssbarbor19&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Shazam! the function appears in your workflow. But wait? What happened to the other function?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor20.png&quot; alt=&quot;Screenshot ssbarbor20&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t worry, it was just hiding underneath.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor21.png&quot; alt=&quot;Screenshot ssbarbor21&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;OK, now we just need to wire this workflow together! First, we know that the output tree from “multiplyBranchLengths” goes to the input tree of “Fit continuous.” Connect those two with a wire.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor22.png&quot; alt=&quot;Screenshot ssbarbor22&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Everything else is a user input or output. To create those, just click on each tab.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor23.png&quot; alt=&quot;Screenshot ssbarbor23&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You might need to move things around to make the workflow look nice.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor24.png&quot; alt=&quot;Screenshot ssbarbor24&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Make sure to save your workflow!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor25.png&quot; alt=&quot;Screenshot ssbarbor25&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We can now use the “&amp;gt; Setup and run” button to run our workflow.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor26.png&quot; alt=&quot;Screenshot ssbarbor26&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Designate these inputs:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor27.png&quot; alt=&quot;Screenshot ssbarbor27&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It worked!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor28.png&quot; alt=&quot;Screenshot ssbarbor28&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We can see the results in the Visualization tab:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor29.png&quot; alt=&quot;Screenshot ssbarbor29&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click “Update”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor30.png&quot; alt=&quot;Screenshot ssbarbor30&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Compare this to what we get with the original tree. Notice any differences? Explain!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor31.png&quot; alt=&quot;Screenshot ssbarbor31&quot; /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;loading-a-shared-workflow-to-your-collection&quot;&gt;Loading a shared workflow to your collection&lt;/h2&gt;
 
 &lt;p&gt;Next, I will show you how to load in a workflow file that has been downloaded in JSON format. Imagine, for example, that a colleague emailed you an arbor workflow called mywork.json. You can download such a file &lt;a href=&quot;/assets/creatingaCollection/mywork.json&quot;&gt;here&lt;/a&gt;. (NOTE: you might have to right-click and “save as” for this file, or save as plain text with extension .json if it opens in your browser). Now, to load that workflow into your new collection, click on “Upload… “ and find the mywork.json file. The new workflow is now in your collection!&lt;/p&gt;

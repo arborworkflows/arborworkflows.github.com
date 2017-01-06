@@ -103,6 +103,91 @@ You should see a confirmation that your work is saved:
 
 ![Screenshot ssbarbor11]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor11.png)
 
+Now, let's try running your new function. Once you have saved the function, click on "> Setup and run." Fill out the box that appears:
+
+![Screenshot ssbarbor12]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor12.png)
+
+Once the function runs, you should get a green success message:
+
+![Screenshot ssbarbor13]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor13.png)
+
+Next, we will try to use this rescaled tree to do something.
+
+## Building a workflow that includes your new function
+
+We will now build a workflow that includes two steps: rescaling your tree, and then fitting a model of evolution for a trait on that rescaled tree.
+
+Create a new analysis called "rescaledTraitEvo," but this time make sure to click the button that says "New workflow."
+
+![Screenshot ssbarbor14]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor14.png)
+
+As long as you have "Show script" and "Edit" active, you should see a blank space where your workflow will go.
+
+![Screenshot ssbarbor15]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor15.png)
+
+Let's add the two functions that will be part of our workflow. First. using the "Select analysis" chooser, find your new function (multiplyBranchLengths) and use the "+Add to workflow" button to add it to your workflow.
+
+![Screenshot ssbarbor16]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor16.png)
+
+Once you do that, your function should appear as a workflow block.
+
+![Screenshot ssbarbor17]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor17.png)
+
+Now add a block for the other function you need, "fit discrete." It is part of the "traitModels" collection, so make sure that collection is highlighted as visible under the Data Management tab.
+
+![Screenshot ssbarbor18]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor18.png)
+
+Now select the function you need and click "+Add to workflow"
+
+![Screenshot ssbarbor19]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor19.png)
+
+Shazam! the function appears in your workflow. But wait? What happened to the other function?
+
+![Screenshot ssbarbor20]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor20.png)
+
+Don't worry, it was just hiding underneath.
+
+![Screenshot ssbarbor21]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor21.png)
+
+OK, now we just need to wire this workflow together! First, we know that the output tree from "multiplyBranchLengths" goes to the input tree of "Fit continuous." Connect those two with a wire.
+
+![Screenshot ssbarbor22]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor22.png)
+
+Everything else is a user input or output. To create those, just click on each tab.
+
+![Screenshot ssbarbor23]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor23.png)
+
+You might need to move things around to make the workflow look nice.
+
+![Screenshot ssbarbor24]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor24.png)
+
+Make sure to save your workflow!
+
+![Screenshot ssbarbor25]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor25.png)
+
+We can now use the "> Setup and run" button to run our workflow.
+
+![Screenshot ssbarbor26]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor26.png)
+
+Designate these inputs:
+
+![Screenshot ssbarbor27]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor27.png)
+
+It worked!
+
+![Screenshot ssbarbor28]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor28.png)
+
+We can see the results in the Visualization tab:
+
+![Screenshot ssbarbor29]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor29.png)
+
+Click "Update"
+
+![Screenshot ssbarbor30]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor30.png)
+
+Compare this to what we get with the original tree. Notice any differences? Explain!
+
+![Screenshot ssbarbor31]({{ site.baseurl}}/assets/creatingaCollection/ssbarbor31.png)
 
 
 ## Loading a shared workflow to your collection
