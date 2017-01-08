@@ -192,7 +192,7 @@ Compare this to what we get with the original tree. Notice any differences? Expl
 
 ## Loading a shared workflow to your collection
 
-Next, I will show you how to load in a workflow file that has been downloaded in JSON format. Imagine, for example, that a colleague emailed you an arbor workflow called mywork.json. You can download such a file [here]({{ site.baseurl }}/assets/creatingaCollection/mywork.json). (NOTE: you might have to right-click and "save as" for this file, or save as plain text with extension .json if it opens in your browser). Now, to load that workflow into your new collection, click on "Upload... " and find the mywork.json file. The new workflow is now in your collection!
+Next, I will show you how to load in a workflow file that has been downloaded in JSON format. Imagine, for example, that a colleague emailed you an arbor workflow called mywork.json. You can download such a file [here]({{ site.baseurl }}/assets/creatingaCollection/fitTraitModels.json). (NOTE: you might have to right-click and "save as" for this file, or save as plain text with extension .json if it opens in your browser). Now, to load that workflow into your new collection, click on "Upload... " and find the fitTraitModels.json file. The new workflow is now in your collection!
 
 ![Screenshot 6]({{ site.baseurl}}/assets/creatingaCollection/screen6.png)
 
