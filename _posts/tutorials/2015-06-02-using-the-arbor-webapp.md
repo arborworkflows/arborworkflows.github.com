@@ -22,7 +22,7 @@ basic analysis of a correlation between two continuous characters using independ
 
 You will need the anolis example data files, [anolis.phy]({{ site.baseurl }}/assets/datasets/anolis.phy) and [anolis.csv]({{ site.baseurl }}/assets/datasets/anolis.csv). Save those files somewhere on your computer.
 
-Now open the [Arbor web app](http://54.83.6.133:9080). Your screen should look something like this:
+Now open the [Arbor web app](http://arbor.arborworkflows.com). Your screen should look something like this:
 
 ![Screenshot 1]({{ site.baseurl}}/assets/usingArborwebapp/usingArborwebapp_1.png)
 
