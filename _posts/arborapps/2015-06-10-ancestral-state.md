@@ -15,4 +15,4 @@ image:
 
 <meta http-equiv="refresh" content="0;url=http://arbor1.arborworkflows.com/ancestral-state/">
 
-You should be automatically forwarded to the Arbor app. If not, click <a href="http://arbor1.arborworkflows.com/ancestral-state/">here</a>.
+You should be automatically forwarded to the Arbor app. If not, click <a href="http://arbor.arborworkflows.com/ancestral-state/">here</a>.
