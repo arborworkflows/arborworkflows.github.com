@@ -2,15 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>diversification models • Arbor</title>
-    
+    <title>makeBD • Arbor</title>
+    <meta name="description" content="Overview
+
+">
     <meta name="keywords" content="">
     
     	<!-- Twitter Cards -->
-	<meta name="twitter:title" content="diversification models">
-	
+	<meta name="twitter:title" content="makeBD">
+	<meta name="twitter:description" content="Overview
+
+">
 	<meta name="twitter:site" content="@lukejharmon">
-	<meta name="twitter:creator" content="@lukejharmon">
+	
 	
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:image" content="/images/120x120.gif">
@@ -18,12 +22,14 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="diversification models">
-	
-	<meta property="og:url" content="/documentation/diversificationModels/">
+	<meta property="og:title" content="makeBD">
+	<meta property="og:description" content="Overview
+
+">
+	<meta property="og:url" content="/collections/diversificationmodels/makeBD/">
 	<meta property="og:site_name" content="Arbor">
 
-    <link rel="canonical" href="/documentation/diversificationModels/">
+    <link rel="canonical" href="/collections/diversificationmodels/makeBD/">
 
     <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Arbor Atom Feed">
     <link href="/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -117,39 +123,49 @@
 
 
     <div id="page-wrapper">
-      <div id="main" role="main">
-	<div class="wrap">
-		
-		<div class="page-title">
-			<a href="/documentation/"><img src="/images/arbor-docs.png"></a><br>
-			<h1>diversification models</h1>
-			
-		</div>
-		<div class="archive-wrap">
-			<div class="page-content">
-				<div class="tiles">
+      <a href="/documentation/"><img src="/images/arbor-docs.png"></a><br>
+      <h1>makeBD
+      
+        : function
+      
+      </h1><br>
+      
+      <h3>collection: <a href="/documentation/diversificationModels/">diversificationModels</a></h3><br>
 
+      <h2 id="overview">Overview</h2>
 
+<p>makeBD is a function for setting up a birth-death model in Arbor. Use in conjunction with fitBD.</p>
 
+<h2 id="example">Example</h2>
 
+<p>From the <a href="/../docs/">docs</a> page, get anolis.phy and anolis.csv.
+Load these files into Arbor, and …</p>
 
-  
-  <li><a href="/collections/diversificationmodels/bisseMLE/">bisseMLE</a> - find MLE for BiSSE model
-  
-</li><br />
+<h2 id="arguments">Arguments</h2>
+<ul>
+  <li>table: A data table including species names</li>
+  <li>tree: A phylogenetic tree</li>
+  <li>column: The name of the column to analyze</li>
+  <li>type: The character type
+    <ul>
+      <li>discrete: a character with a discrete number of states</li>
+      <li>continuous: a continuously varying character</li>
+      <li>fromData: will attempt to determine the data type from the data itself</li>
+    </ul>
+  </li>
+  <li>method: specifies the method used to reconstruct ancestral character states
+    <ul>
+      <li>marginal: marginal ancestral state reconstructions, which reconstruct each node integrating over all possibilities at all other nodes in the tree; this is typically the method used in the literature to reconstruce ACEs</li>
+      <li>joint: joint ancestral reconstructions, which give the configuration of ancestral states that together maximize the likelihood of the data given model parameters</li>
+      <li>mcmc: reconstruct ancestral states using Bayesian MCMC. Note that the discrete version of this doesn’t seem to work, and even if it did work it is not a full MCMC ancestral state method</li>
+      <li>stochastic: create stochastic character map</li>
+    </ul>
+  </li>
+</ul>
 
-  
-  <li><a href="/collections/diversificationmodels/makeBD/">makeBD</a> - set up birth-death model
-  
-    </li><br />
+<h2 id="outputs">Outputs</h2>
 
-</div>
-<!-- /.tiles -->
-
-			</div><!-- /.page-content -->
-		</div class="archive-wrap"><!-- /.archive-wrap -->
-	</div><!-- /.wrap -->
-</div><!-- /#main -->
+<h2 id="references">References</h2>
 
       <footer role="contentinfo" id="site-footer">
 	<nav role="navigation" class="menu bottom-menu">

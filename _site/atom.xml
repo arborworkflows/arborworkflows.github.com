@@ -7,7 +7,7 @@
   <subtitle>Arbor workflows</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2017-01-06T13:49:54-08:00</updated>
+  <updated>2017-03-07T13:29:52-08:00</updated>
   <id>/</id>
   <author>
     <name>Luke Harmon</name>
@@ -15,6 +15,135 @@
     <email>lukeh@uidaho.edu</email>
   </author>
 
+  
+  <entry>
+    <title>makeBD</title>
+    <link href="/collections/diversificationmodels/makeBD/"/>
+    <updated>2017-01-26T00:00:00-08:00</updated>
+    <id>/collections/diversificationmodels/makeBD</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;makeBD is a function for setting up a birth-death model in Arbor. Use in conjunction with fitBD.&lt;/p&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+
+&lt;p&gt;From the &lt;a href=&quot;/../docs/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
+Load these files into Arbor, and …&lt;/p&gt;
+
+&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;table: A data table including species names&lt;/li&gt;
+  &lt;li&gt;tree: A phylogenetic tree&lt;/li&gt;
+  &lt;li&gt;column: The name of the column to analyze&lt;/li&gt;
+  &lt;li&gt;type: The character type
+    &lt;ul&gt;
+      &lt;li&gt;discrete: a character with a discrete number of states&lt;/li&gt;
+      &lt;li&gt;continuous: a continuously varying character&lt;/li&gt;
+      &lt;li&gt;fromData: will attempt to determine the data type from the data itself&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;method: specifies the method used to reconstruct ancestral character states
+    &lt;ul&gt;
+      &lt;li&gt;marginal: marginal ancestral state reconstructions, which reconstruct each node integrating over all possibilities at all other nodes in the tree; this is typically the method used in the literature to reconstruce ACEs&lt;/li&gt;
+      &lt;li&gt;joint: joint ancestral reconstructions, which give the configuration of ancestral states that together maximize the likelihood of the data given model parameters&lt;/li&gt;
+      &lt;li&gt;mcmc: reconstruct ancestral states using Bayesian MCMC. Note that the discrete version of this doesn’t seem to work, and even if it did work it is not a full MCMC ancestral state method&lt;/li&gt;
+      &lt;li&gt;stochastic: create stochastic character map&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Web services</title>
+    <link href="/ssbarbor/webservices/"/>
+    <updated>2017-01-08T00:00:00-08:00</updated>
+    <id>/ssbarbor/webservices</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;what-are-web-services&quot;&gt;What are web services?&lt;/h2&gt;
+
+&lt;p&gt;Web services are protocols for computers to exchange information over the web (see &lt;a href=&quot;https://en.wikipedia.org/wiki/Web_service&quot;&gt;wikipedia: web service&lt;/a&gt;), typically via an &lt;a href=&quot;https://en.wikipedia.org/wiki/Application_programming_interface&quot;&gt;API&lt;/a&gt;. In biology, web services are becoming more and more common. You can obtain, for example, phylogenetic trees from &lt;a href=&quot;http://opentreeoflife.org/&quot;&gt;Open Tree of Life&lt;/a&gt;, geographic occurrences from &lt;a href=&quot;http://www.gbif.org/&quot;&gt;GBIF&lt;/a&gt;, and trait data from &lt;a href=&quot;http://eol.org/&quot;&gt;Encyclopedia of Life&lt;/a&gt;, all using web services.&lt;/p&gt;
+
+&lt;p&gt;We have a number of pre-made functions in Arbor that can obtain data through web services. These functions can be included in workflows that make it easy to combine your data with data obtained over the web and carry out analyses. In this tutorial we will illustrate one of these applications, starting with a list of species and obtaining a phylogenetic tree from Open Tree of Life.&lt;/p&gt;
+
+&lt;h2 id=&quot;example-from-a-list-of-species-to-a-phylogenetic-tree&quot;&gt;Example: from a list of species to a phylogenetic tree&lt;/h2&gt;
+
+&lt;p&gt;We are going to start with a list of species. You can obtain this list as a csv file &lt;a href=&quot;/assets/mammal_species_list.csv&quot;&gt;here&lt;/a&gt;; download and save this file somewhere to your computer.&lt;/p&gt;
+
+&lt;p&gt;Now, open an Arbor instance (e.g. &lt;a href=&quot;http://54.83.6.133:9080&quot;&gt;Arbor web app&lt;/a&gt;). You will now need to load in your species list. You can do this by dragging the file that you just downloaded onto the “Browse or drop files” box:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen1.png&quot; alt=&quot;screen1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(you can also see our tutorial on &lt;a href=&quot;/tutorials/using-the-arbor-webapp/&quot;&gt;using the Arbor webapp&lt;/a&gt;) for more information on loading data into Arbor)&lt;/p&gt;
+
+&lt;p&gt;We will be building a workflow to do this analysis. Note that you need to be logged in and have write access to a collection to make the next parts work!&lt;/p&gt;
+
+&lt;p&gt;Click over to the “Analysis” tab, and create a new workflow. To do that, type the name of the new workflow it the box under “Create new analysis.” Let’s call our workflow “getOTLTreeAndPlot.”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen2.png&quot; alt=&quot;screen2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have created the workflow, you should be able to view and edit (but right now it is just a blank white space!)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen3.png&quot; alt=&quot;screen3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first step in this workflow is to match the species names with the names in the Open Tree of Life Taxonomy (OTT). To do this, we will use a function in the “advanced-opentree” collection called “Lookup Names Using OpenTree Taxonomy.” Add this function to your workflow using the “+ add to workflow” button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen4.png&quot; alt=&quot;screen4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We can click the tab on the left side of that new workflow step to indicate that the user will send a data table directly to this function. So our workflow is now:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen5.png&quot; alt=&quot;screen5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we need to pull out an “induced subtree” from open tree of life using the OTT ids that we obtained in the previous step. To do that, add a new function to your workflow, again from the “advanced-opentree” collection: “Return the Open Tree Subtree from a node list.” Add and connect that next step to your workflow:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen6.png&quot; alt=&quot;screen6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we just need to plot our resulting tree. You can use a function from the “advanced-phylogenyTools” collection called “PlotTreeWithApe.” Add that function, connect it to your workflow, and specify that the last output be sent to the user:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen7.png&quot; alt=&quot;screen7&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now just click “Setup and run.” In the box that appears, choose your input file with the list of mammal species names.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen8.png&quot; alt=&quot;screen8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The workflow will run for a while:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen9.png&quot; alt=&quot;screen9&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And then finish:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen10.png&quot; alt=&quot;screen10&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can then change to the “visualization” tab, and select the output from your workflow.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen11.png&quot; alt=&quot;screen11&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We then see the final result:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen12.png&quot; alt=&quot;screen12&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a phylogenetic tree pulled from the Open Tree of Life synthesis that includes all of the species in the table that you supplied.&lt;/p&gt;
+
+    </content>
+  </entry>
   
   <entry>
     <title>Creating new collections and functions</title>
@@ -211,7 +340,7 @@ rescaledPhy$edge.length &amp;lt;- rescaledPhy$edge.length * x
 
 &lt;h2 id=&quot;loading-a-shared-workflow-to-your-collection&quot;&gt;Loading a shared workflow to your collection&lt;/h2&gt;
 
-&lt;p&gt;Next, I will show you how to load in a workflow file that has been downloaded in JSON format. Imagine, for example, that a colleague emailed you an arbor workflow called mywork.json. You can download such a file &lt;a href=&quot;/assets/creatingaCollection/mywork.json&quot;&gt;here&lt;/a&gt;. (NOTE: you might have to right-click and “save as” for this file, or save as plain text with extension .json if it opens in your browser). Now, to load that workflow into your new collection, click on “Upload… “ and find the mywork.json file. The new workflow is now in your collection!&lt;/p&gt;
+&lt;p&gt;Next, I will show you how to load in a workflow file that has been downloaded in JSON format. Imagine, for example, that a colleague emailed you an arbor workflow called mywork.json. You can download such a file &lt;a href=&quot;/assets/creatingaCollection/fitTraitModels.json&quot;&gt;here&lt;/a&gt;. (NOTE: you might have to right-click and “save as” for this file, or save as plain text with extension .json if it opens in your browser). Now, to load that workflow into your new collection, click on “Upload… “ and find the fitTraitModels.json file. The new workflow is now in your collection!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/screen6.png&quot; alt=&quot;Screenshot 6&quot; /&gt;&lt;/p&gt;
 
@@ -374,9 +503,9 @@ basic analysis of a correlation between two continuous characters using independ
   
   <entry>
     <title>bisseMLE</title>
-    <link href="/collections/diversificationmodels/aceArbor/"/>
+    <link href="/collections/diversificationmodels/bisseMLE/"/>
     <updated>2017-01-04T00:00:00-08:00</updated>
-    <id>/collections/diversificationmodels/aceArbor</id>
+    <id>/collections/diversificationmodels/bisseMLE</id>
     <author>
       <name>Luke Harmon</name>
       <uri>/</uri>
@@ -1189,80 +1318,6 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
 
 &lt;ul&gt;
   &lt;li&gt;combinedTree: tree with subtree attached to receivingTree&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>getTipNames</title>
-    <link href="/collections/phylogeny/treemanipulate/getTipNames/"/>
-    <updated>2016-03-08T00:00:00-08:00</updated>
-    <id>/collections/phylogeny/treemanipulate/getTipNames</id>
-    <author>
-      <name>Luke Harmon</name>
-      <uri>/</uri>
-      <email>lukeh@uidaho.edu</email>
-    </author>
-    <content type="html">
-      
-      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;Extract column of tip names from phylogenetic tree&lt;/p&gt;
-
-&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
-
-&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;tree: Phylogenetic tree&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;tiplabels: single column matrix with tip labels&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>fitDiscrete</title>
-    <link href="/collections/phylogeny/charactercalculate/fitDiscrete/"/>
-    <updated>2016-03-08T00:00:00-08:00</updated>
-    <id>/collections/phylogeny/charactercalculate/fitDiscrete</id>
-    <author>
-      <name>Luke Harmon</name>
-      <uri>/</uri>
-      <email>lukeh@uidaho.edu</email>
-    </author>
-    <content type="html">
-      
-      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;Fits a particular model of evolution to a discrete character on a phylogenetic tree.&lt;/p&gt;
-
-&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
-
-&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;table: Table including species names and the column of interest&lt;/li&gt;
-  &lt;li&gt;tree: Phylogenetic tree with branch lengths&lt;/li&gt;
-  &lt;li&gt;column: Column name in table to analyze&lt;/li&gt;
-  &lt;li&gt;model: Model of evolution; must match one of the options in &lt;a href=&quot;https://cran.r-project.org/web/packages/geiger/geiger.pdf&quot;&gt;geiger&lt;/a&gt; fitDiscrete, currently one of: “ER”,”SYM”,”ARD”,”meristic”. Tree transforms not yet implemented.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Q: fitted Q matrix&lt;/li&gt;
-  &lt;li&gt;res: List showing model fit: lnL, aic, aicc, k&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
