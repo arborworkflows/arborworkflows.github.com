@@ -35,7 +35,7 @@ There are three ways to use Arbor.
 <div class="tile">
   <h2 class="post-title">Personal installation</h2>
   <img src="{{ site.baseurl }}/images/vagrant_arbor.jpeg">
-  <p class="post-excerpt">You can also <a href="http://arborworkflows.readthedocs.org/en/latest/installation.html">download and install your own Arbor instance using Vagrant</a>.</p>
+  <p class="post-excerpt">You can also <a href="{{site.baseurl}}/usearbor/install">download and install your own Arbor instance using Vagrant</a>.</p>
 </div><!-- /.tile -->
 
 </div><!-- /.tiles -->

@@ -2,12 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Use Arbor to analyze your data • Arbor</title>
+    <title>Install Arbor • Arbor</title>
     
     <meta name="keywords" content="">
     
     	<!-- Twitter Cards -->
-	<meta name="twitter:title" content="Use Arbor to analyze your data">
+	<meta name="twitter:title" content="Install Arbor">
 	
 	<meta name="twitter:site" content="@lukejharmon">
 	<meta name="twitter:creator" content="@lukejharmon">
@@ -18,13 +18,13 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Use Arbor to analyze your data">
+	<meta property="og:title" content="Install Arbor">
 	
-	<meta property="og:url" content="/usearbor/">
+	<meta property="og:url" content="/usearbor/install/">
 	<meta property="og:site_name" content="Arbor">
     <link rel="author" href="https://plus.google.com/+LukeHarmon1"/>
 
-    <link rel="canonical" href="/usearbor/">
+    <link rel="canonical" href="/usearbor/install/">
 
     <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Arbor Atom Feed">
 
@@ -123,34 +123,61 @@
       <div id="main" role="main">
         <div class="wrap">
           <div class="page-title">
-            <h1>Use Arbor to analyze your data</h1>
+            <h1>Install Arbor</h1>
             
           </div>
           <div class="archive-wrap">
             <div class="page-content">
-              <p>There are three ways to use Arbor.</p>
+              <h2 id="local-arbor-installation">Local Arbor installation</h2>
 
-<div class="tiles">
-<div class="tile">
-  <h2 class="post-title">Run Arbor Apps</h2>
-  <a href="/arborapps"><img src="/images/app_logo.jpeg" /></a>
-  <p class="post-excerpt">If you want to run a common comparative analysis in a simple and clean way using a web interface, you can use <a href="/arborapps">Arbor apps</a>. Arbor apps are websites that can run analyses - like ancestral state reconstruction and PGLS - using a drag and drop interface.</p>
-</div><!-- /.tile -->
+<p>The instructions below are the simplest way to get an Arbor instance up and going on your own personal machine - although they should work equally well for getting things going on a server. If you want more detail about how to install the individual parts of Arbor, you can also go to our “readthedocs” pages created and maintained by Kitware.</p>
 
-<div class="tile">
-  <h2 class="post-title">Use Arbor workflows</h2>
-  <a href="/usearbor/aws-instances"><img src="/images/workflow_logo.jpeg" /></a>
-  <p class="post-excerpt">If you want to build a workflow for your analysis, you can use <a href="/usearbor/aws-instances">Arbor workflows</a>. We current have three Arbor instances running on Amazon cloud that are free for you to use.</p>
-</div><!-- /.tile -->
+<p>It is also worth noting that you can run Arbor without installing it locally. In fact, Arbor is made to run over the web - and perhaps one of our running Arbor instances can already serve you?</p>
 
-<div class="tile">
-  <h2 class="post-title">Personal installation</h2>
-  <img src="/images/vagrant_arbor.jpeg" />
-  <p class="post-excerpt">You can also <a href="/usearbor/install">download and install your own Arbor instance using Vagrant</a>.</p>
-</div><!-- /.tile -->
+<p>We will post instructions on how to install an Arbor instance remotely using AWS or Cy-Verse.</p>
 
+<h3 id="prerequisites">Prerequisites</h3>
+
+<p>To install Arbor locally, you need the following three programs - each of which might have some dependencies of its own. All three are free and open source.</p>
+
+<p>First, you need <a href="https://www.virtualbox.org/">VirtualBox</a>, the method we use to create and host virtual machines. You can download and install VirtualBox using the link on their webpage.</p>
+
+<p>Second, you need <a href="https://www.ansible.com/">Ansible</a>, the manager that decides which software gets installed on your virtual machine. <a href="http://docs.ansible.com/ansible/intro_installation.html">Installation instructions for Ansible</a></p>
+
+<p>Finally, you need <a href="https://www.vagrantup.com/">Vagrant</a>, which manages the whole process.</p>
+
+<h3 id="step-1-get-the-flow">Step 1: Get the “Flow”</h3>
+
+<p>To begin, clone the two github repos that you will need: the <a href="https://github.com/kitware/flow">Flow repo</a> from <a href="https://www.kitware.com/">Kitware</a>, which has all that you need to set up an empty Arbor instance; and the <a href="https://github.com/arborworkflows/arborcollections">arborCollections</a> repo, which has all of the basic Arbor collections you will need.</p>
+
+<p>To clone these two repositories, use “git clone”. <a href="https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository">Further instructions for using git clone</a></p>
+
+<h3 id="step-2-launch-arbor">Step 2: Launch Arbor</h3>
+
+<p>Now, you will launch your arbor instance. In the terminal, navigate to your local copy of the flow repository. If you just cloned the repo, then:</p>
+
+<p><code class="highlighter-rouge">cd flow</code></p>
+
+<p>Now, launch Vagrant, which will use Ansible and VirtualBox to set up your Arbor instance.</p>
+
+<p><code class="highlighter-rouge">vagrant up</code></p>
+
+<p>Now you wait. This might take a while - perhaps even 20 minutes or so!</p>
+
+<p>When the whole process is finished, you should see a success message.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>PLAY RECAP *********************************************************************
+flow                       : ok=75   changed=56   unreachable=0    failed=0   
+</code></pre>
 </div>
-<!-- /.tiles -->
+
+<p>Now you can visit your Arbor instance by opening a web browser (we recommend Chrome) and navigating to:</p>
+
+<p><a href="http://localhost:8080/">http://localhost:8080/</a></p>
+
+<p>You should see a brand-new empty Arbor instance:</p>
+
+<h3 id="step-3-install-arbor-collections">Step 3: Install Arbor collections</h3>
 
             </div><!-- /.page-content -->
           </div class="archive-wrap"><!-- /.archive-wrap -->
