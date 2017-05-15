@@ -61,5 +61,78 @@ Now you can visit your Arbor instance by opening a web browser (we recommend Chr
 
 You should see a brand-new empty Arbor instance:
 
+![arbor-empty]({{site.baseurl}}/images/install-1.png)
 
 ### Step 3: Install Arbor collections
+
+To do this, you will need to obtain the current arbor collections from github; then those collections can be loaded into Girder, which manages the functions, data, and users in Arbor.
+
+First, ssh into your virtual machine.
+
+`vagrant ssh`
+
+You will see a login message and then a command prompt:
+
+````
+Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 3.13.0-117-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+  System information as of Mon May 15 16:32:29 UTC 2017
+
+  System load:  0.11              Processes:           95
+  Usage of /:   9.3% of 39.34GB   Users logged in:     0
+  Memory usage: 15%               IP address for eth0: 10.0.2.15
+  Swap usage:   0%
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+New release '16.04.2 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Mon May 15 16:32:29 2017 from 10.0.2.2
+vagrant@vagrant-ubuntu-trusty-64:~$
+````
+
+Now clone the arborCollections github repository into that directory.
+
+`git clone https://github.com/arborworkflows/arborCollections.git`
+
+You should get this result:
+
+````
+vagrant@vagrant-ubuntu-trusty-64:~$ git clone https://github.com/arborworkflows/arborCollections.git
+Cloning into 'arborCollections'...
+remote: Counting objects: 6784, done.
+remote: Total 6784 (delta 0), reused 0 (delta 0), pack-reused 6784
+Receiving objects: 100% (6784/6784), 99.45 MiB | 12.99 MiB/s, done.
+Resolving deltas: 100% (3613/3613), done.
+Checking connectivity... done.
+vagrant@vagrant-ubuntu-trusty-64:~$
+````
+
+Finally, run a python script that loads these analyses into Arbor:
+
+`python /vagrant/devops/load-analysis.py ./arborCollections`
+
+You will see analyses being loaded into Arbor:
+
+````
+Merge Tree, Occurrences, and Morphology.json successfully uploaded to advanced-phylomap
+LifeMapper occurrences from Experiment Number.json successfully uploaded to advanced-phylomap
+Explore LifeMapper occurrences from Experiment Number.json successfully uploaded to advanced-phylomap
+Return LifeMapper occurrences from Experiment Number Table.json successfully uploaded to advanced-phylomap
+````
+
+And so on...
+
+Now, when you go back to your Arbor instance at [http://localhost:8080/](http://localhost:8080/), you will see all the analyses loaded:
+
+![arbor-loaded]({{site.baseurl}}/images/install-2.png)
+
+Now you are ready to do things in Arbor!
