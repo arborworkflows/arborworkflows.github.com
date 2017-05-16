@@ -10,14 +10,14 @@
   excerpt: "Run Arbor over the web or install it yourself"
   image: 400x250.gif
 
-- title: Tutorials
-  url: /tutorials/
-  excerpt: "How to use Arbor"
-  image: 400x250.gif
-
-- title: Documentation
+- title: Docs & tutorials
   url: /documentation/
   excerpt: "Full documentation for functions and workflows"
+  image: 400x250.gif
+
+- title: Developers
+  url: /build/
+  excerpt: "Add to the Arbor code base"
   image: 400x250.gif
 
 - title: Contact

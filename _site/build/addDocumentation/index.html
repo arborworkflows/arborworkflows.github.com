@@ -59,10 +59,10 @@
     <li><a href="/usearbor/" >Use Arbor</a></li>
   
     
-    <li><a href="/tutorials/" >Tutorials</a></li>
+    <li><a href="/documentation/" >Docs & tutorials</a></li>
   
     
-    <li><a href="/documentation/" >Documentation</a></li>
+    <li><a href="/build/" >Developers</a></li>
   
     
     <li><a href="/team/" >Contact</a></li>
@@ -89,16 +89,16 @@
         <p class="excerpt">Run Arbor over the web or install it yourself</p>
       </a>
     </li><li>
-      <a href="/tutorials/">
-        <img src="/images/400x250.gif" alt="teaser" class="teaser">
-        <div class="title">Tutorials</div>
-        <p class="excerpt">How to use Arbor</p>
-      </a>
-    </li><li>
       <a href="/documentation/">
         <img src="/images/400x250.gif" alt="teaser" class="teaser">
-        <div class="title">Documentation</div>
+        <div class="title">Docs & tutorials</div>
         <p class="excerpt">Full documentation for functions and workflows</p>
+      </a>
+    </li><li>
+      <a href="/build/">
+        <img src="/images/400x250.gif" alt="teaser" class="teaser">
+        <div class="title">Developers</div>
+        <p class="excerpt">Add to the Arbor code base</p>
       </a>
     </li><li>
       <a href="/team/">
@@ -128,6 +128,8 @@
 
 <p>Documentation in Arbor uses markdown syntax. These are text files which are then converted to html by jekyll and displayed as web pages.</p>
 
+<p>For specific instructions, see the style guide pages for <a href="/styleGuide/functions/">functions</a>, <a href="/styleGuide/workflows/">workflows</a>, and <a href="/styleGuide/collections/">collections</a></p>
+
 <h1 id="adding-to-or-modifying-documentation-pages">Adding to or modifying documentation pages</h1>
 
 <p>Documentation pages are stored in the arbor web page github collection. They belong in the _posts/documentation folder.</p>
@@ -139,46 +141,6 @@
 <h2 id="modifying-existing-documentation">Modifying existing documentation</h2>
 
 <p>Modifying documentation works in basically the same way, and is again handled through the <a href="https://github.com/arborworkflows/arborworkflows.github.com">arborworkflows.github.com repository</a>. Basically, you can either push a change directly (if you are a contributor) or create a pull request for the change.</p>
-
-<h1 id="structure-of-an-arbor-documentation-page">Structure of an Arbor documentation page</h1>
-
-<p>These pages should have the following sections. See also the Arbor style guide for more detail.</p>
-
-<h2 id="yaml-header">yaml header</h2>
-
-<p>The beginning of the markdown text file is the yaml header. For documentation files, the layout should be “documentation.” Under “arborcollection” you can specify the collection where your function or workflow should appear. “arbortype” can be function, workflow, or dataset. If you include an image then a matching file must also be in the “images” folder in the archive - and then that image will be displayed at the top of the page.</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>---
-layout: documentation
-title: aceArbor
-author: Arbor core team
-categories: collections ancestralStates
-arbortype: function
-arborcollection: ancestralStates
-description: "ancestral state reconstruction for discrete and continuous characters"
-image: acearbor.png
-
----
-</code></pre>
-</div>
-
-<h2 id="documentation">Documentation</h2>
-
-<h3 id="overview-brief-description-of-function">Overview: brief description of function</h3>
-
-<p>The overview should give a brief (one sentence) overview of what the function does.</p>
-
-<h3 id="more-details">More details</h3>
-
-<p>This can give additional details about the function, especially in terms of assumptions and particular methods applied.</p>
-
-<h3 id="inputs-and-outputs">Inputs and outputs</h3>
-
-<p>Define the inputs and outputs both in terms of their types and a brief description of what each one represents.</p>
-
-<h3 id="references">References</h3>
-
-<p>Include all references to the methods used in this function or workflow.</p>
 
   </article>
 </div>
