@@ -2,12 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Arbor for developers • Arbor</title>
+    <title>Add documentation to Arbor • Arbor</title>
     
     
     
     	<!-- Twitter Cards -->
-	<meta name="twitter:title" content="Arbor for developers">
+	<meta name="twitter:title" content="Add documentation to Arbor">
 	
 	<meta name="twitter:site" content="@lukejharmon">
 	<meta name="twitter:creator" content="@lukejharmon">
@@ -18,12 +18,12 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Arbor for developers">
+	<meta property="og:title" content="Add documentation to Arbor">
 	
-	<meta property="og:url" content="/build/">
+	<meta property="og:url" content="/build/addDocumentation/">
 	<meta property="og:site_name" content="Arbor">
 
-    <link rel="canonical" href="/build/">
+    <link rel="canonical" href="/build/addDocumentation/">
 
     <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Arbor Atom Feed">
     <link href="/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -119,48 +119,66 @@
     <div id="page-wrapper">
       <div class="post">
   <header class="post-header">
-    <h1 class="h2">Arbor for developers</h1>
+    <h1 class="h2">Add documentation to Arbor</h1>
   </header>
   <article class="post-content">
-  <p>There are lots of ways that you can contribute and participate in Arbor. You can add new functions, datasets, and collections to Arbor, expanding the types of analyses you can do in Arbor. You can also access our source code, using github to report bugs and pull requests to fix things and extend our functionality.</p>
+  <p>Each function and workflow should be paired with a documentation page. This page explains how to add to or modify the documentation in Arbor.</p>
 
-<h1 id="add-to-arbor">Add to Arbor</h1>
+<h1 id="format">Format</h1>
 
-<h2 id="add-new-functions-to-arbor">Add new functions to Arbor</h2>
+<p>Documentation in Arbor uses markdown syntax. These are text files which are then converted to html by jekyll and displayed as web pages.</p>
 
-<p>It is straightforward to add new functions (in R or Python) to Arbor. You can also save, download, and share your functions with your friends. For instructions on how to do that, see our <a href="/tutorials">tutorials</a>.</p>
+<h1 id="adding-to-or-modifying-documentation-pages">Adding to or modifying documentation pages</h1>
 
-<h2 id="create-and-share-arbor-workflows">Create and share Arbor workflows</h2>
+<p>Documentation pages are stored in the arbor web page github collection. They belong in the _posts/documentation folder.</p>
 
-<p>Arbor workflows are visual maps of functions that are connected via inputs and outputs. You can also save, download, and share workflows. For instructions on how to do that, see our <a href="/tutorials">tutorials</a>.</p>
+<h2 id="adding-a-new-documentation-file">Adding a new documentation file</h2>
 
-<h2 id="create-or-modify-arbor-collections">Create or modify Arbor collections</h2>
+<p>To add a new documentation file, first create a local copy of the <a href="https://github.com/arborworkflows/arborworkflows.github.com">arborworkflows.github.com repository</a>. If you are a member of the arbor core team, you can be a contributor to this repository - in which case you can <a href="https://git-scm.com/docs/git-clone">clone</a> the repo to your computer and push changes. If not, then you can <a href="https://help.github.com/articles/fork-a-repo/">fork the repo, clone a copy to your computer, make the changes, and then create a pull request</a>.</p>
 
-<p>Arbor functions and workflows are organized in collections. If you want to add to or edit our collections, or submit your own collection, see our page on <a href="/build/addCollection.html">adding collections</a>.</p>
+<h2 id="modifying-existing-documentation">Modifying existing documentation</h2>
 
-<h2 id="add-a-new-r-package-or-python-library-to-arbor">Add a new R package or python library to Arbor</h2>
+<p>Modifying documentation works in basically the same way, and is again handled through the <a href="https://github.com/arborworkflows/arborworkflows.github.com">arborworkflows.github.com repository</a>. Basically, you can either push a change directly (if you are a contributor) or create a pull request for the change.</p>
 
-<p>If you have an R package stored on CRAN or github, you can install it on Arbor and immediately use functions from your package in Arbor. Instructions <a href="/build/addPackage.html">here</a></p>
+<h1 id="structure-of-an-arbor-documentation-page">Structure of an Arbor documentation page</h1>
 
-<h2 id="document-your-arbor-functions-and-collections">Document your Arbor functions and collections</h2>
+<p>These pages should have the following sections. See also the Arbor style guide for more detail.</p>
 
-<p>Arbor documentation is maintained on this webpage which is stored <a href="https://github.com/arborworkflows/arborworkflows.github.com">here</a>. More information on <a href="/build/addDocumentation/">creating documentation.</a></p>
+<h2 id="yaml-header">yaml header</h2>
 
-<h1 id="create-new-arbor-apps">Create new Arbor apps</h1>
+<p>The beginning of the markdown text file is the yaml header. For documentation files, the layout should be “documentation.” Under “arborcollection” you can specify the collection where your function or workflow should appear. “arbortype” can be function, workflow, or dataset. If you include an image then a matching file must also be in the “images” folder in the archive - and then that image will be displayed at the top of the page.</p>
 
-<p>You can take a useful Arbor function or workflow and create a dedicated Arbor app, which is a web page that runs your algorithm. This requires just a bit of knowledge of javascript. You can get started <a href="/addApp.html">here</a>.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>---
+layout: documentation
+title: aceArbor
+author: Arbor core team
+categories: collections ancestralStates
+arbortype: function
+arborcollection: ancestralStates
+description: "ancestral state reconstruction for discrete and continuous characters"
+image: acearbor.png
 
-<h1 id="work-with-the-arbor-source-code-to-fix-bugs-or-extend-functionality">Work with the Arbor source code to fix bugs or extend functionality</h1>
+---
+</code></pre>
+</div>
 
-<p>Arbor workflows uses an open development paradigm. To get our source code, or to contribute to the project, please visit our github repository at <a href="https://github.com/arborworkflows">github.com/arborworkflows</a>.</p>
+<h2 id="documentation">Documentation</h2>
 
-<p>In particular, you can access the <a href="https://github.com/arborworkflows">Arbor workflow main web application</a>, the <a href="https://github.com/arborworkflows/arborCollections">Arbor collections</a>, or <a href="https://github.com/arborworkflows/ArborWebApps">all current Arbor apps</a>.</p>
+<h3 id="overview-brief-description-of-function">Overview: brief description of function</h3>
 
-<p>Under the hood, Arbor uses open-source Kitware products: the workflow engine <a href="https://github.com/kitware/flow">flow</a>; the data management platform <a href="https://github.com/kitware/girder">girder</a>; and the web framework <a href="https://github.com/kitware/tangelo">tangelo</a>. We also draw liberally from a large number of R packages, and maintain our own, <a href="https://github.com/arborworkflows/aRbor">aRbor</a>.</p>
+<p>The overview should give a brief (one sentence) overview of what the function does.</p>
 
-<p>For detailed instructions on installing Arbor on your own machine, go to <a href="http://arborworkflows.readthedocs.org/en/latest/installation.html">http://arborworkflows.readthedocs.org/en/latest/installation.html</a>.</p>
+<h3 id="more-details">More details</h3>
 
-<p>For more information about the source code repository, <a href="/team">contact us</a>.</p>
+<p>This can give additional details about the function, especially in terms of assumptions and particular methods applied.</p>
+
+<h3 id="inputs-and-outputs">Inputs and outputs</h3>
+
+<p>Define the inputs and outputs both in terms of their types and a brief description of what each one represents.</p>
+
+<h3 id="references">References</h3>
+
+<p>Include all references to the methods used in this function or workflow.</p>
 
   </article>
 </div>
