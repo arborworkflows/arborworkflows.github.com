@@ -130,27 +130,64 @@
             <div class="page-content">
               <h2 id="local-arbor-installation">Local Arbor installation</h2>
 
-<p>The instructions below are the simplest way to get an Arbor instance up and going on your own personal machine - although they should work equally well for getting things going on a server. If you want more detail about how to install the individual parts of Arbor, you can also go to our “readthedocs” pages created and maintained by Kitware.</p>
+<p>The instructions below are the simplest way to get an Arbor instance up and going on your own personal machine. They should work equally well for installing Arbor on a server.</p>
 
-<p>It is also worth noting that you can run Arbor without installing it locally. In fact, Arbor is made to run over the web - and perhaps one of our running Arbor instances can already serve you?</p>
+<p><img src="/images/kitware.png" alt="kitware logo" />If you want more detail about how to install the individual parts of Arbor, you can also go <a href="http://resonant-flow.readthedocs.io/en/latest/installation.html">here</a> (maintained by <a href="kitware.com">Kitware</a>).</p>
 
-<p>We will post instructions on how to install an Arbor instance remotely using AWS or Cy-Verse.</p>
+<p>It is also worth noting that you can run Arbor without installing it locally. In fact, Arbor is made to run over the web - and perhaps one of our <a href="/usearbor/aws-instances/">Arbor instances on AWS</a> can already serve you?</p>
+
+<p>Soon we will post instructions on how to install an Arbor instance remotely using <a href="https://aws.amazon.com/">AWS</a> or <a href="http://www.cyverse.org/">CyVerse</a>.</p>
 
 <h3 id="prerequisites">Prerequisites</h3>
 
 <p>To install Arbor locally, you need the following three programs - each of which might have some dependencies of its own. All three are free and open source.</p>
 
-<p>First, you need <a href="https://www.virtualbox.org/">VirtualBox</a>, the method we use to create and host virtual machines. You can download and install VirtualBox using the link on their webpage.</p>
-
-<p>Second, you need <a href="https://www.ansible.com/">Ansible</a>, the manager that decides which software gets installed on your virtual machine. <a href="http://docs.ansible.com/ansible/intro_installation.html">Installation instructions for Ansible</a></p>
-
-<p>Finally, you need <a href="https://www.vagrantup.com/">Vagrant</a>, which manages the whole process.</p>
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://www.virtualbox.org/"><img src="/images/Virtualbox_logo.png" alt="virtualbox logo" /></a></td>
+      <td>First, you need <a href="https://www.virtualbox.org/">VirtualBox</a>, the method we use to create and host virtual machines.</td>
+    </tr>
+    <tr>
+      <td><a href="www.ansible.com"><img src="/images/ansible_logo.png" alt="ansible logo" /></a></td>
+      <td>Second, you need <a href="https://www.ansible.com/">Ansible</a>, the manager that decides which software gets installed on your virtual machine. Quick link to <a href="http://docs.ansible.com/ansible/intro_installation.html">installation instructions for Ansible</a></td>
+    </tr>
+    <tr>
+      <td><a href="www.vagrantup.com"><img src="/images/vagrant_logo.png" alt="vagrant logo" /></a></td>
+      <td>Finally, you need <a href="https://www.vagrantup.com/">Vagrant</a>, which manages the whole process.</td>
+    </tr>
+  </tbody>
+</table>
 
 <h3 id="step-1-get-the-flow">Step 1: Get the “Flow”</h3>
 
 <p>To begin, clone the two github repos that you will need: the <a href="https://github.com/kitware/flow">Flow repo</a> from <a href="https://www.kitware.com/">Kitware</a>, which has all that you need to set up an empty Arbor instance; and the <a href="https://github.com/arborworkflows/arborcollections">arborCollections</a> repo, which has all of the basic Arbor collections you will need.</p>
 
-<p>To clone these two repositories, use “git clone”. <a href="https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository">Further instructions for using git clone</a></p>
+<p>To clone these two repositories, use “git clone”.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Lukes-MacBook-Pro:downloads lukeharmon$ git clone https://github.com/Kitware/flow.git
+Cloning into 'flow'...
+remote: Counting objects: 2812, done.
+remote: Total 2812 (delta 0), reused 0 (delta 0), pack-reused 2812
+Receiving objects: 100% (2812/2812), 1.23 MiB | 0 bytes/s, done.
+Resolving deltas: 100% (1797/1797), done.
+Lukes-MacBook-Pro:downloads lukeharmon$ git clone https://github.com/arborworkflows/arborCollections.git
+Cloning into 'arborCollections'...
+remote: Counting objects: 6784, done.
+remote: Total 6784 (delta 0), reused 0 (delta 0), pack-reused 6784
+Receiving objects: 100% (6784/6784), 99.45 MiB | 8.45 MiB/s, done.
+Resolving deltas: 100% (3613/3613), done.
+Lukes-MacBook-Pro:downloads lukeharmon$
+</code></pre>
+</div>
+
+<p><a href="https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository">Further instructions for using git clone</a></p>
 
 <h3 id="step-2-launch-arbor">Step 2: Launch Arbor</h3>
 

@@ -14,27 +14,47 @@ share: false
 
 ## Local Arbor installation
 
-The instructions below are the simplest way to get an Arbor instance up and going on your own personal machine - although they should work equally well for getting things going on a server. If you want more detail about how to install the individual parts of Arbor, you can also go to our “readthedocs” pages created and maintained by Kitware.
+The instructions below are the simplest way to get an Arbor instance up and going on your own personal machine. They should work equally well for installing Arbor on a server.
 
-It is also worth noting that you can run Arbor without installing it locally. In fact, Arbor is made to run over the web - and perhaps one of our running Arbor instances can already serve you?
+![kitware logo]({{ site.baseurl}}/images/kitware.png)If you want more detail about how to install the individual parts of Arbor, you can also go [here](http://resonant-flow.readthedocs.io/en/latest/installation.html) (maintained by [Kitware](kitware.com)).
 
-We will post instructions on how to install an Arbor instance remotely using AWS or Cy-Verse.
+It is also worth noting that you can run Arbor without installing it locally. In fact, Arbor is made to run over the web - and perhaps one of our [Arbor instances on AWS]({{ site.baseurl }}/usearbor/aws-instances/) can already serve you?
+
+Soon we will post instructions on how to install an Arbor instance remotely using [AWS](https://aws.amazon.com/) or [CyVerse](http://www.cyverse.org/).
 
 ### Prerequisites
 
 To install Arbor locally, you need the following three programs - each of which might have some dependencies of its own. All three are free and open source.
 
-First, you need [VirtualBox](https://www.virtualbox.org/), the method we use to create and host virtual machines. You can download and install VirtualBox using the link on their webpage.
-
-Second, you need [Ansible](https://www.ansible.com/), the manager that decides which software gets installed on your virtual machine. [Installation instructions for Ansible](http://docs.ansible.com/ansible/intro_installation.html)
-
-Finally, you need [Vagrant](https://www.vagrantup.com/), which manages the whole process.
+|  |  |
+| --- | --- |
+|[![virtualbox logo]({{ site.baseurl }}/images/Virtualbox_logo.png)](https://www.virtualbox.org/) | First, you need [VirtualBox](https://www.virtualbox.org/), the method we use to create and host virtual machines.|
+| [![ansible logo]({{ site.baseurl }}/images/ansible_logo.png)](www.ansible.com) | Second, you need [Ansible](https://www.ansible.com/), the manager that decides which software gets installed on your virtual machine. Quick link to [installation instructions for Ansible](http://docs.ansible.com/ansible/intro_installation.html)|
+| [![vagrant logo]({{ site.baseurl }}/images/vagrant_logo.png)](www.vagrantup.com) | Finally, you need [Vagrant](https://www.vagrantup.com/), which manages the whole process.|
 
 ### Step 1: Get the "Flow"
 
 To begin, clone the two github repos that you will need: the [Flow repo](https://github.com/kitware/flow) from [Kitware](https://www.kitware.com/), which has all that you need to set up an empty Arbor instance; and the [arborCollections](https://github.com/arborworkflows/arborcollections) repo, which has all of the basic Arbor collections you will need.
 
-To clone these two repositories, use "git clone". [Further instructions for using git clone](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
+To clone these two repositories, use "git clone".
+
+````
+Lukes-MacBook-Pro:downloads lukeharmon$ git clone https://github.com/Kitware/flow.git
+Cloning into 'flow'...
+remote: Counting objects: 2812, done.
+remote: Total 2812 (delta 0), reused 0 (delta 0), pack-reused 2812
+Receiving objects: 100% (2812/2812), 1.23 MiB | 0 bytes/s, done.
+Resolving deltas: 100% (1797/1797), done.
+Lukes-MacBook-Pro:downloads lukeharmon$ git clone https://github.com/arborworkflows/arborCollections.git
+Cloning into 'arborCollections'...
+remote: Counting objects: 6784, done.
+remote: Total 6784 (delta 0), reused 0 (delta 0), pack-reused 6784
+Receiving objects: 100% (6784/6784), 99.45 MiB | 8.45 MiB/s, done.
+Resolving deltas: 100% (3613/3613), done.
+Lukes-MacBook-Pro:downloads lukeharmon$
+````
+
+[Further instructions for using git clone](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
 
 ### Step 2: Launch Arbor
 
