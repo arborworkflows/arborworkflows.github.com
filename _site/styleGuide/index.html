@@ -2,12 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Help • Arbor</title>
+    <title>Arbor style guide • Arbor</title>
     
-    <meta name="keywords" content="">
+    
     
     	<!-- Twitter Cards -->
-	<meta name="twitter:title" content="Help">
+	<meta name="twitter:title" content="Arbor style guide">
 	
 	<meta name="twitter:site" content="@lukejharmon">
 	<meta name="twitter:creator" content="@lukejharmon">
@@ -18,12 +18,12 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Help">
+	<meta property="og:title" content="Arbor style guide">
 	
-	<meta property="og:url" content="/help/">
+	<meta property="og:url" content="/styleGuide/">
 	<meta property="og:site_name" content="Arbor">
 
-    <link rel="canonical" href="/help/">
+    <link rel="canonical" href="/styleGuide/">
 
     <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Arbor Atom Feed">
     <link href="/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -117,49 +117,41 @@
 
 
     <div id="page-wrapper">
-      <div id="main" role="main">
-	<article class="wrap" itemscope itemtype="http://schema.org/Article">
-		
-		
+      <div class="post">
+  <header class="post-header">
+    <h1 class="h2">Arbor style guide</h1>
+  </header>
+  <article class="post-content">
+  <h1 id="guide-to-arbor-naming-style-and-formatting">Guide to Arbor naming, style, and formatting</h1>
 
-		<div class="page-title">
-			<h1>Help</h1>
-		</div>
-		<div class="inner-wrap">
-			<div id="content" class="page-content" itemprop="articleBody">
-				<h1 id="use-arbor-for-data-analysis">Use Arbor for data analysis</h1>
+<p>Arbor is open-source and open to collaborations. As such, there are no hard and fast rules about style. At the same time, coherent style can help code bases grow.</p>
 
-<ul>
-  <li><a href="/help/aboutarbor/">General overview</a> of Arbor software</li>
-  <li><a href="/tutorials">Tutorials</a> are a good place to start learning</li>
-  <li><a href="/help/arbortasks/">Task pages</a> have more information about particular things you might want to do</li>
-  <li><a href="/documentation">Documentation</a> for available functions, collections, and workflows.</li>
-</ul>
+<h2 id="code-style">Code style</h2>
 
-<h1 id="add-code-to-arbor">Add code to Arbor</h1>
-<ul>
-  <li><a href="/build">Arbor for developers</a> to learn how to add functions and workflows to Arbor.</li>
-  <li><a href="/build/addPackage/">Adding new packages</a> to Arbor.</li>
-  <li><a href="/build/addCollection/">Create a new collection</a>.</li>
-  <li><a href="/jekyllHelp/">Edit</a> for editing the Arbor web pages and documentation.</li>
-</ul>
+<p>For simplicity, we recommend following as closely as possible the Google style guides for <a href="https://google.github.io/styleguide/Rguide.xml">R</a> and <a href="https://google.github.io/styleguide/pyguide.html">python</a>.</p>
 
-				<hr />
-				<footer class="page-footer">
-					
-					
-					<div class="page-meta">
-	<p>Updated <time datetime="2016-03-01T00:00:00Z" itemprop="datePublished">March 01, 2016</time></p>
-</div><!-- /.page-meta -->
-				</footer><!-- /.footer -->
-				<aside>
-					
-				</aside>
-			</div><!-- /.content -->
-		</div><!-- /.inner-wrap -->
-		
-	</article><!-- ./wrap -->
-</div><!-- /#main -->
+<p>Include comments in your code to help people understand what is happening.</p>
+
+<p>When functions and workflows are added to Arbor, text descriptions of the function as well as all input and output variables should be included.</p>
+
+<h2 id="naming-conventions">Naming conventions</h2>
+
+<p>Functions and workflow names should be in CamelCase.</p>
+
+<h2 id="documentation">Documentation</h2>
+
+<p>Follow our guides to documenting <a href="/styleGuide/functions/">functions</a>, <a href="/styleGuide/workflows/">workflows</a>, and <a href="/styleGuide/collections/">collections</a></p>
+
+<h2 id="testing">Testing</h2>
+
+<p>Coming soon.</p>
+
+<h2 id="references">References</h2>
+
+<p>All documentation must include the references that should be cited when a particular function or workflow is run. This includes citations to any R packages that are used by the function/workflow.</p>
+
+  </article>
+</div>
 
       <footer role="contentinfo" id="site-footer">
 	<nav role="navigation" class="menu bottom-menu">

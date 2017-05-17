@@ -2,12 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Help • Arbor</title>
+    <title>Documenting workflows • Arbor</title>
     
-    <meta name="keywords" content="">
+    
     
     	<!-- Twitter Cards -->
-	<meta name="twitter:title" content="Help">
+	<meta name="twitter:title" content="Documenting workflows">
 	
 	<meta name="twitter:site" content="@lukejharmon">
 	<meta name="twitter:creator" content="@lukejharmon">
@@ -18,12 +18,12 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Help">
+	<meta property="og:title" content="Documenting workflows">
 	
-	<meta property="og:url" content="/help/">
+	<meta property="og:url" content="/styleGuide/workflows/">
 	<meta property="og:site_name" content="Arbor">
 
-    <link rel="canonical" href="/help/">
+    <link rel="canonical" href="/styleGuide/workflows/">
 
     <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Arbor Atom Feed">
     <link href="/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -117,49 +117,49 @@
 
 
     <div id="page-wrapper">
-      <div id="main" role="main">
-	<article class="wrap" itemscope itemtype="http://schema.org/Article">
-		
-		
+      <div class="post">
+  <header class="post-header">
+    <h1 class="h2">Documenting workflows</h1>
+  </header>
+  <article class="post-content">
+  <h1 id="structure-of-an-arbor-workflow-documentation-page">Structure of an Arbor workflow documentation page</h1>
 
-		<div class="page-title">
-			<h1>Help</h1>
-		</div>
-		<div class="inner-wrap">
-			<div id="content" class="page-content" itemprop="articleBody">
-				<h1 id="use-arbor-for-data-analysis">Use Arbor for data analysis</h1>
+<p>Pages should have the following sections.</p>
 
-<ul>
-  <li><a href="/help/aboutarbor/">General overview</a> of Arbor software</li>
-  <li><a href="/tutorials">Tutorials</a> are a good place to start learning</li>
-  <li><a href="/help/arbortasks/">Task pages</a> have more information about particular things you might want to do</li>
-  <li><a href="/documentation">Documentation</a> for available functions, collections, and workflows.</li>
-</ul>
+<h2 id="yaml-header">yaml header</h2>
 
-<h1 id="add-code-to-arbor">Add code to Arbor</h1>
-<ul>
-  <li><a href="/build">Arbor for developers</a> to learn how to add functions and workflows to Arbor.</li>
-  <li><a href="/build/addPackage/">Adding new packages</a> to Arbor.</li>
-  <li><a href="/build/addCollection/">Create a new collection</a>.</li>
-  <li><a href="/jekyllHelp/">Edit</a> for editing the Arbor web pages and documentation.</li>
-</ul>
+<p>The beginning of the markdown text file is the yaml header. For all documentation files, the layout should be “documentation.”  “arbortype” should be “workflow”. If you include an image then a matching file must also be in the “images” folder in the archive - and then that image will be displayed at the top of the page.</p>
 
-				<hr />
-				<footer class="page-footer">
-					
-					
-					<div class="page-meta">
-	<p>Updated <time datetime="2016-03-01T00:00:00Z" itemprop="datePublished">March 01, 2016</time></p>
-</div><!-- /.page-meta -->
-				</footer><!-- /.footer -->
-				<aside>
-					
-				</aside>
-			</div><!-- /.content -->
-		</div><!-- /.inner-wrap -->
-		
-	</article><!-- ./wrap -->
-</div><!-- /#main -->
+<div class="highlighter-rouge"><pre class="highlight"><code>---
+layout: documentation
+title: matchTreeAndTraits
+author: Arbor core team
+categories: collections ancestralStates
+arbortype: workflow
+arborcollection: ancestralStates
+description: "match a tree and tip data"
+image: acearbor.png
+
+---
+</code></pre>
+</div>
+
+<h2 id="documentation">Documentation</h2>
+
+<h3 id="overview-brief-description-of-workflow">Overview: brief description of workflow</h3>
+
+<p>The overview should give a brief (one sentence) overview of what the workflow in the collection does.</p>
+
+<h3 id="more-details">More details</h3>
+
+<p>This can give additional details about the workflow, such as which algorithms are included.</p>
+
+<h3 id="references">References</h3>
+
+<p>Include all references to the functions in the workflow.</p>
+
+  </article>
+</div>
 
       <footer role="contentinfo" id="site-footer">
 	<nav role="navigation" class="menu bottom-menu">

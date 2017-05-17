@@ -14,9 +14,9 @@ image:
 <div class="tiles">
 
 <div class="tile">
-  <h2 class="post-excerpt">Build tools</h2>
+  <h2 class="post-excerpt">Develop tools</h2>
   <p class="post-excerpt">Create your own functions and workflows</p>
-  <a href="{{ site.baseurl }}/build/" class="btn-inverse-gray">Build</a>
+  <a href="{{ site.baseurl }}/build/" class="btn-inverse-gray">Developers</a>
 
 </div><!-- /.tile -->
 
