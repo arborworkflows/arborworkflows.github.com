@@ -6,11 +6,11 @@ permalink: /styleGuide/functions/
 
 # Structure of an Arbor documentation page
 
-These pages should have the following sections. See also the Arbor style guide for more detail.
+These pages should have the following sections.
 
 ## yaml header
 
-The beginning of the markdown text file is the yaml header. For documentation files, the layout should be "documentation." Under "arborcollection" you can specify the collection where your function or workflow should appear. "arbortype" can be function, workflow, or dataset. If you include an image then a matching file must also be in the "images" folder in the archive - and then that image will be displayed at the top of the page.
+The beginning of the markdown text file is the yaml header. For all documentation files, the layout should be "documentation." Under "arborcollection" you can specify the collection where your function or workflow should appear. "arbortype" should be "function". If you include an image then a matching file must also be in the "images" folder in the archive - and then that image will be displayed at the top of the page.
 
 ````
 ---
