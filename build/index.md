@@ -26,7 +26,7 @@ There are lots of ways that you can contribute and participate in Arbor. You can
 
 |  |  |
 | --- | --- |
-| [Create Arbor apps]({{site.baseurl}}/addApp.html)|You can take a useful Arbor function or workflow and create a dedicated Arbor app, which is a web page that runs your algorithm. This requires just a bit of knowledge of javascript.|
+| [Create Arbor apps]({{site.baseurl}}/build/addApp.html)|You can take a useful Arbor function or workflow and create a dedicated Arbor app, which is a web page that runs your algorithm. This requires just a bit of knowledge of javascript.|
 
 # Work with the Arbor source code to fix bugs or extend functionality
 
