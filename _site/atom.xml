@@ -7,7 +7,7 @@
   <subtitle>Arbor workflows</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2017-05-26T15:45:47-07:00</updated>
+  <updated>2017-05-30T13:45:43-07:00</updated>
   <id>/</id>
   <author>
     <name>Luke Harmon</name>
@@ -15,6 +15,63 @@
     <email>lukeh@uidaho.edu</email>
   </author>
 
+  
+  <entry>
+    <title>PGLS</title>
+    <link href="/arborapps/pgls/"/>
+    <updated>2017-05-30T00:00:00-07:00</updated>
+    <id>/arborapps/pgls</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      &lt;img src=&quot;/images/arborPGLS-1600x800.jpg&quot;&gt;&lt;br/&gt;
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/PGLS/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/PGLS/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Ancestral state reconstruction</title>
+    <link href="/arborapps/ancestral-state/"/>
+    <updated>2017-05-29T00:00:00-07:00</updated>
+    <id>/arborapps/ancestral-state</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      &lt;img src=&quot;/images/branch-1600x800.jpg&quot;&gt;&lt;br/&gt;
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/ancestral-state/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/ancestral-state/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Phylogenetic signal</title>
+    <link href="/arborapps/phylogenetic-signal/"/>
+    <updated>2017-05-28T00:00:00-07:00</updated>
+    <id>/arborapps/phylogenetic-signal</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      &lt;img src=&quot;/images/easyButtons-1600x800.jpg&quot;&gt;&lt;br/&gt;
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/phylogenetic-signal/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/phylogenetic-signal/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
   
   <entry>
     <title>makeBD</title>
@@ -1209,115 +1266,6 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
 
 &lt;ul&gt;
   &lt;li&gt;blphy: Tree with Grafen branch lengths&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>calculateKForAllCharacters</title>
-    <link href="/collections/phylogeny/charactercalculate/kCalc/"/>
-    <updated>2016-03-08T00:00:00-08:00</updated>
-    <id>/collections/phylogeny/charactercalculate/kCalc</id>
-    <author>
-      <name>Luke Harmon</name>
-      <uri>/</uri>
-      <email>lukeh@uidaho.edu</email>
-    </author>
-    <content type="html">
-      
-      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;Calculate phylogenetic signal for all characters in a matrix&lt;/p&gt;
-
-&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
-
-&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;traits: Trait data with species names&lt;/li&gt;
-  &lt;li&gt;phy: Phylogenetic tree with branch lengths&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;KCalc_out: single column table with K for each character&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>hclustDendrogram</title>
-    <link href="/collections/phylogeny/treebuild/hclustDendrogram/"/>
-    <updated>2016-03-08T00:00:00-08:00</updated>
-    <id>/collections/phylogeny/treebuild/hclustDendrogram</id>
-    <author>
-      <name>Luke Harmon</name>
-      <uri>/</uri>
-      <email>lukeh@uidaho.edu</email>
-    </author>
-    <content type="html">
-      
-      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;Build tree from distance matrix using hierarchical clustering algorithm&lt;/p&gt;
-
-&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
-
-&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;dist: Pairwise distance matrix&lt;/li&gt;
-  &lt;li&gt;y_label: y label for plot&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;plotClust: plot of dendogram&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>graftTreeOntoNamedNode</title>
-    <link href="/collections/phylogeny/treemanipulate/graftTreeOntoNamedNode/"/>
-    <updated>2016-03-08T00:00:00-08:00</updated>
-    <id>/collections/phylogeny/treemanipulate/graftTreeOntoNamedNode</id>
-    <author>
-      <name>Luke Harmon</name>
-      <uri>/</uri>
-      <email>lukeh@uidaho.edu</email>
-    </author>
-    <content type="html">
-      
-      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;Attach two trees by grafting a subtree onto a named node in a recipient tree&lt;/p&gt;
-
-&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
-
-&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;receivingTree: Phylogenetic tree that will get subtree attached to it&lt;/li&gt;
-  &lt;li&gt;subTree: Tree that will be attached&lt;/li&gt;
-  &lt;li&gt;nodename: Name of node in receivingTree to attach subTree&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;combinedTree: tree with subtree attached to receivingTree&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
