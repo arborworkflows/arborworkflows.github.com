@@ -95,7 +95,7 @@ Now you will need to populate those folders. The next two steps will tell you ho
 
 You will now make the index.html page that you need for our simmap app - or, really, for any app that has file inputs and outputs of an image.
 
-Here is the [full html]({{ site.baseurl }}/build/addApp_fullHTMLcode/) that is required for the app to work. Below, I will go through the lines that have to be changed from the template to create this app.
+Here is the [full html]({{ site.baseurl }}/build/addApp_fullHTMLcode.html) that is required for the app to work. Below, I will go through the lines that have to be changed from the template to create this app.
 
 lines 3-13: change the title of the page.
 
@@ -161,7 +161,7 @@ So, basically, all that needs to be changed was the name of the page and the hel
 
 Next we make the main.js file that runs the simmap app.
 
-Here is the [full javascript]({{ site.baseurl }}/build/addApp_fulljscode/) that is required for the app to work. Below, I will go through the lines that have to be changed from the template to create this app.
+Here is the [full javascript]({{ site.baseurl }}/build/addApp_fulljscode.html) that is required for the app to work. Below, I will go through the lines that have to be changed from the template to create this app.
 
 line 12-23: the name of the arbor function must be specified here. This function has to be somewhere in the Arbor instance (can be in any collection). Beware that if the match is not perfect then girder will use a partial match - e.g. if makeSimmap-app does not exist but makeSimmap does, then it will be used!
 
