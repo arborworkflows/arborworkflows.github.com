@@ -16,7 +16,7 @@ share: false
 
 The instructions below are the simplest way to get an Arbor instance up and going on your own personal machine. They should work equally well for installing Arbor on a server.
 
-![kitware logo]({{ site.baseurl}}/images/kitware.png)If you want more detail about how to install the individual parts of Arbor, you can also go [here](http://resonant-flow.readthedocs.io/en/latest/installation.html) (maintained by [Kitware](kitware.com)).
+![kitware logo]({{ site.baseurl}}/images/kitware.png)If you want more detail about how to install the individual parts of Arbor, you can also go [here](http://resonant-flow.readthedocs.io/en/latest/installation.html) (maintained by [Kitware](http://kitware.com)).
 
 It is also worth noting that you can run Arbor without installing it locally. In fact, Arbor is made to run over the web - and perhaps one of our [Arbor instances on AWS]({{ site.baseurl }}/usearbor/aws-instances/) can already serve you?
 
@@ -29,8 +29,8 @@ To install Arbor locally, you need the following three programs - each of which 
 |  |  |
 | --- | --- |
 |[![virtualbox logo]({{ site.baseurl }}/images/Virtualbox_logo.png)](https://www.virtualbox.org/) | First, you need [VirtualBox](https://www.virtualbox.org/), the method we use to create and host virtual machines.|
-| [![ansible logo]({{ site.baseurl }}/images/ansible_logo.png)](www.ansible.com) | Second, you need [Ansible](https://www.ansible.com/), the manager that decides which software gets installed on your virtual machine. Quick link to [installation instructions for Ansible](http://docs.ansible.com/ansible/intro_installation.html)|
-| [![vagrant logo]({{ site.baseurl }}/images/vagrant_logo.png)](www.vagrantup.com) | Finally, you need [Vagrant](https://www.vagrantup.com/), which manages the whole process.|
+| [![ansible logo]({{ site.baseurl }}/images/ansible_logo.png)](http://www.ansible.com) | Second, you need [Ansible](https://www.ansible.com/), the manager that decides which software gets installed on your virtual machine. Quick link to [installation instructions for Ansible](http://docs.ansible.com/ansible/intro_installation.html)|
+| [![vagrant logo]({{ site.baseurl }}/images/vagrant_logo.png)](https://www.vagrantup.com/) | Finally, you need [Vagrant](https://www.vagrantup.com/), which manages the whole process.|
 
 ### Step 1: Get the "Flow"
 

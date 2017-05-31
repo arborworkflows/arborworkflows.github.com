@@ -78,7 +78,7 @@ You will notice that there is some funny business at the bottom for plotting. Th
 
 Now create a working Arbor function based on the code in Step 2. You will need to use an Arbor instance that you have control over, like one that you have [installed yourself]({{ site.baseurl }}/usearbor/install/). If you want to post an Arbor App on one our [main AWS instances]({{ site.baseurl }}/usearbor/aws-instances/) then you will need to get it working locally first and then follow [this protocol](#).
 
-You might want [more detail on how to do this]({{ site.baseurl }}/build/addApp_makeFunction/). Once this step is complete you should have a working Arbor function called makeSimmap-app.
+You might want [more detail on how to do this]({{ site.baseurl }}/build/addApp_makeFunction). Once this step is complete you should have a working Arbor function called makeSimmap-app.
 
 ## Step 4. Create the basic folder structure (helps to use a template)
 
