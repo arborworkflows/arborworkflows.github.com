@@ -7,10 +7,54 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>PGLS</title>
-        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/PGLS/&quot; /&gt;
+        <title>Stochastic character mapping using simmap</title>
+        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/simmap/&quot; /&gt;
 
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/PGLS/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/simmap/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 31 May 2017 00:00:00 -0700</pubDate>
+        <link>/arborapps/treePlot/</link>
+        <guid isPermaLink="true">/arborapps/treePlot/</guid>
+      </item>
+    
+      <item>
+        <title>Stochastic character mapping using simmap</title>
+        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/simmap/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/simmap/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 31 May 2017 00:00:00 -0700</pubDate>
+        <link>/arborapps/simmap/</link>
+        <guid isPermaLink="true">/arborapps/simmap/</guid>
+      </item>
+    
+      <item>
+        <title>Phylogenetic independent contrasts</title>
+        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/PIC/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/PIC/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 31 May 2017 00:00:00 -0700</pubDate>
+        <link>/arborapps/pic/</link>
+        <guid isPermaLink="true">/arborapps/pic/</guid>
+      </item>
+    
+      <item>
+        <title>Lineage-through-time plots</title>
+        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/ltt/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/ltt/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 31 May 2017 00:00:00 -0700</pubDate>
+        <link>/arborapps/ltt/</link>
+        <guid isPermaLink="true">/arborapps/ltt/</guid>
+      </item>
+    
+      <item>
+        <title>PGLS - two variables only (for now!)</title>
+        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/PGLS-twovars/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/PGLS-twovars/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 30 May 2017 00:00:00 -0700</pubDate>
         <link>/arborapps/pgls/</link>
@@ -19,9 +63,9 @@
     
       <item>
         <title>Ancestral state reconstruction</title>
-        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/ancestral-state/&quot; /&gt;
+        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/ancestral-state/&quot; /&gt;
 
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/ancestral-state/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/ancestral-state/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 May 2017 00:00:00 -0700</pubDate>
         <link>/arborapps/ancestral-state/</link>
@@ -30,9 +74,9 @@
     
       <item>
         <title>Phylogenetic signal</title>
-        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/phylogenetic-signal/&quot; /&gt;
+        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/phylogenetic-signal/&quot; /&gt;
 
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/phylogenetic-signal/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/phylogenetic-signal/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sun, 28 May 2017 00:00:00 -0700</pubDate>
         <link>/arborapps/phylogenetic-signal/</link>
@@ -352,226 +396,6 @@ rescaledPhy$edge.length &amp;lt;- rescaledPhy$edge.length * x
         <pubDate>Fri, 06 Jan 2017 00:00:00 -0800</pubDate>
         <link>/ssbarbor/functions-and-collections/</link>
         <guid isPermaLink="true">/ssbarbor/functions-and-collections/</guid>
-      </item>
-    
-      <item>
-        <title>Using the Arbor webapp</title>
-        <description>&lt;h2 id=&quot;how-to-run-functions-for-comparative-analyses-in-arbor&quot;&gt;How to run functions for comparative analyses in Arbor&lt;/h2&gt;
-
-&lt;p&gt;So, you want to use the Arbor web app to do some comparative analyses?&lt;/p&gt;
-
-&lt;p&gt;The Arbor web app is a flexible workflow engine that will let you carry out a wide range of visualizations
-and analyses. You can upload data files from your computer, or use data from a range of web services.&lt;/p&gt;
-
-&lt;p&gt;For this example, I will walk you through the steps you need to use the Arbor web app. I will set up a
-basic analysis of a correlation between two continuous characters using independent contrasts.&lt;/p&gt;
-
-&lt;h2 id=&quot;get-started&quot;&gt;Get started&lt;/h2&gt;
-
-&lt;p&gt;You will need the anolis example data files, &lt;a href=&quot;/assets/datasets/anolis.phy&quot;&gt;anolis.phy&lt;/a&gt; and &lt;a href=&quot;/assets/datasets/anolis.csv&quot;&gt;anolis.csv&lt;/a&gt;. Save those files somewhere on your computer.&lt;/p&gt;
-
-&lt;p&gt;Now open the &lt;a href=&quot;http://54.83.6.133:9080&quot;&gt;Arbor web app&lt;/a&gt; (this is a special instance of Arbor hosted on Amazon Web Services just for this meeting). Your screen should look something like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/usingArborwebapp/usingArborwebapp_1.png&quot; alt=&quot;Screenshot 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You might notice some differences between this screen and the particular collections that are available to you - don’t worry too much about that.&lt;/p&gt;
-
-&lt;p&gt;If you want, you can log in here; your user name should match the personal part of the email address you used to register for the meeting. For example, if your registration email is lukeh@uidaho.edu, then your user name is lukeh. The password will be given to you by the instructor. Note also that for this and some other examples in the workshop,  you don’t actually need to log in, you can do the analyses on the web without an account.&lt;/p&gt;
-
-&lt;h2 id=&quot;upload-your-data&quot;&gt;Upload your data&lt;/h2&gt;
-
-&lt;p&gt;Near the bottom of the Arbor web app screen you will see a blue box that says “Browse or drop files.” This is how you can get your data into Arbor. There are two options: either you can click the box and browse to the file you want, or you can drag the file onto the box and let go. Arbor should recognize what type of file you have added (in this case, tree or datafile) and store them in the correct way.&lt;/p&gt;
-
-&lt;p&gt;Using this method, load in both anolis.phy and anolis.csv. If you want to make sure that your upload worked, you can use the dropdown menu that says “Save or download data.” If you have properly loaded the files you will see them appear in that list.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/usingArborwebapp/usingArborwebapp_2.png&quot; alt=&quot;Screenshot 2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This is what my screen looks like after uploading anolis.csv - note that anolis.phy is also in the “Save or download data” dropdown, as I uploaded it just before.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Note: Since you have not added your files to any collections, they will appear like this:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;anolis.csv&lt;/li&gt;
-  &lt;li&gt;anolis.phy&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You may also see the same files stored in a collection, depending on how your web app is set up. If you see versions of those stored files from the “sampleDatasets” collection, for example, they will look like this:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;anolis.csv (sampleDatasets)&lt;/li&gt;
-  &lt;li&gt;anolis.phy (sampleDatasets)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Those stored files will work fine for the exercise, but try to use the ones you uploaded so that you can get the hang of using your own data in Arbor. Also, since these datasets are uploaded but not saved, if you &lt;strong&gt;refresh your browser&lt;/strong&gt; or even &lt;strong&gt;accidentally go to a different page&lt;/strong&gt;, the datasets will be gone when you come back. If you want to save your uploaded data then you should login and make a personal collection.&lt;/p&gt;
-
-&lt;h2 id=&quot;select-the-collections-you-want&quot;&gt;Select the collections you want&lt;/h2&gt;
-
-&lt;p&gt;For this exercise, you will use functions from one arbor collections, “generalLinearModels.” This collection contains functions to test for linear relationships among a set of variables. All available collections are listed to the right side of the Data Management tab.&lt;/p&gt;
-
-&lt;p&gt;To gain access to functions in those collections, click the little eyeball next to “generalLinearModels.” Your screen should now look like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/usingArborwebapp/usingArborwebapp_3_alt.png&quot; alt=&quot;Screenshot 3&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;navigate-to-the-analysis-tab&quot;&gt;Navigate to the “analysis” tab&lt;/h2&gt;
-
-&lt;p&gt;You are done with the Data Management tab, and will need to move to the “Analysis” tab to carry out your analysis. Click on the Analysis tab to switch. Your screen should now look like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/usingArborwebapp/alt_4.png&quot; alt=&quot;Screenshot 4&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;try-out-the-piccorrelation-function&quot;&gt;Try out the picCorrelation &lt;strong&gt;function&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;We can now do some comparative analyses! Arbor has two types of analyses: functions and workflows. Later, we will build a workflow - but actually, for this problem, there is a single function that we can use to get output immediately.&lt;/p&gt;
-
-&lt;p&gt;The function we need is called &lt;strong&gt;picCorrelation&lt;/strong&gt;, and it is part of the &lt;em&gt;generalLinearModels&lt;/em&gt; collection.&lt;/p&gt;
-
-&lt;p&gt;First, select this function (in the &lt;em&gt;Select analysis&lt;/em&gt; dropdown menu). You can inspect the function by clicking “Show script” (this example is in R). You should see this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/usingArborwebapp/usingArborwebapp_5.png&quot; alt=&quot;Screenshot 5&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can now run the function by clicking the small blue button that says “&amp;gt; Setup and run.” This brings up a dialog box. Fill in the missing details in this box to analyze hostility (dep_variable) as a function of awesomeness (ind_variable). Choose the table and tree that you entered earlier, and set “plotPICs” to “yes.” Your form should look like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/usingArborwebapp/usingArborwebapp_6.png&quot; alt=&quot;Screenshot 6&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now press “&amp;gt; Run” and see what happens. If your run works, you should see a &lt;em&gt;success&lt;/em&gt; message:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/usingArborwebapp/usingArborwebapp_7.png&quot; alt=&quot;Screenshot 7&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Here, Arbor is telling us that the function had two outputs:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;picCorrelation picPlot, which is an &lt;em&gt;image&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;picCorrelation tableResults, which is a &lt;em&gt;table&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Let’s have a look at the outputs.&lt;/p&gt;
-
-&lt;h2 id=&quot;visualize-the-outputs-of-the-piccorrelation-function&quot;&gt;Visualize the outputs of the picCorrelation function&lt;/h2&gt;
-
-&lt;p&gt;To see the outputs of an Arbor function (or workflow) we can go to the &lt;strong&gt;Visualization&lt;/strong&gt; tab. Click on it now. Your screen should look like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/usingArborwebapp/usingArborwebapp_8.png&quot; alt=&quot;Screenshot 8&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Note that the top part of the screen did not change, but the bottom tabs and buttons did. That’s ok! Keep going.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;We can look at the plot first. Set the “Select visualization” dropdown to “image”, and you should see your output, called “picCorrelation picPlot”, appear under “data.” To activate this visualization click on the blue &lt;strong&gt;Update&lt;/strong&gt; button. The result should be a plot.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/usingArborwebapp/usingArborwebapp_9.png&quot; alt=&quot;Screenshot 9&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(You can see more of the plot by clicking on the small downward-facing arrow above the “Log In or Register” section of the screen).&lt;/p&gt;
-
-&lt;p&gt;Next, let’s see some numbers. Change “Select visualization” to “table”, and “data” to “picCorrelation tableResults.” Hit update again to see an ANOVA table summarizing the results of the phylogenetic regression.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/usingArborwebapp/usingArborwebapp_10.png&quot; alt=&quot;Screenshot 10&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The p-value is the top number in the column denoted “Pr(&amp;gt;F).”&lt;/p&gt;
-</description>
-        <pubDate>Thu, 05 Jan 2017 00:00:00 -0800</pubDate>
-        <link>/ssbarbor/runningfunctions/</link>
-        <guid isPermaLink="true">/ssbarbor/runningfunctions/</guid>
-      </item>
-    
-      <item>
-        <title>Example datasets</title>
-        <description>&lt;p&gt;Example datasets that you need for &lt;a href=&quot;/tutorials/&quot;&gt;tutorials&lt;/a&gt; and other activities on this site. These also have &lt;a href=&quot;/documentation/&quot;&gt;documentaion&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Anolis data: &lt;a href=&quot;/assets/datasets/anolis.csv&quot;&gt;anolis.csv&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Anolis tree: &lt;a href=&quot;/assets/datasets/anolis.phy&quot;&gt;anolis.phy&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 04 Jan 2017 00:00:00 -0800</pubDate>
-        <link>/media/datasets/</link>
-        <guid isPermaLink="true">/media/datasets/</guid>
-      </item>
-    
-      <item>
-        <title>bisseMLE</title>
-        <description>&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;bisseMLE is a function for finding the maximum-likelihood parameter estimates for a BiSSE model.&lt;/p&gt;
-
-&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
-
-&lt;p&gt;From the &lt;a href=&quot;/../docs/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
-Load these files into Arbor, and …&lt;/p&gt;
-
-&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;table: A data table including species names&lt;/li&gt;
-  &lt;li&gt;tree: A phylogenetic tree&lt;/li&gt;
-  &lt;li&gt;column: The name of the column to analyze&lt;/li&gt;
-  &lt;li&gt;type: The character type
-    &lt;ul&gt;
-      &lt;li&gt;discrete: a character with a discrete number of states&lt;/li&gt;
-      &lt;li&gt;continuous: a continuously varying character&lt;/li&gt;
-      &lt;li&gt;fromData: will attempt to determine the data type from the data itself&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;method: specifies the method used to reconstruct ancestral character states
-    &lt;ul&gt;
-      &lt;li&gt;marginal: marginal ancestral state reconstructions, which reconstruct each node integrating over all possibilities at all other nodes in the tree; this is typically the method used in the literature to reconstruce ACEs&lt;/li&gt;
-      &lt;li&gt;joint: joint ancestral reconstructions, which give the configuration of ancestral states that together maximize the likelihood of the data given model parameters&lt;/li&gt;
-      &lt;li&gt;mcmc: reconstruct ancestral states using Bayesian MCMC. Note that the discrete version of this doesn’t seem to work, and even if it did work it is not a full MCMC ancestral state method&lt;/li&gt;
-      &lt;li&gt;stochastic: create stochastic character map&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-</description>
-        <pubDate>Wed, 04 Jan 2017 00:00:00 -0800</pubDate>
-        <link>/collections/diversificationmodels/bisseMLE/</link>
-        <guid isPermaLink="true">/collections/diversificationmodels/bisseMLE/</guid>
-      </item>
-    
-      <item>
-        <title>aceArbor</title>
-        <description>&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;aceArbor is a function for carrying out ancestral state reconstruction. It works for
-both discrete and continuous variables, and can reconstruct ancestral character states
-under both a maximum-likelihood and a Bayesian framework. The function returns results
-in two formats: a table of ancestral state estimates for each node in the tree, and a plot
-of the results.&lt;/p&gt;
-
-&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
-
-&lt;p&gt;From the &lt;a href=&quot;/../docs/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
-Load these files into Arbor, and use them as inputs to the aceArbor function. Choose
-the “ecomorph” column for analysis, and select type: discrete and method: marginal.&lt;/p&gt;
-
-&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;table: A data table including species names&lt;/li&gt;
-  &lt;li&gt;tree: A phylogenetic tree&lt;/li&gt;
-  &lt;li&gt;column: The name of the column to analyze&lt;/li&gt;
-  &lt;li&gt;type: The character type
-    &lt;ul&gt;
-      &lt;li&gt;discrete: a character with a discrete number of states&lt;/li&gt;
-      &lt;li&gt;continuous: a continuously varying character&lt;/li&gt;
-      &lt;li&gt;fromData: will attempt to determine the data type from the data itself&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;method: specifies the method used to reconstruct ancestral character states
-    &lt;ul&gt;
-      &lt;li&gt;marginal: marginal ancestral state reconstructions, which reconstruct each node integrating over all possibilities at all other nodes in the tree; this is typically the method used in the literature to reconstruce ACEs&lt;/li&gt;
-      &lt;li&gt;joint: joint ancestral reconstructions, which give the configuration of ancestral states that together maximize the likelihood of the data given model parameters&lt;/li&gt;
-      &lt;li&gt;mcmc: reconstruct ancestral states using Bayesian MCMC. Note that the discrete version of this doesn’t seem to work, and even if it did work it is not a full MCMC ancestral state method&lt;/li&gt;
-      &lt;li&gt;stochastic: create stochastic character map&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
-&lt;p&gt;Function outputs a table and a plot with results of the ancestral state reconstruction.&lt;/p&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-</description>
-        <pubDate>Wed, 04 Jan 2017 00:00:00 -0800</pubDate>
-        <link>/collections/ancestralstates/aceArbor/</link>
-        <guid isPermaLink="true">/collections/ancestralstates/aceArbor/</guid>
       </item>
     
   </channel>

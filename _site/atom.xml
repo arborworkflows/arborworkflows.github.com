@@ -7,7 +7,7 @@
   <subtitle>Arbor workflows</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2017-05-30T13:45:43-07:00</updated>
+  <updated>2017-05-31T10:48:59-07:00</updated>
   <id>/</id>
   <author>
     <name>Luke Harmon</name>
@@ -17,7 +17,83 @@
 
   
   <entry>
-    <title>PGLS</title>
+    <title>Stochastic character mapping using simmap</title>
+    <link href="/arborapps/treePlot/"/>
+    <updated>2017-05-31T00:00:00-07:00</updated>
+    <id>/arborapps/treePlot</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/simmap/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/simmap/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Stochastic character mapping using simmap</title>
+    <link href="/arborapps/simmap/"/>
+    <updated>2017-05-31T00:00:00-07:00</updated>
+    <id>/arborapps/simmap</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/simmap/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/simmap/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Phylogenetic independent contrasts</title>
+    <link href="/arborapps/pic/"/>
+    <updated>2017-05-31T00:00:00-07:00</updated>
+    <id>/arborapps/pic</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/PIC/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/PIC/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Lineage-through-time plots</title>
+    <link href="/arborapps/ltt/"/>
+    <updated>2017-05-31T00:00:00-07:00</updated>
+    <id>/arborapps/ltt</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/ltt/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/ltt/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>PGLS - two variables only (for now!)</title>
     <link href="/arborapps/pgls/"/>
     <updated>2017-05-30T00:00:00-07:00</updated>
     <id>/arborapps/pgls</id>
@@ -28,9 +104,9 @@
     </author>
     <content type="html">
       &lt;img src=&quot;/images/arborPGLS-1600x800.jpg&quot;&gt;&lt;br/&gt;
-      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/PGLS/&quot; /&gt;
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/PGLS-twovars/&quot; /&gt;
 
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/PGLS/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/PGLS-twovars/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>
@@ -47,9 +123,9 @@
     </author>
     <content type="html">
       &lt;img src=&quot;/images/branch-1600x800.jpg&quot;&gt;&lt;br/&gt;
-      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/ancestral-state/&quot; /&gt;
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/ancestral-state/&quot; /&gt;
 
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/ancestral-state/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/ancestral-state/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>
@@ -66,9 +142,9 @@
     </author>
     <content type="html">
       &lt;img src=&quot;/images/easyButtons-1600x800.jpg&quot;&gt;&lt;br/&gt;
-      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/phylogenetic-signal/&quot; /&gt;
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/phylogenetic-signal/&quot; /&gt;
 
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/phylogenetic-signal/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/phylogenetic-signal/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>
@@ -1120,155 +1196,6 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
 &lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen12.png&quot; alt=&quot;screen12&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This is a phylogenetic tree pulled from the Open Tree of Life synthesis that includes all of the species in the table that you supplied.&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>fitDiscrete</title>
-    <link href="/collections/traitmodelfitting/fitDiscrete/"/>
-    <updated>2016-03-08T00:00:00-08:00</updated>
-    <id>/collections/traitmodelfitting/fitDiscrete</id>
-    <author>
-      <name>Luke Harmon</name>
-      <uri>/</uri>
-      <email>lukeh@uidaho.edu</email>
-    </author>
-    <content type="html">
-      
-      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;Fits a particular model of evolution to a discrete character on a phylogenetic tree.&lt;/p&gt;
-
-&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
-
-&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;table: Table including species names and the column of interest&lt;/li&gt;
-  &lt;li&gt;tree: Phylogenetic tree with branch lengths&lt;/li&gt;
-  &lt;li&gt;column: Column name in table to analyze&lt;/li&gt;
-  &lt;li&gt;model: Model of evolution; must match one of the options in &lt;a href=&quot;https://cran.r-project.org/web/packages/geiger/geiger.pdf&quot;&gt;geiger&lt;/a&gt; fitDiscrete, currently one of: “ER”,”SYM”,”ARD”,”meristic”. Tree transforms not yet implemented.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Q: fitted Q matrix&lt;/li&gt;
-  &lt;li&gt;res: List showing model fit: lnL, aic, aicc, k&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>fitContinuous</title>
-    <link href="/collections/phylogeny/charactercalculate/fitContinuous/"/>
-    <updated>2016-03-08T00:00:00-08:00</updated>
-    <id>/collections/phylogeny/charactercalculate/fitContinuous</id>
-    <author>
-      <name>Luke Harmon</name>
-      <uri>/</uri>
-      <email>lukeh@uidaho.edu</email>
-    </author>
-    <content type="html">
-      
-      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;Fits a particular model of evolution to a continuous character on a phylogenetic tree.&lt;/p&gt;
-
-&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
-
-&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;table: Table including species names and the column of interest&lt;/li&gt;
-  &lt;li&gt;tree: Phylogenetic tree with branch lengths&lt;/li&gt;
-  &lt;li&gt;column: Column name in table to analyze&lt;/li&gt;
-  &lt;li&gt;model: Model of evolution; must match one of the options in &lt;a href=&quot;https://cran.r-project.org/web/packages/geiger/geiger.pdf&quot;&gt;geiger&lt;/a&gt; fitContinuous, currently one of: “BM”,”OU”,”EB”,”trend”,”lambda”,”kappa”,”delta”,”drift”,”white”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;treeplot: plot of independent contrasts as a check for model adequacy. See &lt;a href=&quot;https://github.com/arborworkflows/aRbor/blob/master/R/plotting.R&quot;&gt;plotContrasts&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;result: Transformed tree&lt;/li&gt;
-  &lt;li&gt;fit: List of model fit results: model parameters, lnL, AIC, AICc&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>multi2di</title>
-    <link href="/collections/phylogeny/treemanipulate/multi2di/"/>
-    <updated>2016-03-08T00:00:00-08:00</updated>
-    <id>/collections/phylogeny/treemanipulate/multi2di</id>
-    <author>
-      <name>Luke Harmon</name>
-      <uri>/</uri>
-      <email>lukeh@uidaho.edu</email>
-    </author>
-    <content type="html">
-      
-      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;Changes multifurcations to bifurcations by randomly resolving polytomies and adding zero-length branch lengths&lt;/p&gt;
-
-&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
-
-&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;phy: Phylogenetic tree&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;phy.di: Tree with no polytomies&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>makeFakeBranchLengths</title>
-    <link href="/collections/phylogeny/treemanipulate/makeFakeBranchLengths/"/>
-    <updated>2016-03-08T00:00:00-08:00</updated>
-    <id>/collections/phylogeny/treemanipulate/makeFakeBranchLengths</id>
-    <author>
-      <name>Luke Harmon</name>
-      <uri>/</uri>
-      <email>lukeh@uidaho.edu</email>
-    </author>
-    <content type="html">
-      
-      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;Makes fake branch lengths for phylogenetic tree using ape’s compute.brlen, method “Grafen”. These branch lengths are entirely made up and should only be used as a last resort!&lt;/p&gt;
-
-&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
-
-&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;phy: Phylogenetic tree&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;blphy: Tree with Grafen branch lengths&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 
     </content>
   </entry>
