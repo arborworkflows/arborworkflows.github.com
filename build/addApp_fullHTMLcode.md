@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Create a new Arbor app.
-permalink: /build/addApp_fullHTMLcode.html
+permalink: /build/addApp_fullHTMLcode.html/
 ---
 
 Full html code for simmap app. [back to directions]({{ site.baseurl }}/build/addApp/)

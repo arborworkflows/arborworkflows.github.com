@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Create a new Arbor app.
-permalink: /build/addApp_fulljscode.html
+permalink: /build/addApp_fulljscode.html/
 ---
 
 Full javascript code (js/main.js) for simmap app. [back to directions]({{ site.baseurl }}/build/addApp/)
