@@ -35,7 +35,7 @@ There are lots of ways that you can contribute and participate in Arbor. You can
 |[Github organization page](https://github.com/arborworkflows) | Arbor workflows uses an open development paradigm. To get our source code, or to contribute to the project, start here.|
 |[Main web applications](https://github.com/arborworkflows/ArborWebApps)| Holds Arbor apps and add-ons.|
 |[Arbor collections](https://github.com/arborworkflows/arborCollections)| Main Arbor functions and workflows organized into collections|
-|[aRbor R package]([aRbor](https://github.com/arborworkflows/aRbor))|Connect to Arbor using R|
+|[aRbor R package](https://github.com/arborworkflows/aRbor)|Connect to Arbor using R|
 |[flow](https://github.com/kitware/flow)| Workflow engine|
 |[girder](https://github.com/kitware/girder)|data management platform|
 |[tangelo](https://github.com/kitware/tangelo)|web framework|
