@@ -22,6 +22,6 @@ share: false
 
 # Add code to Arbor
 - [Arbor for developers]({{ site.baseurl }}/build) to learn how to add functions and workflows to Arbor.
-- [Adding new packages]({{ site.baseurl}}/build/addPackage/) to Arbor.
-- [Create a new collection]({{ site.baseurl}}/build/addCollection/).
-- [Edit]({{ site.baseurl}}/jekyllHelp/) for editing the Arbor web pages and documentation.
+- [Adding new packages]({{ site.baseurl}}/build/addPackage) to Arbor.
+- [Create a new collection]({{ site.baseurl}}/build/addCollection).
+- [Edit]({{ site.baseurl}}/jekyllHelp) for editing the Arbor web pages and documentation.
