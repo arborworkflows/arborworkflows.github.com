@@ -151,7 +151,7 @@ Return LifeMapper occurrences from Experiment Number Table.json successfully upl
 
 And so on...
 
-Now, when you go back to your Arbor instance at [http://localhost:8080/](http://localhost:8080/), you will see all the analyses loaded:
+Now, when you go back to your Arbor instance at http://localhost:8080/, you will see all the analyses loaded:
 
 ![arbor-loaded]({{site.baseurl}}/images/install-2.png)
 
