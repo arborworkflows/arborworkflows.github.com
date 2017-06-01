@@ -39,7 +39,7 @@ There are two functions to fit models of trait evolution in Arbor Workflows:
 
 ### Example
 
-From the [docs]({{ site.baseurl}}/../docs/ ) page, get anolis.phy and anolis.csv.
+From the [docs]({{ site.baseurl}}/documentation) page, get anolis.phy and anolis.csv.
 Load these files into Arbor, and use them as inputs to the fitDiscrete function (choose the "ecomorph" character).
 
 ### Example of use in a workflow

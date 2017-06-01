@@ -53,7 +53,7 @@ The PIC workflow above is simple, but Arbor will enable more complex analyses as
 **A more complex workflow that uses data from web services to combine ecological niche models, Lagrange, and phylogenetic comparative analyses.**
 
 
-The workflow above shows how you might use Arbor to link phylogenetic, trait, and geographic data together in a comprehensive set of comparative analyses. If you want to get an idea of other examples of workflow software in biology, you can check out other examples like [Galaxy](https://usegalaxy.org/) and the [iPlant Discovery Environment](http://www.iplantcollaborative.org/ci/discovery-environment).
+The workflow above shows how you might use Arbor to link phylogenetic, trait, and geographic data together in a comprehensive set of comparative analyses. If you want to get an idea of other examples of workflow software in biology, you can check out other examples like [Galaxy](https://usegalaxy.org/) and the [iPlant Discovery Environment](http://www.cyverse.org/discovery-environment).
 
 <h2>How can I participate in the project?</h2>
 
