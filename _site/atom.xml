@@ -7,7 +7,7 @@
   <subtitle>Arbor workflows</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2017-06-01T13:27:23-07:00</updated>
+  <updated>2017-06-01T15:14:10-07:00</updated>
   <id>/</id>
   <author>
     <name>Luke Harmon</name>
@@ -167,7 +167,7 @@
 
 &lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
 
-&lt;p&gt;From the &lt;a href=&quot;/../docs/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
+&lt;p&gt;From the &lt;a href=&quot;/documentation/datasets/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
 Load these files into Arbor, and …&lt;/p&gt;
 
 &lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
@@ -200,10 +200,10 @@ Load these files into Arbor, and …&lt;/p&gt;
   </entry>
   
   <entry>
-    <title>Web services</title>
-    <link href="/ssbarbor/webservices/"/>
+    <title>Web services 2</title>
+    <link href="/tutorials/webservices/"/>
     <updated>2017-01-08T00:00:00-08:00</updated>
-    <id>/ssbarbor/webservices</id>
+    <id>/tutorials/webservices</id>
     <author>
       <name>Luke Harmon</name>
       <uri>/</uri>
@@ -221,7 +221,7 @@ Load these files into Arbor, and …&lt;/p&gt;
 
 &lt;p&gt;We are going to start with a list of species. You can obtain this list as a csv file &lt;a href=&quot;/assets/mammal_species_list.csv&quot;&gt;here&lt;/a&gt;; download and save this file somewhere to your computer.&lt;/p&gt;
 
-&lt;p&gt;Now, open an Arbor instance (e.g. &lt;a href=&quot;http://54.83.6.133:9080&quot;&gt;Arbor web app&lt;/a&gt;). You will now need to load in your species list. You can do this by dragging the file that you just downloaded onto the “Browse or drop files” box:&lt;/p&gt;
+&lt;p&gt;Now, open an Arbor instance (e.g. &lt;a href=&quot;http://arbor.arborworkflows.com:9080&quot;&gt;Arbor web app&lt;/a&gt;). You will now need to load in your species list. You can do this by dragging the file that you just downloaded onto the “Browse or drop files” box:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen1.png&quot; alt=&quot;screen1&quot; /&gt;&lt;/p&gt;
 
@@ -280,9 +280,9 @@ Load these files into Arbor, and …&lt;/p&gt;
   
   <entry>
     <title>Creating new collections and functions</title>
-    <link href="/ssbarbor/functions-and-collections/"/>
+    <link href="/tutorials/functions-and-collections/"/>
     <updated>2017-01-06T00:00:00-08:00</updated>
-    <id>/ssbarbor/functions-and-collections</id>
+    <id>/tutorials/functions-and-collections</id>
     <author>
       <name>Luke Harmon</name>
       <uri>/</uri>
@@ -988,10 +988,6 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
 
 &lt;p&gt;Our new &lt;a href=&quot;https://github.com/uyedaj/treeplyr&quot;&gt;treeplyr&lt;/a&gt; package is made to help match tree and character data, and manipulate the combined dataset. Try the &lt;a href=&quot;https://github.com/uyedaj/treeplyr/wiki&quot;&gt;treeplyr tutorial&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&quot;analyzing-large-datasets&quot;&gt;Analyzing large datasets&lt;/h1&gt;
-
-&lt;p&gt;Arbor code has been optimized to handle &lt;a href=&quot;#&quot;&gt;very large datasets&lt;/a&gt;.&lt;/p&gt;
-
     </content>
   </entry>
   
@@ -1122,7 +1118,7 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
   </entry>
   
   <entry>
-    <title>Web services</title>
+    <title>Web services 1</title>
     <link href="/tutorials/webservices/"/>
     <updated>2016-03-11T00:00:00-08:00</updated>
     <id>/tutorials/webservices</id>

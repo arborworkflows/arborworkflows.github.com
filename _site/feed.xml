@@ -91,7 +91,7 @@
 
 &lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
 
-&lt;p&gt;From the &lt;a href=&quot;/../docs/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
+&lt;p&gt;From the &lt;a href=&quot;/documentation/datasets/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
 Load these files into Arbor, and …&lt;/p&gt;
 
 &lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
@@ -126,7 +126,7 @@ Load these files into Arbor, and …&lt;/p&gt;
       </item>
     
       <item>
-        <title>Web services</title>
+        <title>Web services 2</title>
         <description>&lt;h2 id=&quot;what-are-web-services&quot;&gt;What are web services?&lt;/h2&gt;
 
 &lt;p&gt;Web services are protocols for computers to exchange information over the web (see &lt;a href=&quot;https://en.wikipedia.org/wiki/Web_service&quot;&gt;wikipedia: web service&lt;/a&gt;), typically via an &lt;a href=&quot;https://en.wikipedia.org/wiki/Application_programming_interface&quot;&gt;API&lt;/a&gt;. In biology, web services are becoming more and more common. You can obtain, for example, phylogenetic trees from &lt;a href=&quot;http://opentreeoflife.org/&quot;&gt;Open Tree of Life&lt;/a&gt;, geographic occurrences from &lt;a href=&quot;http://www.gbif.org/&quot;&gt;GBIF&lt;/a&gt;, and trait data from &lt;a href=&quot;http://eol.org/&quot;&gt;Encyclopedia of Life&lt;/a&gt;, all using web services.&lt;/p&gt;
@@ -137,7 +137,7 @@ Load these files into Arbor, and …&lt;/p&gt;
 
 &lt;p&gt;We are going to start with a list of species. You can obtain this list as a csv file &lt;a href=&quot;/assets/mammal_species_list.csv&quot;&gt;here&lt;/a&gt;; download and save this file somewhere to your computer.&lt;/p&gt;
 
-&lt;p&gt;Now, open an Arbor instance (e.g. &lt;a href=&quot;http://54.83.6.133:9080&quot;&gt;Arbor web app&lt;/a&gt;). You will now need to load in your species list. You can do this by dragging the file that you just downloaded onto the “Browse or drop files” box:&lt;/p&gt;
+&lt;p&gt;Now, open an Arbor instance (e.g. &lt;a href=&quot;http://arbor.arborworkflows.com:9080&quot;&gt;Arbor web app&lt;/a&gt;). You will now need to load in your species list. You can do this by dragging the file that you just downloaded onto the “Browse or drop files” box:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen1.png&quot; alt=&quot;screen1&quot; /&gt;&lt;/p&gt;
 
@@ -192,8 +192,8 @@ Load these files into Arbor, and …&lt;/p&gt;
 &lt;p&gt;This is a phylogenetic tree pulled from the Open Tree of Life synthesis that includes all of the species in the table that you supplied.&lt;/p&gt;
 </description>
         <pubDate>Sun, 08 Jan 2017 00:00:00 -0800</pubDate>
-        <link>/ssbarbor/webservices/</link>
-        <guid isPermaLink="true">/ssbarbor/webservices/</guid>
+        <link>/tutorials/webservices/</link>
+        <guid isPermaLink="true">/tutorials/webservices/</guid>
       </item>
     
       <item>
@@ -394,8 +394,8 @@ rescaledPhy$edge.length &amp;lt;- rescaledPhy$edge.length * x
 &lt;p&gt;Finally, you can download your new workflow using the “Save” button, which generates a json-formatted version of your workflow. This text file includes all of the information and code that you need to run your workflow - but not the data! You can easily share these json files with collaborators or make them available on Github or other archives.&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Jan 2017 00:00:00 -0800</pubDate>
-        <link>/ssbarbor/functions-and-collections/</link>
-        <guid isPermaLink="true">/ssbarbor/functions-and-collections/</guid>
+        <link>/tutorials/functions-and-collections/</link>
+        <guid isPermaLink="true">/tutorials/functions-and-collections/</guid>
       </item>
     
   </channel>
