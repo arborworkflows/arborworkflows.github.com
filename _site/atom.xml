@@ -7,7 +7,7 @@
   <subtitle>Arbor workflows</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2017-06-01T15:22:37-07:00</updated>
+  <updated>2017-06-01T15:23:44-07:00</updated>
   <id>/</id>
   <author>
     <name>Luke Harmon</name>
@@ -490,9 +490,9 @@ rescaledPhy$edge.length &amp;lt;- rescaledPhy$edge.length * x
   
   <entry>
     <title>Using the Arbor webapp</title>
-    <link href="/ssbarbor/runningfunctions/"/>
+    <link href="/tutorials/runningfunctions/"/>
     <updated>2017-01-05T00:00:00-08:00</updated>
-    <id>/ssbarbor/runningfunctions</id>
+    <id>/tutorials/runningfunctions</id>
     <author>
       <name>Luke Harmon</name>
       <uri>/</uri>

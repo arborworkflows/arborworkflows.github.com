@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: ssbarbor
+categories: tutorials
 title: Using the Arbor webapp
 summary: Basics on using the webapp to build workflows
 comments: true
