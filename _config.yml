@@ -3,7 +3,7 @@ title:       Arbor
 email:       lukeh@uidaho.edu
 author:      Luke Harmon
 url:         "www.arborworkflows.com"
-baseurl:     
+baseurl:
 
 description: "Arbor workflows"
 logo: 120x120.gif
@@ -39,7 +39,7 @@ owner:
   disqus-shortname: arborworkflows
 
 
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json", "vendor"]
 
 # heroku stuff
 gems: ['kramdown']
