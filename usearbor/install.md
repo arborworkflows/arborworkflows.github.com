@@ -77,7 +77,7 @@ flow                       : ok=75   changed=56   unreachable=0    failed=0
 
 Now you can visit your Arbor instance by opening a web browser (we recommend Chrome) and navigating to:
 
-[http://localhost:8080/](http://localhost:8080/)
+http://localhost:8080/
 
 You should see a brand-new empty Arbor instance:
 

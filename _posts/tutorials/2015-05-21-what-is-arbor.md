@@ -12,7 +12,7 @@ image:
 
 Arbor is a software package for phylogenetic comparative analyses. Our main website is:
 
-<a href="https://www.arborworkflows.com/">www.arborworkflows.com</a>
+<a href="http://www.arborworkflows.com/">www.arborworkflows.com</a>
 
 <h2>When will Arbor be available?</h2>
 
@@ -39,7 +39,7 @@ We are building up towards more complicated analyses.
 
 Phylogenetic trees are increasingly [available](http://blog.opentreeoflife.org), and can be used for a wide range of analyses, including studies of speciation, trait evolution, range size evolution, and many other things. Phylogenetic comparative methods have been developing rapidly in recent years. Most analyses are currently done in R, and a number of useful packages are available (e.g. ape, diversitree, geiger, caper, phytools, [and others](http://cran.r-project.org/web/views/Phylogenetics.html)). Arbor seeks to enable end-users to carry out these analyses by building workflows.
 
-Building an Arbor workflow will have more in common with making something out of legos than with computer programming. For example, the figure below shows a mockup of an Arbor workflow to calculate phylogenetic independent contrasts (PICs). End users will import a phylogenetic tree and some traits data - perhaps from their local computer, or maybe from a remote source like [Open Tree of Life](https://tree.opentreeoflife.org/opentree/argus/opentree3.0@1) or [Encyclopedia of Life](http://eol.org). The workflow below then allows the user to connect a few steps together to calculate PICs and use them to test for a correlation between two traits.
+Building an Arbor workflow will have more in common with making something out of legos than with computer programming. For example, the figure below shows a mockup of an Arbor workflow to calculate phylogenetic independent contrasts (PICs). End users will import a phylogenetic tree and some traits data - perhaps from their local computer, or maybe from a remote source like [Open Tree of Life](https://tree.opentreeoflife.org/opentree/argus/) or [Encyclopedia of Life](http://eol.org). The workflow below then allows the user to connect a few steps together to calculate PICs and use them to test for a correlation between two traits.
 
 ![PIC workflow]({{ site.baseurl }}/assets/simple_pic_workflow.jpg)
 

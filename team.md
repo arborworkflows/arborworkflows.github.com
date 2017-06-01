@@ -9,7 +9,7 @@ permalink: /team/
 <div>
   <p style="float: left;margin:0 10px 10px 0">
     <a href="http://lukejharmon.github.io/">
-      <img src="{{ site.baseurl}}/images/luke.jpeg" width = "150px" border="1px"></a></p>
+      <img src="{{ site.baseurl}}/images/luke.jpeg" width = "150px" border="1px" alt="Luke"></a></p>
   <p>
     <i>PI<br>Associate Professor, Department of Biology<br>University of Idaho<br><a href="mailto:lukeh@uidaho.edu">lukeh@uidaho.edu</a></i></p>
 </div>
@@ -25,7 +25,7 @@ permalink: /team/
 <div>
   <p style="float: left;margin:0 10px 10px 0">
     <a href="http://www.knowledgevis.com/Kvis-v4/Welcome.html">
-      <img src="{{ site.baseurl}}/images/curt.png" width = "150px" border="1px"></a></p>
+      <img src="{{ site.baseurl}}/images/curt.png" width = "150px" border="1px" alt="Curt"></a></p>
   <p>
     <i>PI<br>CEO, Knowledge Vis</i></p>
 </div>
@@ -42,7 +42,7 @@ permalink: /team/
 <div>
   <p style="float: left;margin:0 10px 10px 0">
     <a href="http://thackerlab.weebly.com/">
-      <img src="{{ site.baseurl}}/images/bob.jpeg" width = "150px" border="1px"></a></p>
+      <img src="{{ site.baseurl}}/images/bob.jpeg" width = "150px" border="1px" alt="Bob"></a></p>
   <p>
     <i>PI<br>Professor and Chair, Department of Ecology and Evolution<br>Stony Brook University</i><br><a href="mailto:robert.thacker@stonybrook.edu">robert.thacker@stonybrook.edu</a></p>
 </div>
@@ -58,7 +58,7 @@ permalink: /team/
 <div>
   <p style="float: left;margin:0 10px 10px 0">
     <a href="http://spechtlab.berkeley.edu/">
-      <img src="{{ site.baseurl}}/images/chelsea.jpeg" width = "150px" border="1px"></a></p>
+      <img src="{{ site.baseurl}}/images/chelsea.jpeg" width = "150px" border="1px" alt="Chelsea"></a></p>
   <p>
     <i>PI<br>Associate Professor, Departments of Plant & Microbial Biology and Integrative Biology<br>University of California, Berkeley</i></p>
 </div>
@@ -74,7 +74,7 @@ permalink: /team/
 <div>
   <p style="float: left;margin:0 10px 10px 0">
     <a href="http://naturalhistory.ku.edu/biodiversity-modeling/people/jorge-sober%C3%B3n">
-      <img src="{{ site.baseurl}}/images/jorge.jpeg" width = "150px" border="1px"></a></p>
+      <img src="{{ site.baseurl}}/images/jorge.jpeg" width = "150px" border="1px" alt="Jorge"></a></p>
   <p>
     <i>PI<br>Professor, Department of Ecology and Evolutionary Biology<br>University of Kansas</i></p>
 </div>
@@ -90,7 +90,7 @@ permalink: /team/
 <div>
   <p style="float: left;margin:0 10px 10px 0">
     <a href="http://www.cs.ucf.edu/~ceh/">
-      <img src="{{ site.baseurl}}/images/charlie.jpeg" width = "150px" border="1px"></a></p>
+      <img src="{{ site.baseurl}}/images/charlie.jpeg" width = "150px" border="1px" alt="Charlie"></a></p>
   <p>
     <i>Pegasus Professor in the Computer Science Division, Department of Electrical Engineering and Computer Science <br>University of Central Florida </i></p>
 </div>
@@ -106,7 +106,7 @@ permalink: /team/
 <div>
   <p style="float: left;margin:0 10px 10px 0">
     <a href="http://www.kitware.com/">
-    <img src="{{ site.baseurl}}/images/jeff.png" width = "150px" border="1px"></a></p>
+    <img src="{{ site.baseurl}}/images/jeff.png" width = "150px" border="1px" alt="Jeff"></a></p>
   <p>
     <i>Technical Leader <br>Kitware</i></p>
 </div>

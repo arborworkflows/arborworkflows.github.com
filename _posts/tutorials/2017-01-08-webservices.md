@@ -1,7 +1,7 @@
 ---
 layout: article
-categories: ssbarbor
-title: Web services
+categories: tutorials
+title: Web services 2
 summary: You can use web services to obtain data as part of an Arbor workflow
 comments: true
 image:
@@ -19,7 +19,7 @@ We have a number of pre-made functions in Arbor that can obtain data through web
 
 We are going to start with a list of species. You can obtain this list as a csv file [here]({{ site.baseurl }}/assets/mammal_species_list.csv); download and save this file somewhere to your computer.
 
-Now, open an Arbor instance (e.g. [Arbor web app](http://54.83.6.133:9080)). You will now need to load in your species list. You can do this by dragging the file that you just downloaded onto the "Browse or drop files" box:
+Now, open an Arbor instance (e.g. [Arbor web app](http://arbor.arborworkflows.com:9080)). You will now need to load in your species list. You can do this by dragging the file that you just downloaded onto the "Browse or drop files" box:
 
 ![screen1]({{ site.baseurl }}/assets/webServices/webserv-screen1.png)
 

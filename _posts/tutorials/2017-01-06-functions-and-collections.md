@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: ssbarbor
+categories: tutorials
 title: Creating new collections and functions
 summary: How to make your own collection of Arbor functions and workflows
 comments: true
