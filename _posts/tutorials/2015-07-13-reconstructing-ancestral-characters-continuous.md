@@ -18,7 +18,7 @@ Imagine that you have a phylogenetic tree with information on some continuous ch
 
 ## Loading example data
 
-For this example, we will use a dataset where the species included in the tree and character data do not match perfectly. Obtain the day gecko example data files, phelsuma.phy and phelsuma.csv, from [Arbor datasets]({{ site.baseurl}}/docs_datasets.html). Save those files somewhere on your computer.
+For this example, we will use a dataset where the species included in the tree and character data do not match perfectly. Obtain the day gecko example data files, phelsuma.phy and phelsuma.csv, from [Arbor datasets]({{ site.baseurl}}/documentation/datasets). Save those files somewhere on your computer.
 
 If you look at these files, you will see that the tree includes a few unique species for which there is no character data. Arbor will recognize this and drop those species from the analysis.
 

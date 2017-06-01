@@ -8,7 +8,7 @@ image:
   feature:
   teaser:
 ---
-#### [Sorted by category]({{ site.baseurl }}/documentation/time/) | Sorted alphabetically
+#### [Sorted by category]({{ site.baseurl }}/documentation/timetree/) | Sorted alphabetically
 ---
 
 <div class="tiles">

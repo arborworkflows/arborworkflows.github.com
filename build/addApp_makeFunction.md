@@ -77,4 +77,4 @@ You should see the result:
 ![addApp18]({{ site.baseurl }}/assets/addApp/addApp-fig18.png)
 
 
-Now, continue with the [original steps]({{ site.baseurl }}/build/addApp/) - you are ready for step 4.
+Now, continue with the [original steps]({{ site.baseurl }}/build/addApp) - you are ready for step 4.

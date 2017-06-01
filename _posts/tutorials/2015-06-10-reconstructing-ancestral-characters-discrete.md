@@ -20,7 +20,7 @@ You will need the anolis example data files, anolis.phy and anolis.csv, from [Ar
 
 Now open the [Arbor web app](http://arborclassic.arborworkflows.com:9080). Drag and drop the two anolis data files on the blue "Browse or drop files" box to load them into your browser.
 
-Finally, [log in and create a personal collection]({{ site.baseurl }}/2015/06/09/creating-a-new-collection/).
+Finally, [log in and create a personal collection]({{ site.baseurl }}/tutorials/creating-a-new-collection/).
 
 ## Selecting the collections that you need
 
