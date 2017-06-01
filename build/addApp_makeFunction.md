@@ -8,7 +8,7 @@ permalink: /build/addApp_makeFunction.html
 
 This is a detailed version of Step 3 of [these instructions for making an Arbor app]({{ site.baseurl }}/build/addApp.html).
 
-For this step you will need to use an Arbor instance that you have control over, like one that you have [installed yourself]({{ site.baseurl }}/usearbor/install/). If you want to post an Arbor App on one our [main AWS instances]({{ site.baseurl }}/usearbor/aws-instances/) then you will need to get it working locally first and then follow [this protocol](#).
+For this step you will need to use an Arbor instance that you have control over, like one that you have [installed yourself]({{ site.baseurl }}/usearbor/install/). If you want to post an Arbor App on one our [main AWS instances]({{ site.baseurl }}/usearbor/aws-instances/) then you will need to get it working locally first and then [contact us]({{site.baseurl}}/team/).
 
 Open your Arbor instance and log in.
 
@@ -58,7 +58,7 @@ Now, the output, an image:
 
 All together these make three inputs and one output:
 
-![addApp14]({{ site.baseurl }}/assets/addApp/addApp-fig13.png)
+![addApp14]({{ site.baseurl }}/assets/addApp/addApp-fig14.png)
 
 Test your function. You can use the data in the sampleData collection. After clicking "Setup and Run," set the following:
 
@@ -77,4 +77,4 @@ You should see the result:
 ![addApp18]({{ site.baseurl }}/assets/addApp/addApp-fig18.png)
 
 
-Now, continue with the [original steps]({{ site.baseurl }}/build/addApp) - you are ready for step 4.
+Now, continue with the [original steps]({{ site.baseurl }}/build/addApp.html) - you are ready for step 4.

@@ -7,7 +7,7 @@
   <subtitle>Arbor workflows</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2017-06-01T10:12:01-07:00</updated>
+  <updated>2017-06-01T13:27:23-07:00</updated>
   <id>/</id>
   <author>
     <name>Luke Harmon</name>
@@ -652,7 +652,7 @@ basic analysis of a correlation between two continuous characters using independ
 
 &lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
 
-&lt;p&gt;From the &lt;a href=&quot;/../docs/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
+&lt;p&gt;From the &lt;a href=&quot;/documentation/datasets/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
 Load these files into Arbor, and …&lt;/p&gt;
 
 &lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
@@ -706,7 +706,7 @@ of the results.&lt;/p&gt;
 
 &lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
 
-&lt;p&gt;From the &lt;a href=&quot;/../docs/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
+&lt;p&gt;From the &lt;a href=&quot;/documentation/datasets/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
 Load these files into Arbor, and use them as inputs to the aceArbor function. Choose
 the “ecomorph” column for analysis, and select type: discrete and method: marginal.&lt;/p&gt;
 
