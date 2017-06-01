@@ -7,7 +7,7 @@
   <subtitle>Arbor workflows</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2017-05-31T13:47:04-07:00</updated>
+  <updated>2017-06-01T10:05:49-07:00</updated>
   <id>/</id>
   <author>
     <name>Luke Harmon</name>
@@ -766,16 +766,16 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
 
 &lt;p&gt;There are two functions to fit models of trait evolution in Arbor Workflows:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/collections/traitModelFitting/fitContinuous&quot;&gt;&lt;img src=&quot;/images/fitContinuous.png&quot; alt=&quot;fitContinuous fxn&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/collections/phylogeny/charactercalculate/fitContinuous/&quot;&gt;&lt;img src=&quot;/images/fitContinuous.png&quot; alt=&quot;fitContinuous fxn&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/collections/traitModelFitting/fitContinuous&quot;&gt;fitContinuous&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/collections/phylogeny/charactercalculate/fitContinuous/&quot;&gt;fitContinuous&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;/collections/traitModelFitting/fitDiscrete&quot;&gt;&lt;img src=&quot;/images/fitDiscrete.png&quot; alt=&quot;fitDiscrete fxn&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/collections/phylogeny/charactercalculate/fitDiscrete/&quot;&gt;&lt;img src=&quot;/images/fitDiscrete.png&quot; alt=&quot;fitDiscrete fxn&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/docs/fitDiscrete&quot;&gt;fitDiscrete&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/collections/phylogeny/charactercalculate/fitDiscrete/&quot;&gt;fitDiscrete&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;method-assumptions&quot;&gt;Method assumptions&lt;/h2&gt;
@@ -990,7 +990,7 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
 
 &lt;h1 id=&quot;analyzing-large-datasets&quot;&gt;Analyzing large datasets&lt;/h1&gt;
 
-&lt;p&gt;Arbor code has been optimized to handle &lt;a href=&quot;/tutorials/verylargetrees/&quot;&gt;very large datasets&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Arbor code has been optimized to handle &lt;a href=&quot;#&quot;&gt;very large datasets&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>

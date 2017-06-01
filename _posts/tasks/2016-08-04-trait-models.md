@@ -23,13 +23,13 @@ Fitting models of trait evolution requires:
 
 There are two functions to fit models of trait evolution in Arbor Workflows:
 
-[![fitContinuous fxn]({{ site.baseurl}}/images/fitContinuous.png)]({{ site.baseurl}}/collections/traitModelFitting/fitContinuous)
+[![fitContinuous fxn]({{ site.baseurl}}/images/fitContinuous.png)]({{ site.baseurl}}/collections/phylogeny/charactercalculate/fitContinuous/)
 
-- [fitContinuous]({{ site.baseurl}}/collections/traitModelFitting/fitContinuous)
+- [fitContinuous]({{ site.baseurl}}/collections/phylogeny/charactercalculate/fitContinuous/)
 
-[![fitDiscrete fxn]({{ site.baseurl}}/images/fitDiscrete.png)]({{ site.baseurl}}/collections/traitModelFitting/fitDiscrete)
+[![fitDiscrete fxn]({{ site.baseurl}}/images/fitDiscrete.png)]({{ site.baseurl}}/collections/phylogeny/charactercalculate/fitDiscrete/)
 
-- [fitDiscrete]({{ site.baseurl}}/docs/fitDiscrete)
+- [fitDiscrete]({{ site.baseurl}}/collections/phylogeny/charactercalculate/fitDiscrete/)
 
 ## Method assumptions
 

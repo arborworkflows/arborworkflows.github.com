@@ -16,7 +16,7 @@ Imagine that you have a phylogenetic tree with information on two continuous cha
 
 ## Loading example data
 
-For this example, we will use anolis again. Obtain the anolis example data files, phelsuma.phy and phelsuma.csv, from [Arbor datasets]({{ site.baseurl}}/docs_datasets.html). Save those files somewhere on your computer.
+For this example, we will use anolis again. Obtain the anolis example data files, phelsuma.phy and phelsuma.csv, from [Arbor datasets]({{ site.baseurl}}/documentation/datasets). Save those files somewhere on your computer.
 
 Now open the [Arbor web app](http://arborclassic.arborworkflows.com:9080). Drag and drop the two anolis data files on the blue "Browse or drop files" box to load them into your browser.
 
