@@ -21,8 +21,8 @@ To use an Arbor app, you can navigate to our [app index]({{ site.baseurl }}/arbo
 
 Let's walk through one example analysis in an Arbor app. We will work on testing for phylogenetic signal. I will use two data files for *Anolis* lizards, linked below.
 
-- [anolis.phy]({{ site.baseurl }}/assets/anolis.phy): a phylogenetic tree of anoles
-- [anolis.csv]({{ site.baseurl }}/assets/anolis.csv): character data for anoles (comma-separated format)
+- [anolis.phy]({{ site.baseurl }}/assets/datasets/anolis.phy): a phylogenetic tree of anoles
+- [anolis.csv]({{ site.baseurl }}/assets/datasets/anolis.csv): character data for anoles (comma-separated format)
 
 Download these two files, and locate them on your computer's file browser.
 

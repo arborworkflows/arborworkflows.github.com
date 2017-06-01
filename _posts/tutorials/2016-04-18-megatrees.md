@@ -27,4 +27,4 @@ Our new [treeplyr](https://github.com/uyedaj/treeplyr) package is made to help m
 
 # Analyzing large datasets
 
-Arbor code has been optimized to handle [very large datasets]({{ site.baseurl }}/tutorials/verylargetrees/).
+Arbor code has been optimized to handle [very large datasets](#).
