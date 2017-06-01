@@ -14,7 +14,7 @@ When working in Arbor, you will be uploading your own data, and may want to crea
 
 ## Get started
 
-You will need to open the [Arbor web app](http://54.83.6.133:9080). For this exercise, you will need to log in; your user name should match the personal part of the email address you used to register for the meeting. For example, if your registration email is lukeh@uidaho.edu, then your user name is lukeh. Your password will be given to you by the instructor.
+You will need to open the [Arbor web app](http://arbor.arborworkflows.com). For this exercise, you will need to log in; your user name should match the personal part of the email address you used to register for the meeting. For example, if your registration email is lukeh@uidaho.edu, then your user name is lukeh. Your password will be given to you by the instructor.
 
 Once you are logged in, your screen should look like this:
 
