@@ -4,7 +4,7 @@ title: Create a new Arbor app.
 permalink: /build/addApp_fulljscode.html/
 ---
 
-Full javascript code (js/main.js) for simmap app. [back to directions]({{ site.baseurl }}/build/addApp)
+Full javascript code (js/main.js) for simmap app. [back to directions]({{ site.baseurl }}/build/addApp.html)
 
 ```js
 /*jslint browser: true, nomen: true */

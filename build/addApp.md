@@ -72,13 +72,13 @@ simmapPlot = cardoonPlot(expression(simmap_plot()), width=1000, height=1000, res
 simmapPlot = simmapPlot$png
 ```    
 
-You will notice that there is some funny business at the bottom for plotting. This is explained more fully on our [plotting in Arbor workflows](#) page.
+You will notice that there is some funny business at the bottom for plotting. This is explained more fully on our [plotting in Arbor workflows]({{site.baseurl}}/build/plottingInArborWorkflows.html) page.
 
 ## Step 3. Make a working Arbor function.
 
-Now create a working Arbor function based on the code in Step 2. You will need to use an Arbor instance that you have control over, like one that you have [installed yourself]({{ site.baseurl }}/usearbor/install/). If you want to post an Arbor App on one our [main AWS instances]({{ site.baseurl }}/usearbor/aws-instances/) then you will need to get it working locally first and then follow [this protocol](#).
+Now create a working Arbor function based on the code in Step 2. You will need to use an Arbor instance that you have control over, like one that you have [installed yourself]({{ site.baseurl }}/usearbor/install/). If you want to post an Arbor App on one our [main AWS instances]({{ site.baseurl }}/usearbor/aws-instances/) then you will need to get it working locally first and then [contact me]({{site.baseurl}}/team/).
 
-You might want [more detail on how to do this]({{ site.baseurl }}/build/addApp_makeFunction). Once this step is complete you should have a working Arbor function called makeSimmap-app.
+You might want [more detail on how to do this]({{ site.baseurl }}/build/addApp_makeFunction.html). Once this step is complete you should have a working Arbor function called makeSimmap-app.
 
 ## Step 4. Create the basic folder structure (helps to use a template)
 

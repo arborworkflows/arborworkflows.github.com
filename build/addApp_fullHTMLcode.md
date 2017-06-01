@@ -4,7 +4,7 @@ title: Create a new Arbor app.
 permalink: /build/addApp_fullHTMLcode.html/
 ---
 
-Full html code for simmap app. [back to directions]({{ site.baseurl }}/build/addApp)
+Full html code for simmap app. [back to directions]({{ site.baseurl }}/build/addApp.html)
 
 
 ```html

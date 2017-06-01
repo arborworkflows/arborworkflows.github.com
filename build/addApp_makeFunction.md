@@ -6,7 +6,7 @@ permalink: /build/addApp_makeFunction.html
 
 ## Step 3. Make a working Arbor function - more detail
 
-This is a detailed version of Step 3 of [these instructions for making an Arbor app]({{ site.baseurl }}/build/addApp).
+This is a detailed version of Step 3 of [these instructions for making an Arbor app]({{ site.baseurl }}/build/addApp.html).
 
 For this step you will need to use an Arbor instance that you have control over, like one that you have [installed yourself]({{ site.baseurl }}/usearbor/install/). If you want to post an Arbor App on one our [main AWS instances]({{ site.baseurl }}/usearbor/aws-instances/) then you will need to get it working locally first and then follow [this protocol](#).
 
