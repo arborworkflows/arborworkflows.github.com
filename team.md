@@ -57,10 +57,10 @@ permalink: /team/
 
 <div>
   <p style="float: left;margin:0 10px 10px 0">
-    <a href="http://spechtlab.berkeley.edu/">
+    <a href="http://blogs.cornell.edu/specht/">
       <img src="{{ site.baseurl}}/images/chelsea.jpeg" width = "150px" border="1px" alt="Chelsea"></a></p>
   <p>
-    <i>PI<br>Associate Professor, Departments of Plant & Microbial Biology and Integrative Biology<br>University of California, Berkeley</i></p>
+    <i>PI<br>Barbara McClintock Professor, School of Integrative Plant Science<br>Cornell University</i></p>
 </div>
 
 <div style="clear: left;">

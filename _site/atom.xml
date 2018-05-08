@@ -7,7 +7,7 @@
   <subtitle>Arbor workflows</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2017-06-01T15:23:44-07:00</updated>
+  <updated>2018-05-08T10:39:15-07:00</updated>
   <id>/</id>
   <author>
     <name>Luke Harmon</name>
@@ -221,7 +221,7 @@ Load these files into Arbor, and …&lt;/p&gt;
 
 &lt;p&gt;We are going to start with a list of species. You can obtain this list as a csv file &lt;a href=&quot;/assets/mammal_species_list.csv&quot;&gt;here&lt;/a&gt;; download and save this file somewhere to your computer.&lt;/p&gt;
 
-&lt;p&gt;Now, open an Arbor instance (e.g. &lt;a href=&quot;http://arbor.arborworkflows.com:9080&quot;&gt;Arbor web app&lt;/a&gt;). You will now need to load in your species list. You can do this by dragging the file that you just downloaded onto the “Browse or drop files” box:&lt;/p&gt;
+&lt;p&gt;Now, open an Arbor instance (e.g. &lt;a href=&quot;http://arbor.arborworkflows.com&quot;&gt;Arbor web app&lt;/a&gt;). You will now need to load in your species list. You can do this by dragging the file that you just downloaded onto the “Browse or drop files” box:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen1.png&quot; alt=&quot;screen1&quot; /&gt;&lt;/p&gt;
 
@@ -296,7 +296,7 @@ Load these files into Arbor, and …&lt;/p&gt;
 
 &lt;h2 id=&quot;get-started&quot;&gt;Get started&lt;/h2&gt;
 
-&lt;p&gt;You will need to open the &lt;a href=&quot;http://54.83.6.133:9080&quot;&gt;Arbor web app&lt;/a&gt;. For this exercise, you will need to log in; your user name should match the personal part of the email address you used to register for the meeting. For example, if your registration email is lukeh@uidaho.edu, then your user name is lukeh. Your password will be given to you by the instructor.&lt;/p&gt;
+&lt;p&gt;You will need to open the &lt;a href=&quot;http://arbor.arborworkflows.com&quot;&gt;Arbor web app&lt;/a&gt;. For this exercise, you will need to log in; your user name should match the personal part of the email address you used to register for the meeting. For example, if your registration email is lukeh@uidaho.edu, then your user name is lukeh. Your password will be given to you by the instructor.&lt;/p&gt;
 
 &lt;p&gt;Once you are logged in, your screen should look like this:&lt;/p&gt;
 
@@ -514,7 +514,7 @@ basic analysis of a correlation between two continuous characters using independ
 
 &lt;p&gt;You will need the anolis example data files, &lt;a href=&quot;/assets/datasets/anolis.phy&quot;&gt;anolis.phy&lt;/a&gt; and &lt;a href=&quot;/assets/datasets/anolis.csv&quot;&gt;anolis.csv&lt;/a&gt;. Save those files somewhere on your computer.&lt;/p&gt;
 
-&lt;p&gt;Now open the &lt;a href=&quot;http://54.83.6.133:9080&quot;&gt;Arbor web app&lt;/a&gt; (this is a special instance of Arbor hosted on Amazon Web Services just for this meeting). Your screen should look something like this:&lt;/p&gt;
+&lt;p&gt;Now open the &lt;a href=&quot;http://arbordev.arborworkflows.com&quot;&gt;Arbor web app&lt;/a&gt; (this is a special instance of Arbor hosted on Amazon Web Services just for this meeting). Your screen should look something like this:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/usingArborwebapp/usingArborwebapp_1.png&quot; alt=&quot;Screenshot 1&quot; /&gt;&lt;/p&gt;
 
