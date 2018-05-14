@@ -11,6 +11,6 @@ description: Phylogenetic tree of Phelsuma
 
 ## Overview
 
-Phylogenetic tree of Phelsuma lizards.
+Phylogenetic tree of *Phelsuma* lizards. Download here: [phelsuma.phy]({{ site.baseurl }}/assets/datasets/phelsuma.phy)
 
 ## References

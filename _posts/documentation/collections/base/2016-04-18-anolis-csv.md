@@ -11,6 +11,6 @@ description: Data on anoles
 
 ## Overview
 
-Data on anolis lizards.
+Data on anolis lizards. Download here: [anolis.csv]({{ site.baseurl }}/assets/datasets/anolis.csv)
 
 ## References

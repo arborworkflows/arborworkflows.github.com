@@ -11,6 +11,6 @@ description: Phylogenetic tree of anoles
 
 ## Overview
 
-Phylogenetic tree of anolis lizards.
+Phylogenetic tree of anolis lizards. Download here: [anolis.phy]({{ site.baseurl }}/assets/datasets/anolis.phy)
 
 ## References

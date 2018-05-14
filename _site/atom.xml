@@ -7,7 +7,7 @@
   <subtitle>Arbor workflows</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2018-05-08T10:59:11-07:00</updated>
+  <updated>2018-05-14T12:40:06-07:00</updated>
   <id>/</id>
   <author>
     <name>Luke Harmon</name>
@@ -1026,7 +1026,7 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
       
       &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
 
-&lt;p&gt;Phylogenetic tree of Phelsuma lizards.&lt;/p&gt;
+&lt;p&gt;Phylogenetic tree of &lt;em&gt;Phelsuma&lt;/em&gt; lizards. Download here: &lt;a href=&quot;/assets/datasets/phelsuma.phy&quot;&gt;phelsuma.phy&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 
@@ -1047,7 +1047,7 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
       
       &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
 
-&lt;p&gt;Character data for Phelsuma lizards.&lt;/p&gt;
+&lt;p&gt;Character data for Phelsuma lizards. Download here: &lt;a href=&quot;/assets/datasets/phelsuma.csv&quot;&gt;phelsuma.csv&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 
@@ -1068,7 +1068,7 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
       
       &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
 
-&lt;p&gt;Phylogenetic tree of anolis lizards.&lt;/p&gt;
+&lt;p&gt;Phylogenetic tree of anolis lizards. Download here: &lt;a href=&quot;/assets/datasets/anolis.phy&quot;&gt;anolis.phy&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 
@@ -1110,7 +1110,7 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
       
       &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
 
-&lt;p&gt;Data on anolis lizards.&lt;/p&gt;
+&lt;p&gt;Data on anolis lizards. Download here: &lt;a href=&quot;/assets/datasets/anolis.csv&quot;&gt;anolis.csv&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 
