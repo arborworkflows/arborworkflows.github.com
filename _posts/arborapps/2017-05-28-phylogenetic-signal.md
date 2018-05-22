@@ -1,6 +1,6 @@
 ---
 layout: page
-categories: arborapps
+categories: arborapps otsapps
 title: Phylogenetic signal
 author: Luke J. Harmon
 image:
@@ -10,4 +10,4 @@ image:
 
 <meta http-equiv="refresh" content="0;url=http://arbordev.arborworkflows.com/phylogenetic-signal/">
 
-You should be automatically forwarded to the Arbor app. If not, click <a href="http://arbordev.arborworkflows.com/phylogenetic-signal/">here</a>.
+You should be automatically forwarded to the Arbor app. If not, click <a href="http://arbor.arborworkflows.com/phylogenetic-signal/">here</a>.

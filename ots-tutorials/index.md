@@ -16,7 +16,18 @@ To obtain your course materials, download [this archive]({{ site.baseurl }}/ots-
 # Course tutorials:
 
 <div class="tiles">
-{% for post in site.categories.tutorials %}
+{% for post in site.categories.otstutorials %}
+  {% include post-grid.html %}
+{% endfor %}
+</div><!-- /.tiles -->
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+# Course apps:
+
+<div class="tiles">
+{% for post in site.categories.otsapps %}
   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->

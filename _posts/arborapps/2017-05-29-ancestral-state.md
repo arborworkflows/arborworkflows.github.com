@@ -1,7 +1,7 @@
 ---
 layout: media
 title: "Ancestral state reconstruction"
-categories: arborapps
+categories: arborapps otsapps
 excerpt: "Reconstruct character evolution on a phylogenetic tree."
 ads: true
 share: false
@@ -15,4 +15,4 @@ image:
 
 <meta http-equiv="refresh" content="0;url=http://arbordev.arborworkflows.com/ancestral-state/">
 
-You should be automatically forwarded to the Arbor app. If not, click <a href="http://arbordev.arborworkflows.com/ancestral-state/">here</a>.
+You should be automatically forwarded to the Arbor app. If not, click <a href="http://arbor.arborworkflows.com/ancestral-state/">here</a>.

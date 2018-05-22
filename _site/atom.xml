@@ -7,7 +7,7 @@
   <subtitle>Arbor workflows</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2018-05-14T12:40:06-07:00</updated>
+  <updated>2018-05-22T09:22:27-07:00</updated>
   <id>/</id>
   <author>
     <name>Luke Harmon</name>
@@ -75,9 +75,9 @@
   
   <entry>
     <title>Lineage-through-time plots</title>
-    <link href="/arborapps/ltt/"/>
+    <link href="/arborapps/otsapps/ltt/"/>
     <updated>2017-05-31T00:00:00-07:00</updated>
-    <id>/arborapps/ltt</id>
+    <id>/arborapps/otsapps/ltt</id>
     <author>
       <name>Luke Harmon</name>
       <uri>/</uri>
@@ -87,7 +87,7 @@
       
       &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/ltt/&quot; /&gt;
 
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/ltt/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/ltt/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>
@@ -104,18 +104,18 @@
     </author>
     <content type="html">
       &lt;img src=&quot;/images/arborPGLS-1600x800.jpg&quot;&gt;&lt;br/&gt;
-      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/PGLS-twovars/&quot; /&gt;
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/PGLS-twovars/&quot; /&gt;
 
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/PGLS-twovars/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/PGLS-twovars/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>
   
   <entry>
     <title>Ancestral state reconstruction</title>
-    <link href="/arborapps/ancestral-state/"/>
+    <link href="/arborapps/otsapps/ancestral-state/"/>
     <updated>2017-05-29T00:00:00-07:00</updated>
-    <id>/arborapps/ancestral-state</id>
+    <id>/arborapps/otsapps/ancestral-state</id>
     <author>
       <name>Luke Harmon</name>
       <uri>/</uri>
@@ -125,16 +125,16 @@
       &lt;img src=&quot;/images/branch-1600x800.jpg&quot;&gt;&lt;br/&gt;
       &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/ancestral-state/&quot; /&gt;
 
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/ancestral-state/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/ancestral-state/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>
   
   <entry>
     <title>Phylogenetic signal</title>
-    <link href="/arborapps/phylogenetic-signal/"/>
+    <link href="/arborapps/otsapps/phylogenetic-signal/"/>
     <updated>2017-05-28T00:00:00-07:00</updated>
-    <id>/arborapps/phylogenetic-signal</id>
+    <id>/arborapps/otsapps/phylogenetic-signal</id>
     <author>
       <name>Luke Harmon</name>
       <uri>/</uri>
@@ -144,7 +144,7 @@
       &lt;img src=&quot;/images/easyButtons-1600x800.jpg&quot;&gt;&lt;br/&gt;
       &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/phylogenetic-signal/&quot; /&gt;
 
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/phylogenetic-signal/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/phylogenetic-signal/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>

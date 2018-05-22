@@ -1,6 +1,6 @@
 ---
 layout: article
-categories: tutorials
+categories: tutorials otstutorials
 title: What is Arbor?
 summary: An introduction to our workflow software
 comments: true
