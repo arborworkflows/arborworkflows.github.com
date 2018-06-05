@@ -7,10 +7,65 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Plot tree using d3</title>
-        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/treePlot/&quot; /&gt;
+        <title>Slowdown test</title>
+        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/slowdown/&quot; /&gt;
 
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/treePlot/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/slowdown/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Jun 2018 00:00:00 -0700</pubDate>
+        <link>/arborapps/slowdown/</link>
+        <guid isPermaLink="true">/arborapps/slowdown/</guid>
+      </item>
+    
+      <item>
+        <title>Map occurences</title>
+        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/occurrences/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/occurrences/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Jun 2018 00:00:00 -0700</pubDate>
+        <link>/arborapps/occurrences/</link>
+        <guid isPermaLink="true">/arborapps/occurrences/</guid>
+      </item>
+    
+      <item>
+        <title>Matrix Explorer</title>
+        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/matrixExplorer/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/matrixExplorer/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Jun 2018 00:00:00 -0700</pubDate>
+        <link>/arborapps/matrixExplorer/</link>
+        <guid isPermaLink="true">/arborapps/matrixExplorer/</guid>
+      </item>
+    
+      <item>
+        <title>Discrete character correlation</title>
+        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/discreteCorrelation/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/discreteCorrelation/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Jun 2018 00:00:00 -0700</pubDate>
+        <link>/arborapps/discreteCorrelation/</link>
+        <guid isPermaLink="true">/arborapps/discreteCorrelation/</guid>
+      </item>
+    
+      <item>
+        <title>Cophylo</title>
+        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/cophylo/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/cophylo/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Jun 2018 00:00:00 -0700</pubDate>
+        <link>/arborapps/cophylo/</link>
+        <guid isPermaLink="true">/arborapps/cophylo/</guid>
+      </item>
+    
+      <item>
+        <title>Plot tree using d3</title>
+        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/treePlot/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/treePlot/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 31 May 2017 00:00:00 -0700</pubDate>
         <link>/arborapps/treePlot/</link>
@@ -19,9 +74,9 @@
     
       <item>
         <title>Stochastic character mapping using simmap</title>
-        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/simmap/&quot; /&gt;
+        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/simmap/&quot; /&gt;
 
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/simmap/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/simmap/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 31 May 2017 00:00:00 -0700</pubDate>
         <link>/arborapps/simmap/</link>
@@ -30,9 +85,9 @@
     
       <item>
         <title>Phylogenetic independent contrasts</title>
-        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/PIC/&quot; /&gt;
+        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/PIC/&quot; /&gt;
 
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/PIC/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/PIC/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 31 May 2017 00:00:00 -0700</pubDate>
         <link>/arborapps/pic/</link>
@@ -59,343 +114,6 @@
         <pubDate>Tue, 30 May 2017 00:00:00 -0700</pubDate>
         <link>/arborapps/pgls/</link>
         <guid isPermaLink="true">/arborapps/pgls/</guid>
-      </item>
-    
-      <item>
-        <title>Ancestral state reconstruction</title>
-        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/ancestral-state/&quot; /&gt;
-
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/ancestral-state/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 29 May 2017 00:00:00 -0700</pubDate>
-        <link>/arborapps/otsapps/ancestral-state/</link>
-        <guid isPermaLink="true">/arborapps/otsapps/ancestral-state/</guid>
-      </item>
-    
-      <item>
-        <title>Phylogenetic signal</title>
-        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/phylogenetic-signal/&quot; /&gt;
-
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/phylogenetic-signal/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 28 May 2017 00:00:00 -0700</pubDate>
-        <link>/arborapps/otsapps/phylogenetic-signal/</link>
-        <guid isPermaLink="true">/arborapps/otsapps/phylogenetic-signal/</guid>
-      </item>
-    
-      <item>
-        <title>makeBD</title>
-        <description>&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;makeBD is a function for setting up a birth-death model in Arbor. Use in conjunction with fitBD.&lt;/p&gt;
-
-&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
-
-&lt;p&gt;From the &lt;a href=&quot;/documentation/datasets/&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
-Load these files into Arbor, and …&lt;/p&gt;
-
-&lt;h2 id=&quot;arguments&quot;&gt;Arguments&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;table: A data table including species names&lt;/li&gt;
-  &lt;li&gt;tree: A phylogenetic tree&lt;/li&gt;
-  &lt;li&gt;column: The name of the column to analyze&lt;/li&gt;
-  &lt;li&gt;type: The character type
-    &lt;ul&gt;
-      &lt;li&gt;discrete: a character with a discrete number of states&lt;/li&gt;
-      &lt;li&gt;continuous: a continuously varying character&lt;/li&gt;
-      &lt;li&gt;fromData: will attempt to determine the data type from the data itself&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;method: specifies the method used to reconstruct ancestral character states
-    &lt;ul&gt;
-      &lt;li&gt;marginal: marginal ancestral state reconstructions, which reconstruct each node integrating over all possibilities at all other nodes in the tree; this is typically the method used in the literature to reconstruce ACEs&lt;/li&gt;
-      &lt;li&gt;joint: joint ancestral reconstructions, which give the configuration of ancestral states that together maximize the likelihood of the data given model parameters&lt;/li&gt;
-      &lt;li&gt;mcmc: reconstruct ancestral states using Bayesian MCMC. Note that the discrete version of this doesn’t seem to work, and even if it did work it is not a full MCMC ancestral state method&lt;/li&gt;
-      &lt;li&gt;stochastic: create stochastic character map&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;outputs&quot;&gt;Outputs&lt;/h2&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-</description>
-        <pubDate>Thu, 26 Jan 2017 00:00:00 -0800</pubDate>
-        <link>/collections/diversificationmodels/makeBD/</link>
-        <guid isPermaLink="true">/collections/diversificationmodels/makeBD/</guid>
-      </item>
-    
-      <item>
-        <title>Web services 2</title>
-        <description>&lt;h2 id=&quot;what-are-web-services&quot;&gt;What are web services?&lt;/h2&gt;
-
-&lt;p&gt;Web services are protocols for computers to exchange information over the web (see &lt;a href=&quot;https://en.wikipedia.org/wiki/Web_service&quot;&gt;wikipedia: web service&lt;/a&gt;), typically via an &lt;a href=&quot;https://en.wikipedia.org/wiki/Application_programming_interface&quot;&gt;API&lt;/a&gt;. In biology, web services are becoming more and more common. You can obtain, for example, phylogenetic trees from &lt;a href=&quot;http://opentreeoflife.org/&quot;&gt;Open Tree of Life&lt;/a&gt;, geographic occurrences from &lt;a href=&quot;http://www.gbif.org/&quot;&gt;GBIF&lt;/a&gt;, and trait data from &lt;a href=&quot;http://eol.org/&quot;&gt;Encyclopedia of Life&lt;/a&gt;, all using web services.&lt;/p&gt;
-
-&lt;p&gt;We have a number of pre-made functions in Arbor that can obtain data through web services. These functions can be included in workflows that make it easy to combine your data with data obtained over the web and carry out analyses. In this tutorial we will illustrate one of these applications, starting with a list of species and obtaining a phylogenetic tree from Open Tree of Life.&lt;/p&gt;
-
-&lt;h2 id=&quot;example-from-a-list-of-species-to-a-phylogenetic-tree&quot;&gt;Example: from a list of species to a phylogenetic tree&lt;/h2&gt;
-
-&lt;p&gt;We are going to start with a list of species. You can obtain this list as a csv file &lt;a href=&quot;/assets/mammal_species_list.csv&quot;&gt;here&lt;/a&gt;; download and save this file somewhere to your computer.&lt;/p&gt;
-
-&lt;p&gt;Now, open an Arbor instance (e.g. &lt;a href=&quot;http://arbor.arborworkflows.com&quot;&gt;Arbor web app&lt;/a&gt;). You will now need to load in your species list. You can do this by dragging the file that you just downloaded onto the “Browse or drop files” box:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen1.png&quot; alt=&quot;screen1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(you can also see our tutorial on &lt;a href=&quot;/tutorials/using-the-arbor-webapp/&quot;&gt;using the Arbor webapp&lt;/a&gt;) for more information on loading data into Arbor)&lt;/p&gt;
-
-&lt;p&gt;We will be building a workflow to do this analysis. Note that you need to be logged in and have write access to a collection to make the next parts work!&lt;/p&gt;
-
-&lt;p&gt;Click over to the “Analysis” tab, and create a new workflow. To do that, type the name of the new workflow it the box under “Create new analysis.” Let’s call our workflow “getOTLTreeAndPlot.”&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen2.png&quot; alt=&quot;screen2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Once you have created the workflow, you should be able to view and edit (but right now it is just a blank white space!)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen3.png&quot; alt=&quot;screen3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The first step in this workflow is to match the species names with the names in the Open Tree of Life Taxonomy (OTT). To do this, we will use a function in the “advanced-opentree” collection called “Lookup Names Using OpenTree Taxonomy.” Add this function to your workflow using the “+ add to workflow” button.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen4.png&quot; alt=&quot;screen4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We can click the tab on the left side of that new workflow step to indicate that the user will send a data table directly to this function. So our workflow is now:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen5.png&quot; alt=&quot;screen5&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now we need to pull out an “induced subtree” from open tree of life using the OTT ids that we obtained in the previous step. To do that, add a new function to your workflow, again from the “advanced-opentree” collection: “Return the Open Tree Subtree from a node list.” Add and connect that next step to your workflow:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen6.png&quot; alt=&quot;screen6&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now we just need to plot our resulting tree. You can use a function from the “advanced-phylogenyTools” collection called “PlotTreeWithApe.” Add that function, connect it to your workflow, and specify that the last output be sent to the user:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen7.png&quot; alt=&quot;screen7&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now just click “Setup and run.” In the box that appears, choose your input file with the list of mammal species names.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen8.png&quot; alt=&quot;screen8&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The workflow will run for a while:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen9.png&quot; alt=&quot;screen9&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;And then finish:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen10.png&quot; alt=&quot;screen10&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can then change to the “visualization” tab, and select the output from your workflow.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen11.png&quot; alt=&quot;screen11&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We then see the final result:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen12.png&quot; alt=&quot;screen12&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is a phylogenetic tree pulled from the Open Tree of Life synthesis that includes all of the species in the table that you supplied.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 08 Jan 2017 00:00:00 -0800</pubDate>
-        <link>/tutorials/webservices/</link>
-        <guid isPermaLink="true">/tutorials/webservices/</guid>
-      </item>
-    
-      <item>
-        <title>Creating new collections and functions</title>
-        <description>&lt;h2 id=&quot;how-to-make-your-own-collection-of-arbor-functions-and-workflows&quot;&gt;How to make your own collection of Arbor functions and workflows&lt;/h2&gt;
-
-&lt;p&gt;When working in Arbor, you will be uploading your own data, and may want to create your own functions and workflows. Everything in Arbor is organized into collections (for example, the phylogeny and base collections). You can create your own collection to store data and workflows. Later I will discuss how you can share any items in your collection with colleagues.&lt;/p&gt;
-
-&lt;h2 id=&quot;get-started&quot;&gt;Get started&lt;/h2&gt;
-
-&lt;p&gt;You will need to open the &lt;a href=&quot;http://arbor.arborworkflows.com&quot;&gt;Arbor web app&lt;/a&gt;. For this exercise, you will need to log in; your user name should match the personal part of the email address you used to register for the meeting. For example, if your registration email is lukeh@uidaho.edu, then your user name is lukeh. Your password will be given to you by the instructor.&lt;/p&gt;
-
-&lt;p&gt;Once you are logged in, your screen should look like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/screen1.png&quot; alt=&quot;Screenshot 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You will need the anolis example data files, &lt;a href=&quot;/assets/datasets/anolis.phy&quot;&gt;anolis.phy&lt;/a&gt; and &lt;a href=&quot;/assets/datasets/anolis.csv&quot;&gt;anolis.csv&lt;/a&gt;. Save those files somewhere on your computer.&lt;/p&gt;
-
-&lt;h2 id=&quot;create-a-new-collection&quot;&gt;Create a new collection&lt;/h2&gt;
-
-&lt;p&gt;On the left side of the screen, just below the “Browse or drop files” box, is the place you will need to focus to create your new collection. In the box there you can type the name of a new collection - let’s use &lt;em&gt;testCollection&lt;/em&gt; here, so type that in the box. If you want the collection to be public, you can tick the &lt;em&gt;public&lt;/em&gt; box. Otherwise, the collection will be private and only visible to you. Keep this test collection private for this example. Now click the “New collection” button, and your collection will be created.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/screen2.png&quot; alt=&quot;Screenshot 2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Immediately after creating my new collection. Did it work?&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Scroll down to see more collections, the one you just created will be at the bottom. Click on both the “eye” and the “pencil” next to your collection. The “eye” lets you see the things in your collection, and the pencil gives write access so that you can add things to the collection (and delete!).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/screen3.png&quot; alt=&quot;Screenshot 3&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;saving-data-to-your-new-collection&quot;&gt;Saving data to your new collection&lt;/h2&gt;
-
-&lt;p&gt;Once you have created your collection, you can add data to it. Drag the “anolis.csv” file to the “Browse or drop files” box to load it into your browser. You can now save this file to your new collection. To do that, scroll down to the very bottom of the bottom browser frame, where you should see “Save or download data.” “anolis.csv” should show up there.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/screen4.png&quot; alt=&quot;Screenshot 4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As long as the pencil next to your new collection is highlighted, you can now click “Save to checked collection” to save this data file to the new collection. Try that now. The name of the collection should show up next to the datafile:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/screen5.png&quot; alt=&quot;Screenshot 5&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;creating-new-analyses-and-workflows-in-your-new-collection&quot;&gt;Creating new analyses and workflows in your new collection&lt;/h2&gt;
-
-&lt;p&gt;Now, move over to the “Analysis” tab. You can create new analyses and workflows in your new collection by clicking on “+ New analysis” or “+ New workflow.”&lt;/p&gt;
-
-&lt;p&gt;Let’s start with a simple new analysis. We can create a function that will automatically multiply all the branch lengths in our tree by some factor, x. We will call this new function “multiplyBranchLengths.” Our function will have two inputs, a phylogenetic tree and a branch multiplier x, and a single output, the rescaled tree.&lt;/p&gt;
-
-&lt;p&gt;The first thing to do is to create our new analysis. Put the function name, “multiplyBranchLengths,” in the box under “Create new analysis.”&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor1.png&quot; alt=&quot;Screenshot ssbarbor1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now, push the button that says “New analysis.”&lt;/p&gt;
-
-&lt;p&gt;You have just created an (empty) analysis. Now click “Show script” and “Edit” to allow us to put some code into our analysis. You should also change the language to “R” instead of “Python” (look in the row of options after &amp;gt;Setup and run). Your screen should now look like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor2.png&quot; alt=&quot;Screenshot ssbarbor2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We can now paste a snippet of R code into this window to make our analysis happen. All we need is two lines:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rescaledPhy &amp;lt;- phy
-rescaledPhy$edge.length &amp;lt;- rescaledPhy$edge.length * x
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Paste that into your analysis:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor3.png&quot; alt=&quot;Screenshot ssbarbor3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We now need to specify the function inputs and outputs. First, click the small “+” button next to “Inputs” at the bottom of the page:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor4.png&quot; alt=&quot;Screenshot ssbarbor4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can then specify a name for this input, as well as its Id in the code. Fill out the “Configure input” box like this, then click “Update”:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor5.png&quot; alt=&quot;Screenshot ssbarbor5&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Do the same thing to create a second input for our branch multiplier, but with the “Configure input” box filled out for a number:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor6.png&quot; alt=&quot;Screenshot ssbarbor6&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If you do this right, you should see the Inputs specified:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor7.png&quot; alt=&quot;Screenshot ssbarbor7&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now, make an output by clicking the + next to “Outputs.” Fill out the “Configure output” box:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor8.png&quot; alt=&quot;Screenshot ssbarbor8&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now you can see all of your inputs and outputs:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor9.png&quot; alt=&quot;Screenshot ssbarbor9&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;OK! Make sure to click “Save” to save all of your work.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor10.png&quot; alt=&quot;Screenshot ssbarbor10&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You should see a confirmation that your work is saved:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor11.png&quot; alt=&quot;Screenshot ssbarbor11&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now, let’s try running your new function. Once you have saved the function, click on “&amp;gt; Setup and run.” Fill out the box that appears:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor12.png&quot; alt=&quot;Screenshot ssbarbor12&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Once the function runs, you should get a green success message:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor13.png&quot; alt=&quot;Screenshot ssbarbor13&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Next, we will try to use this rescaled tree to do something.&lt;/p&gt;
-
-&lt;h2 id=&quot;building-a-workflow-that-includes-your-new-function&quot;&gt;Building a workflow that includes your new function&lt;/h2&gt;
-
-&lt;p&gt;We will now build a workflow that includes two steps: rescaling your tree, and then fitting a model of evolution for a trait on that rescaled tree.&lt;/p&gt;
-
-&lt;p&gt;Create a new analysis called “rescaledTraitEvo,” but this time make sure to click the button that says “New workflow.”&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor14.png&quot; alt=&quot;Screenshot ssbarbor14&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As long as you have “Show script” and “Edit” active, you should see a blank space where your workflow will go.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor15.png&quot; alt=&quot;Screenshot ssbarbor15&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Let’s add the two functions that will be part of our workflow. First. using the “Select analysis” chooser, find your new function (multiplyBranchLengths) and use the “+Add to workflow” button to add it to your workflow.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor16.png&quot; alt=&quot;Screenshot ssbarbor16&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Once you do that, your function should appear as a workflow block.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor17.png&quot; alt=&quot;Screenshot ssbarbor17&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now add a block for the other function you need, “fit discrete.” It is part of the “traitModels” collection, so make sure that collection is highlighted as visible under the Data Management tab.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor18.png&quot; alt=&quot;Screenshot ssbarbor18&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now select the function you need and click “+Add to workflow”&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor19.png&quot; alt=&quot;Screenshot ssbarbor19&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Shazam! the function appears in your workflow. But wait? What happened to the other function?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor20.png&quot; alt=&quot;Screenshot ssbarbor20&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Don’t worry, it was just hiding underneath.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor21.png&quot; alt=&quot;Screenshot ssbarbor21&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;OK, now we just need to wire this workflow together! First, we know that the output tree from “multiplyBranchLengths” goes to the input tree of “Fit continuous.” Connect those two with a wire.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor22.png&quot; alt=&quot;Screenshot ssbarbor22&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Everything else is a user input or output. To create those, just click on each tab.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor23.png&quot; alt=&quot;Screenshot ssbarbor23&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You might need to move things around to make the workflow look nice.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor24.png&quot; alt=&quot;Screenshot ssbarbor24&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Make sure to save your workflow!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor25.png&quot; alt=&quot;Screenshot ssbarbor25&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We can now use the “&amp;gt; Setup and run” button to run our workflow.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor26.png&quot; alt=&quot;Screenshot ssbarbor26&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Designate these inputs:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor27.png&quot; alt=&quot;Screenshot ssbarbor27&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It worked!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor28.png&quot; alt=&quot;Screenshot ssbarbor28&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We can see the results in the Visualization tab:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor29.png&quot; alt=&quot;Screenshot ssbarbor29&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Click “Update”&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor30.png&quot; alt=&quot;Screenshot ssbarbor30&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Compare this to what we get with the original tree. Notice any differences? Explain!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/ssbarbor31.png&quot; alt=&quot;Screenshot ssbarbor31&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;loading-a-shared-workflow-to-your-collection&quot;&gt;Loading a shared workflow to your collection&lt;/h2&gt;
-
-&lt;p&gt;Next, I will show you how to load in a workflow file that has been downloaded in JSON format. Imagine, for example, that a colleague emailed you an arbor workflow called mywork.json. You can download such a file &lt;a href=&quot;/assets/creatingaCollection/fitTraitModels.json&quot;&gt;here&lt;/a&gt;. (NOTE: you might have to right-click and “save as” for this file, or save as plain text with extension .json if it opens in your browser). Now, to load that workflow into your new collection, click on “Upload… “ and find the fitTraitModels.json file. The new workflow is now in your collection!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/screen6.png&quot; alt=&quot;Screenshot 6&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can see the new workflow by clicking “Show script.”&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/creatingaCollection/screen7.png&quot; alt=&quot;Screenshot 7&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can even edit this workflow using the “Edit” button (keep in mind that you have to hit “Save” for the changes to go into effect).&lt;/p&gt;
-
-&lt;p&gt;Finally, you can download your new workflow using the “Save” button, which generates a json-formatted version of your workflow. This text file includes all of the information and code that you need to run your workflow - but not the data! You can easily share these json files with collaborators or make them available on Github or other archives.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 06 Jan 2017 00:00:00 -0800</pubDate>
-        <link>/tutorials/functions-and-collections/</link>
-        <guid isPermaLink="true">/tutorials/functions-and-collections/</guid>
       </item>
     
   </channel>

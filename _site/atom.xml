@@ -7,7 +7,7 @@
   <subtitle>Arbor workflows</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2018-05-22T11:37:33-07:00</updated>
+  <updated>2018-06-05T15:15:56-07:00</updated>
   <id>/</id>
   <author>
     <name>Luke Harmon</name>
@@ -15,6 +15,101 @@
     <email>lukeh@uidaho.edu</email>
   </author>
 
+  
+  <entry>
+    <title>Slowdown test</title>
+    <link href="/arborapps/slowdown/"/>
+    <updated>2018-06-05T00:00:00-07:00</updated>
+    <id>/arborapps/slowdown</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/slowdown/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/slowdown/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Map occurences</title>
+    <link href="/arborapps/occurrences/"/>
+    <updated>2018-06-05T00:00:00-07:00</updated>
+    <id>/arborapps/occurrences</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      &lt;img src=&quot;/images/branch-1600x800.jpg&quot;&gt;&lt;br/&gt;
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/occurrences/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/occurrences/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Matrix Explorer</title>
+    <link href="/arborapps/matrixExplorer/"/>
+    <updated>2018-06-05T00:00:00-07:00</updated>
+    <id>/arborapps/matrixExplorer</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/matrixExplorer/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/matrixExplorer/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Discrete character correlation</title>
+    <link href="/arborapps/discreteCorrelation/"/>
+    <updated>2018-06-05T00:00:00-07:00</updated>
+    <id>/arborapps/discreteCorrelation</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/discreteCorrelation/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/discreteCorrelation/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Cophylo</title>
+    <link href="/arborapps/cophylo/"/>
+    <updated>2018-06-05T00:00:00-07:00</updated>
+    <id>/arborapps/cophylo</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/cophylo/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/cophylo/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
   
   <entry>
     <title>Plot tree using d3</title>
@@ -28,9 +123,9 @@
     </author>
     <content type="html">
       
-      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/treePlot/&quot; /&gt;
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/treePlot/&quot; /&gt;
 
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/treePlot/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/treePlot/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>
@@ -47,9 +142,9 @@
     </author>
     <content type="html">
       
-      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/simmap/&quot; /&gt;
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/simmap/&quot; /&gt;
 
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/simmap/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/simmap/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>
@@ -66,9 +161,9 @@
     </author>
     <content type="html">
       
-      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbordev.arborworkflows.com/PIC/&quot; /&gt;
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/PIC/&quot; /&gt;
 
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbordev.arborworkflows.com/PIC/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/PIC/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>
@@ -1029,169 +1124,6 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
 &lt;p&gt;Phylogenetic tree of &lt;em&gt;Phelsuma&lt;/em&gt; lizards. Download here: &lt;a href=&quot;/assets/datasets/phelsuma.phy&quot;&gt;phelsuma.phy&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>phelsuma.csv</title>
-    <link href="/collections/phylogeny/data/phelsuma-csv/"/>
-    <updated>2016-04-18T00:00:00-07:00</updated>
-    <id>/collections/phylogeny/data/phelsuma-csv</id>
-    <author>
-      <name>Luke Harmon</name>
-      <uri>/</uri>
-      <email>lukeh@uidaho.edu</email>
-    </author>
-    <content type="html">
-      
-      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;Character data for Phelsuma lizards. Download here: &lt;a href=&quot;/assets/datasets/phelsuma.csv&quot;&gt;phelsuma.csv&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>anolis.phy</title>
-    <link href="/collections/phylogeny/data/anolis-phy/"/>
-    <updated>2016-04-18T00:00:00-07:00</updated>
-    <id>/collections/phylogeny/data/anolis-phy</id>
-    <author>
-      <name>Luke Harmon</name>
-      <uri>/</uri>
-      <email>lukeh@uidaho.edu</email>
-    </author>
-    <content type="html">
-      
-      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;Phylogenetic tree of anolis lizards. Download here: &lt;a href=&quot;/assets/datasets/anolis.phy&quot;&gt;anolis.phy&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>mammal_species_list.csv</title>
-    <link href="/collections/opentree/data/mammal-species-list-csv/"/>
-    <updated>2016-04-18T00:00:00-07:00</updated>
-    <id>/collections/opentree/data/mammal-species-list-csv</id>
-    <author>
-      <name>Luke Harmon</name>
-      <uri>/</uri>
-      <email>lukeh@uidaho.edu</email>
-    </author>
-    <content type="html">
-      
-      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;A list of mammal species for the example on pulling from Open Tree of Life&lt;/p&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>anolis.csv</title>
-    <link href="/collections/base/phylogeny/data/anolis-csv/"/>
-    <updated>2016-04-18T00:00:00-07:00</updated>
-    <id>/collections/base/phylogeny/data/anolis-csv</id>
-    <author>
-      <name>Luke Harmon</name>
-      <uri>/</uri>
-      <email>lukeh@uidaho.edu</email>
-    </author>
-    <content type="html">
-      
-      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;Data on anolis lizards. Download here: &lt;a href=&quot;/assets/datasets/anolis.csv&quot;&gt;anolis.csv&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Web services 1</title>
-    <link href="/tutorials/webservices/"/>
-    <updated>2016-03-11T00:00:00-08:00</updated>
-    <id>/tutorials/webservices</id>
-    <author>
-      <name>Luke Harmon</name>
-      <uri>/</uri>
-      <email>lukeh@uidaho.edu</email>
-    </author>
-    <content type="html">
-      
-      &lt;h2 id=&quot;what-are-web-services&quot;&gt;What are web services?&lt;/h2&gt;
-
-&lt;p&gt;Web services are protocols for computers to exchange information over the web (see &lt;a href=&quot;https://en.wikipedia.org/wiki/Web_service&quot;&gt;wikipedia: web service&lt;/a&gt;), typically via an &lt;a href=&quot;https://en.wikipedia.org/wiki/Application_programming_interface&quot;&gt;API&lt;/a&gt;. In biology, web services are becoming more and more common. You can obtain, for example, phylogenetic trees from &lt;a href=&quot;http://opentreeoflife.org/&quot;&gt;Open Tree of Life&lt;/a&gt;, geographic occurrences from &lt;a href=&quot;http://www.gbif.org/&quot;&gt;GBIF&lt;/a&gt;, and trait data from &lt;a href=&quot;http://eol.org/&quot;&gt;Encyclopedia of Life&lt;/a&gt;, all using web services.&lt;/p&gt;
-
-&lt;p&gt;We have a number of pre-made functions in Arbor that can obtain data through web services. These functions can be included in workflows that make it easy to combine your data with data obtained over the web and carry out analyses. In this tutorial we will illustrate one of these applications, starting with a list of species and obtaining a phylogenetic tree from Open Tree of Life.&lt;/p&gt;
-
-&lt;h2 id=&quot;example-from-a-list-of-species-to-a-phylogenetic-tree&quot;&gt;Example: from a list of species to a phylogenetic tree&lt;/h2&gt;
-
-&lt;p&gt;We are going to start with a list of species. You can obtain this list as a csv file &lt;a href=&quot;/assets/mammal_species_list.csv&quot;&gt;here&lt;/a&gt;; download and save this file somewhere to your computer.&lt;/p&gt;
-
-&lt;p&gt;Now, open an Arbor instance (e.g. &lt;a href=&quot;http://arborclassic.arborworkflows.com:9080/#&quot;&gt;arborclassic.arborworkflows.com:9080&lt;/a&gt;). You will now need to load in your species list. You can do this by dragging the file that you just downloaded onto the “Browse or drop files” box:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen1.png&quot; alt=&quot;screen1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(you can also see our tutorial on &lt;a href=&quot;/tutorials/using-the-arbor-webapp/&quot;&gt;using the Arbor webapp&lt;/a&gt;) for more information on loading data into Arbor)&lt;/p&gt;
-
-&lt;p&gt;We will be building a workflow to do this analysis. Note that you need to be logged in and have write access to a collection to make the next parts work!&lt;/p&gt;
-
-&lt;p&gt;Click over to the “Analysis” tab, and create a new workflow. To do that, type the name of the new workflow it the box under “Create new analysis.” Let’s call our workflow “getOTLTreeAndPlot.”&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen2.png&quot; alt=&quot;screen2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Once you have created the workflow, you should be able to view and edit (but right now it is just a blank white space!)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen3.png&quot; alt=&quot;screen3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The first step in this workflow is to match the species names with the names in the Open Tree of Life Taxonomy (OTT). To do this, we will use a function in the “OpenTree” collection called “Lookup Names Using OpenTree Taxonomy.” Add this function to your workflow using the “+ add to workflow” button.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen4.png&quot; alt=&quot;screen4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We can click the tab on the left side of that new workflow step to indicate that the user will send a data table directly to this function. So our workflow is now:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen5.png&quot; alt=&quot;screen5&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now we need to pull out an “induced subtree” from open tree of life using the OTT ids that we obtained in the previous step. To do that, add a new function to your workflow, again from the OpenTree collection: “Return the Open Tree Subtree from a node list.” Add and connect that next step to your workflow:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen6.png&quot; alt=&quot;screen6&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now we just need to plot our resulting tree. You can use a function from the “Phylogenies” collection called “PlotTreeWithApe.” Add that function, connect it to your workflow, and specify that the last output be sent to the user:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen7.png&quot; alt=&quot;screen7&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now just click “Setup and run.” In the box that appears, choose your input file with the list of mammal species names.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen8.png&quot; alt=&quot;screen8&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The workflow will run for a while:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen9.png&quot; alt=&quot;screen9&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;And then finish:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen10.png&quot; alt=&quot;screen10&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can then change to the “visualization” tab, and select the output from your workflow.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen11.png&quot; alt=&quot;screen11&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We then see the final result:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/webServices/webserv-screen12.png&quot; alt=&quot;screen12&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is a phylogenetic tree pulled from the Open Tree of Life synthesis that includes all of the species in the table that you supplied.&lt;/p&gt;
 
     </content>
   </entry>
