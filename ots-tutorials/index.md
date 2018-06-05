@@ -13,6 +13,8 @@ image:
 
 To obtain your course materials, download [this archive]({{ site.baseurl }}/ots-tutorials/ots-data.zip).
 
+You can also explore [all the Arbor apps]({{ site.baseurl }}/arborapps)
+
 # Course tutorials:
 
 <div class="tiles">

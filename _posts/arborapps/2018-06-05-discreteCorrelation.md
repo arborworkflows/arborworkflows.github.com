@@ -1,6 +1,6 @@
 ---
 layout: page
-categories: arborapps
+categories: arborapps otsapps
 title: Discrete character correlation
 author: Luke J. Harmon
 image:

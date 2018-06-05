@@ -7,7 +7,7 @@
   <subtitle>Arbor workflows</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2018-06-05T15:15:56-07:00</updated>
+  <updated>2018-06-05T15:18:33-07:00</updated>
   <id>/</id>
   <author>
     <name>Luke Harmon</name>
@@ -75,9 +75,9 @@
   
   <entry>
     <title>Discrete character correlation</title>
-    <link href="/arborapps/discreteCorrelation/"/>
+    <link href="/arborapps/otsapps/discreteCorrelation/"/>
     <updated>2018-06-05T00:00:00-07:00</updated>
-    <id>/arborapps/discreteCorrelation</id>
+    <id>/arborapps/otsapps/discreteCorrelation</id>
     <author>
       <name>Luke Harmon</name>
       <uri>/</uri>
@@ -94,9 +94,9 @@
   
   <entry>
     <title>Cophylo</title>
-    <link href="/arborapps/cophylo/"/>
+    <link href="/arborapps/otsapps/cophylo/"/>
     <updated>2018-06-05T00:00:00-07:00</updated>
-    <id>/arborapps/cophylo</id>
+    <id>/arborapps/otsapps/cophylo</id>
     <author>
       <name>Luke Harmon</name>
       <uri>/</uri>
@@ -189,9 +189,9 @@
   
   <entry>
     <title>PGLS - two variables only (for now!)</title>
-    <link href="/arborapps/pgls/"/>
+    <link href="/arborapps/otsapps/pgls/"/>
     <updated>2017-05-30T00:00:00-07:00</updated>
-    <id>/arborapps/pgls</id>
+    <id>/arborapps/otsapps/pgls</id>
     <author>
       <name>Luke Harmon</name>
       <uri>/</uri>
