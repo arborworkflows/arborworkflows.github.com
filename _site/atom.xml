@@ -7,7 +7,7 @@
   <subtitle>Arbor workflows</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2018-06-05T15:21:48-07:00</updated>
+  <updated>2018-06-06T10:41:24-07:00</updated>
   <id>/</id>
   <author>
     <name>Luke Harmon</name>
@@ -15,6 +15,25 @@
     <email>lukeh@uidaho.edu</email>
   </author>
 
+  
+  <entry>
+    <title>Phylomap</title>
+    <link href="/arborapps/otsapps/phylomap/"/>
+    <updated>2018-06-06T00:00:00-07:00</updated>
+    <id>/arborapps/otsapps/phylomap</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/phylomap/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/phylomap/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+    </content>
+  </entry>
   
   <entry>
     <title>Slowdown test</title>
@@ -1101,27 +1120,6 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
       &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
 
 &lt;p&gt;List of species that can be used to query both open tree of life and timetree.&lt;/p&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>phelsuma.phy</title>
-    <link href="/collections/phylogeny/data/phelsuma-phy/"/>
-    <updated>2016-04-18T00:00:00-07:00</updated>
-    <id>/collections/phylogeny/data/phelsuma-phy</id>
-    <author>
-      <name>Luke Harmon</name>
-      <uri>/</uri>
-      <email>lukeh@uidaho.edu</email>
-    </author>
-    <content type="html">
-      
-      &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;Phylogenetic tree of &lt;em&gt;Phelsuma&lt;/em&gt; lizards. Download here: &lt;a href=&quot;/assets/datasets/phelsuma.phy&quot;&gt;phelsuma.phy&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 

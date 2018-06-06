@@ -7,6 +7,17 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Phylomap</title>
+        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/phylomap/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/phylomap/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Jun 2018 00:00:00 -0700</pubDate>
+        <link>/arborapps/otsapps/phylomap/</link>
+        <guid isPermaLink="true">/arborapps/otsapps/phylomap/</guid>
+      </item>
+    
+      <item>
         <title>Slowdown test</title>
         <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/slowdown/&quot; /&gt;
 
@@ -103,17 +114,6 @@
         <pubDate>Wed, 31 May 2017 00:00:00 -0700</pubDate>
         <link>/arborapps/otsapps/ltt/</link>
         <guid isPermaLink="true">/arborapps/otsapps/ltt/</guid>
-      </item>
-    
-      <item>
-        <title>PGLS - two variables only (for now!)</title>
-        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/PGLS-twovars/&quot; /&gt;
-
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/PGLS-twovars/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 30 May 2017 00:00:00 -0700</pubDate>
-        <link>/arborapps/otsapps/pgls/</link>
-        <guid isPermaLink="true">/arborapps/otsapps/pgls/</guid>
       </item>
     
   </channel>
