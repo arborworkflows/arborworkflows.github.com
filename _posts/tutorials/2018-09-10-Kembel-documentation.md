@@ -18,8 +18,6 @@ The Arbor instance we will be using for this tutorial can be located at [http://
 
 ![Screenshot]({{site.baseurl}}/assets/KembelBiodiversity/KBWScreenshot1b.png)
 
-<img src="/Users/thacker35294/Documents/GitHub/arborAnalyses/KBW_images/KBWScreenshot1b.png" width="1000px" />
-
 ## Loading example data
 
 This tutorial will use files containing species traits, species abundances, a species phylogeny, and community metadata. These files are saved in the Arbor instance, and are called:
@@ -30,13 +28,13 @@ This tutorial will use files containing species traits, species abundances, a sp
 
 If you wish to download and view a file, select it from the dropdown list at the bottom of the Arbor homepage and click the download button.
 
-<img src="/Users/thacker35294/Documents/GitHub/arborAnalyses/KBW_images/KBWScreenshot2.png" width="1000px" />
+![Screenshot]({{site.baseurl}}/assets/KembelBiodiversity/KBWScreenshot2.png)
 
 ## Run the data visualization and transformation workflow
 
 Before we run any analysis on the data, we are first going to transform and standardize it.  To accomplish this, we will use the 'KBW.1.enter.visualize.and.transform.data.workflow (KembelBiodiversityWorkshop)' workflow.  Begin by clicking on the 'Analysis' tab, then select 'KBW.1.enter.visualize.and.transform.data.workflow (KembelBiodiversityWorkshop)' from the dropdown menu.
 
-<img src="/Users/thacker35294/Documents/GitHub/arborAnalyses/KBW_images/KBWScreenshot3.png" width="1000px" />
+![Screenshot]({{site.baseurl}}/assets/KembelBiodiversity/KBWScreenshot3.png)
 
 Next, click on the blue 'Set up and run' button.  You will see a popup box listing the outputs of the modules in your workflow.  Note the gray text next to the output; it denotes the format of the output.  For example, __treePlot__'s output will be formatted as an image.  At the bottom of the box, select the input files
 * 'species.traits.csv (KembelBiodiversityWorkshop)' for __traits__
@@ -46,30 +44,25 @@ Next, click on the blue 'Set up and run' button.  You will see a popup box listi
 
 To start the analysis, click the blue 'Run' button.
 
-<img src="/Users/thacker35294/Documents/GitHub/arborAnalyses/KBW_images/KBWScreenshot4.png" width="400px" height="400px"/>
+![Screenshot]({{site.baseurl}}/assets/KembelBiodiversity/KBWScreenshot4.png)
 
 Now let's have a look at the outputs of our analysis.  Outputs can be viewed under the 'Visualization' tab.  To access a given output, select the class of output from the dropdown menu under __select visualization__.  Next, pull up the output you wish to view from the dropdown menu under __data__.  Finally, click on the blue 'Update' button.  You can click the downward pointing chevron to the right of your login information to collapse the interface to get an unobstructed view of your output.  Clicking on this arrow a second time returns the interface to the screen.  Let's have a look at the transformed data produced by the workflow.
 
-
-<img src="/Users/thacker35294/Documents/GitHub/arborAnalyses/KBW_images/KBWScreenshot5.png" width="1000px" />
+![Screenshot]({{site.baseurl}}/assets/KembelBiodiversity/KBWScreenshot5.png)
 
 To download the output, return to the 'Data Management' tab and scroll to the bottom of the screen.  Under __Save or download data__ you are able to select your output from the drop down menu.  Next, select the desired file format (.png or .jpeg for images such as our plots), and click the blue 'Download' button.
 
-
-<img src="/Users/thacker35294/Documents/GitHub/arborAnalyses/KBW_images/KBWScreenshot6.png" width="1000px" />
-
+![Screenshot]({{site.baseurl}}/assets/KembelBiodiversity/KBWScreenshot6.png)
 
 ## Run the visualizing and summarizing biodiversity data workflow
 
 This workflow allows the user to run preliminary analyses to describe differences in biodiversity between habitats.  The workflow is accessed and initiated in the same manner as before.  Start by clicking the 'Analysis' tab, then select 'KBW.1.enter.visualizing.and.summarizing.biodiversity.data.workflow (KembelBiodiversityWorkshop)' from the dropdown menu.
 
-
-<img src="/Users/thacker35294/Documents/GitHub/arborAnalyses/KBW_images/KBWScreenshot7.png" width="1000px" />
+![Screenshot]({{site.baseurl}}/assets/KembelBiodiversity/KBWScreenshot7.png)
 
 Proceed by clicking on the blue 'Set up and run' button and selecting the input files.  For this analysis, we will be using files produced by the data visualization and transformation workflow.  These files contain data that have been normalized and reformatted to fit the functions contained in Arbor.  Select 'KBW.1.enter.visualize.and.transform.data.workflow metadata 3.csv (KembelBiodiversityWorkshop)' for __metadata__ and 'KBW.1.enter.visualize.and.transform.data.workflow comm.after.decostand.no.rownames.csv (KembelBiodiversityWorkshop)' for __comm.total__.  The input __column_to_aggregate__  draws its selection from the metadata file and contains several choices.  For this tutorial, select 'habitat'.  Finally, click the blue 'Run' button.
 
-
-<img src="/Users/thacker35294/Documents/GitHub/arborAnalyses/KBW_images/KBWScreenshot8.png" width="400px" height="400px"/>
+![Screenshot]({{site.baseurl}}/assets/KembelBiodiversity/KBWScreenshot8.png)
 
 Our analysis has performed a t-test on the number of species between habitats and plotted the inverse Simpson's index by habitat.  The outputs of this analysis can be visualized in the same fashion as above.  Under the 'Visualization' tab select a class of output from the dropdown menu under __select visualization__, then select the desired output under __data__.  Finally, click on the blue 'Update' button.
 
@@ -77,12 +70,11 @@ Our analysis has performed a t-test on the number of species between habitats an
 
 We may also be interested in performing multivariate analyses on our data.  To begin, access the multivariate community analysis workflow by clicking the 'Analysis' tab and selecting 'KBW.1.multivariate.community.analysis.workflow (KembelBiodiversityWorkshop)' from the dropdown menu.
 
-<img src="/Users/thacker35294/Documents/GitHub/arborAnalyses/KBW_images/KBWScreenshot12.png" width="1000px" />
+![Screenshot]({{site.baseurl}}/assets/KembelBiodiversity/KBWScreenshot12.png)
 
 Next, click the blue 'Set up and run' button and select the input files. As before, this analysis is formatted to accept the files produced by the data visualization and transformation workflow. Select 'KBW.1.enter.visualize.and.transform.data.workflow comm.after.decostand.with.rownames.csv (KembelBiodiversityWorkshop)' for __comm.total__ and 'KBW.1.enter.visualize.and.transform.data.workflow metadata 3.csv (KembelBiodiversityWorkshop)' for __metadata__. Initiate the analysis by clicking the blue 'Run' button.
 
-
-<img src="/Users/thacker35294/Documents/GitHub/arborAnalyses/KBW_images/KBWScreenshot13.png" width="400px" height="400px"/>
+![Screenshot]({{site.baseurl}}/assets/KembelBiodiversity/KBWScreenshot13.png)
 
 The outputs of this analysis can be visualized as before. Under the 'Visualization' tab select a class of output from the dropdown menu under __select visualization__, then select the desired output under __data__. Finally, click on the blue 'Update' button.
 
@@ -90,7 +82,6 @@ The outputs of this analysis can be visualized as before. Under the 'Visualizati
 
 Arbor workflows are constructed using modules that can be assembled as needed to fit the specific needs of your analysis.   To view the script for a module, click the 'Show script' button under the analysis tab.  You can also choose to download the module as a .json file by clicking on the blue 'Download' button.
 
-
-<img src="/Users/thacker35294/Documents/GitHub/arborAnalyses/KBW_images/KBWScreenshot11.png" width="1000px" />
+![Screenshot]({{site.baseurl}}/assets/KembelBiodiversity/KBWScreenshot11.png)
 
 Contributed by: Joseph Kelly, Stony Brook University
