@@ -5,9 +5,7 @@ title: Kembel Biodiversity Workflow
 summary: Use R package 'picante' to explore and analyze community data
 comments: true
 image:
-  teaser: 
-      arborworkflows.github.com/assets/KembelBiodiversity/Poa_cusickii_CC-BY-SA_iNaturalist.jpg
-    
+  teaser: Poa_cusickii_CC-BY-SA_iNaturalist-188x250.jpg
 ---
 
 ## Use R package 'picante' to explore and analyze community data.
