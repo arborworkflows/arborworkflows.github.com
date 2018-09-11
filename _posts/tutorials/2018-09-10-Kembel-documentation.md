@@ -71,8 +71,6 @@ Proceed by clicking on the blue 'Set up and run' button and selecting the input 
 
 Our analysis has performed a t-test on the number of species between habitats and plotted the inverse Simpson's index by habitat.  The outputs of this analysis can be visualized in the same fashion as above.  Under the 'Visualization' tab select a class of output from the dropdown menu under __select visualization__, then select the desired output under __data__.  Finally, click on the blue 'Update' button.
 
-
-
 ## Run the multivariate community analysis workflow
 
 We may also be interested in performing multivariate analyses on our data.  To begin, access the multivariate community analysis workflow by clicking the 'Analysis' tab and selecting 'KBW.1.multivariate.community.analysis.workflow (KembelBiodiversityWorkshop)' from the dropdown menu.
