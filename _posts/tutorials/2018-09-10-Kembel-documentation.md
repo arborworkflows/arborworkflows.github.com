@@ -16,7 +16,7 @@ Documentation for picante can be found at [https://cran.r-project.org/web/packag
 
 The Arbor instance we will be using for this tutorial can be located at [http://52.204.9.236/](http://52.204.9.236/#).  To prepare for the tutorial, sign in using your username and password and highlight the eyeball icon next to the KembelBiodiversityWorkshop directory.
 
-![Screenshot]({{ site.baseurl }}/assets/KembelBiodiversity/KBWScreenshot1b.png)
+![Screenshot]({{site.baseurl}}/assets/KembelBiodiversity/KBWScreenshot1b.png)
 
 <img src="/Users/thacker35294/Documents/GitHub/arborAnalyses/KBW_images/KBWScreenshot1b.png" width="1000px" />
 
