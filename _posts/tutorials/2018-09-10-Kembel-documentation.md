@@ -67,8 +67,7 @@ Our analysis has performed a t-test on the number of species between habitats an
 
 ## Run the multivariate community analysis workflow
 
-We may also be interested in performing multivariate analyses on our data.  To begin, access the multivariate community analysis worlkflow by clicking the 'Analysis' tab and selecting 'KBW.1.multivariate.community.analysis.workflow (KembelBiodiversityWorkshop)' from the dropdown menu.
-
+We may also be interested in performing multivariate analyses on our data.  To begin, access the multivariate community analysis workflow by clicking the 'Analysis' tab and selecting 'KBW.1.multivariate.community.analysis.workflow (KembelBiodiversityWorkshop)' from the dropdown menu.
 
 <img src="/Users/thacker35294/Documents/GitHub/arborAnalyses/KBW_images/KBWScreenshot12.png" width="1000px" />
 
