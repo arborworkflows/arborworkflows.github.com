@@ -7,6 +7,100 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Kembel Biodiversity Workflow</title>
+        <description>&lt;h2 id=&quot;use-r-package-picante-to-explore-and-analyze-community-data&quot;&gt;Use R package ‘picante’ to explore and analyze community data.&lt;/h2&gt;
+
+&lt;p&gt;This tutorial will guide the user through Steven Kembel’s biodiversity workflow developed for the R package ‘picante’.  Picante allows users to analyze community ecology data sets in a multivariate and phylogenetic context.&lt;/p&gt;
+
+&lt;p&gt;Documentation for picante can be found at &lt;a href=&quot;https://cran.r-project.org/web/packages/picante/index.html&quot;&gt;https://cran.r-project.org/web/packages/picante/index.html&lt;/a&gt;, and the original workflow can be found at &lt;a href=&quot;http://kembellab.ca/r-workshop/biodivR/SK_Biodiversity_R.html&quot;&gt;http://kembellab.ca/r-workshop/biodivR/SK_Biodiversity_R.html&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Arbor instance we will be using for this tutorial can be located at &lt;a href=&quot;http://52.204.9.236/#&quot;&gt;http://52.204.9.236/&lt;/a&gt;.  To prepare for the tutorial, sign in using your username and password and highlight the eyeball icon next to the KembelBiodiversityWorkshop directory.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/KembelBiodiversity/KBWScreenshot1b.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;loading-example-data&quot;&gt;Loading example data&lt;/h2&gt;
+
+&lt;p&gt;This tutorial will use files containing species traits, species abundances, a species phylogeny, and community metadata. These files are saved in the Arbor instance, and are called:
+* species.traits.csv (KembelBiodiversityWorkshop)
+* grassland.community.csv (KembelBiodiversityWorkshop)
+* plot.metadata.csv (KembelBiodiversityWorkshop)
+* grassland.phylogeny.newick (KembelBiodiversityWorkshop)&lt;/p&gt;
+
+&lt;p&gt;If you wish to download and view a file, select it from the dropdown list at the bottom of the Arbor homepage and click the download button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/KembelBiodiversity/KBWScreenshot2.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;run-the-data-visualization-and-transformation-workflow&quot;&gt;Run the data visualization and transformation workflow&lt;/h2&gt;
+
+&lt;p&gt;Before we run any analysis on the data, we are first going to transform and standardize it.  To accomplish this, we will use the ‘KBW.1.enter.visualize.and.transform.data.workflow (KembelBiodiversityWorkshop)’ workflow.  Begin by clicking on the ‘Analysis’ tab, then select ‘KBW.1.enter.visualize.and.transform.data.workflow (KembelBiodiversityWorkshop)’ from the dropdown menu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/KembelBiodiversity/KBWScreenshot3.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, click on the blue ‘Set up and run’ button.  You will see a popup box listing the outputs of the modules in your workflow.  Note the gray text next to the output; it denotes the format of the output.  For example, &lt;strong&gt;treePlot&lt;/strong&gt;’s output will be formatted as an image.  At the bottom of the box, select the input files
+* ‘species.traits.csv (KembelBiodiversityWorkshop)’ for &lt;strong&gt;traits&lt;/strong&gt;
+* ‘grassland.phylogeny.newick (KembelBiodiversityWorkshop)’ for &lt;strong&gt;phylogeny&lt;/strong&gt;
+* ‘grassland.community.csv (KembelBiodiversityWorkshop)’ for &lt;strong&gt;comm&lt;/strong&gt;
+* ‘plot.metadata.csv (KembelBiodiversityWorkshop)’  for &lt;strong&gt;metadata&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To start the analysis, click the blue ‘Run’ button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/KembelBiodiversity/KBWScreenshot4.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now let’s have a look at the outputs of our analysis.  Outputs can be viewed under the ‘Visualization’ tab.  To access a given output, select the class of output from the dropdown menu under &lt;strong&gt;select visualization&lt;/strong&gt;.  Next, pull up the output you wish to view from the dropdown menu under &lt;strong&gt;data&lt;/strong&gt;.  Finally, click on the blue ‘Update’ button.  You can click the downward pointing chevron to the right of your login information to collapse the interface to get an unobstructed view of your output.  Clicking on this arrow a second time returns the interface to the screen.  Let’s have a look at the transformed data produced by the workflow.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/KembelBiodiversity/KBWScreenshot5.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To download the output, return to the ‘Data Management’ tab and scroll to the bottom of the screen.  Under &lt;strong&gt;Save or download data&lt;/strong&gt; you are able to select your output from the drop down menu.  Next, select the desired file format (.png or .jpeg for images such as our plots), and click the blue ‘Download’ button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/KembelBiodiversity/KBWScreenshot6.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;run-the-visualizing-and-summarizing-biodiversity-data-workflow&quot;&gt;Run the visualizing and summarizing biodiversity data workflow&lt;/h2&gt;
+
+&lt;p&gt;This workflow allows the user to run preliminary analyses to describe differences in biodiversity between habitats.  The workflow is accessed and initiated in the same manner as before.  Start by clicking the ‘Analysis’ tab, then select ‘KBW.1.enter.visualizing.and.summarizing.biodiversity.data.workflow (KembelBiodiversityWorkshop)’ from the dropdown menu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/KembelBiodiversity/KBWScreenshot7.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Proceed by clicking on the blue ‘Set up and run’ button and selecting the input files.  For this analysis, we will be using files produced by the data visualization and transformation workflow.  These files contain data that have been normalized and reformatted to fit the functions contained in Arbor.  Select ‘KBW.1.enter.visualize.and.transform.data.workflow metadata 3.csv (KembelBiodiversityWorkshop)’ for &lt;strong&gt;metadata&lt;/strong&gt; and ‘KBW.1.enter.visualize.and.transform.data.workflow comm.after.decostand.no.rownames.csv (KembelBiodiversityWorkshop)’ for &lt;strong&gt;comm.total&lt;/strong&gt;.  The input &lt;strong&gt;column_to_aggregate&lt;/strong&gt;  draws its selection from the metadata file and contains several choices.  For this tutorial, select ‘habitat’.  Finally, click the blue ‘Run’ button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/KembelBiodiversity/KBWScreenshot8.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our analysis has performed a t-test on the number of species between habitats and plotted the inverse Simpson’s index by habitat.  The outputs of this analysis can be visualized in the same fashion as above.  Under the ‘Visualization’ tab select a class of output from the dropdown menu under &lt;strong&gt;select visualization&lt;/strong&gt;, then select the desired output under &lt;strong&gt;data&lt;/strong&gt;.  Finally, click on the blue ‘Update’ button.&lt;/p&gt;
+
+&lt;h2 id=&quot;run-the-multivariate-community-analysis-workflow&quot;&gt;Run the multivariate community analysis workflow&lt;/h2&gt;
+
+&lt;p&gt;We may also be interested in performing multivariate analyses on our data.  To begin, access the multivariate community analysis workflow by clicking the ‘Analysis’ tab and selecting ‘KBW.1.multivariate.community.analysis.workflow (KembelBiodiversityWorkshop)’ from the dropdown menu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/KembelBiodiversity/KBWScreenshot12.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, click the blue ‘Set up and run’ button and select the input files. As before, this analysis is formatted to accept the files produced by the data visualization and transformation workflow. Select ‘KBW.1.enter.visualize.and.transform.data.workflow comm.after.decostand.with.rownames.csv (KembelBiodiversityWorkshop)’ for &lt;strong&gt;comm.total&lt;/strong&gt; and ‘KBW.1.enter.visualize.and.transform.data.workflow metadata 3.csv (KembelBiodiversityWorkshop)’ for &lt;strong&gt;metadata&lt;/strong&gt;. Initiate the analysis by clicking the blue ‘Run’ button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/KembelBiodiversity/KBWScreenshot13.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The outputs of this analysis can be visualized as before. Under the ‘Visualization’ tab select a class of output from the dropdown menu under &lt;strong&gt;select visualization&lt;/strong&gt;, then select the desired output under &lt;strong&gt;data&lt;/strong&gt;. Finally, click on the blue ‘Update’ button.&lt;/p&gt;
+
+&lt;h2 id=&quot;examine-the-r-scripts-for-each-module&quot;&gt;Examine the R scripts for each module&lt;/h2&gt;
+
+&lt;p&gt;Arbor workflows are constructed using modules that can be assembled as needed to fit the specific needs of your analysis.   To view the script for a module, click the ‘Show script’ button under the analysis tab.  You can also choose to download the module as a .json file by clicking on the blue ‘Download’ button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/KembelBiodiversity/KBWScreenshot11.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Sep 2018 00:00:00 -0700</pubDate>
+        <link>/tutorials/Kembel-documentation/</link>
+        <guid isPermaLink="true">/tutorials/Kembel-documentation/</guid>
+      </item>
+    
+      <item>
+        <title>BiSSE</title>
+        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/bisse/&quot; /&gt;
+
+&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/bisse/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Jun 2018 00:00:00 -0700</pubDate>
+        <link>/arborapps/otsapps/bisse/</link>
+        <guid isPermaLink="true">/arborapps/otsapps/bisse/</guid>
+      </item>
+    
+      <item>
         <title>Phylomap</title>
         <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/phylomap/&quot; /&gt;
 
@@ -92,28 +186,6 @@
         <pubDate>Wed, 31 May 2017 00:00:00 -0700</pubDate>
         <link>/arborapps/simmap/</link>
         <guid isPermaLink="true">/arborapps/simmap/</guid>
-      </item>
-    
-      <item>
-        <title>Phylogenetic independent contrasts</title>
-        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/PIC/&quot; /&gt;
-
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/PIC/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 31 May 2017 00:00:00 -0700</pubDate>
-        <link>/arborapps/pic/</link>
-        <guid isPermaLink="true">/arborapps/pic/</guid>
-      </item>
-    
-      <item>
-        <title>Lineage-through-time plots</title>
-        <description>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=http://arbor.arborworkflows.com/ltt/&quot; /&gt;
-
-&lt;p&gt;You should be automatically forwarded to the Arbor app. If not, click &lt;a href=&quot;http://arbor.arborworkflows.com/ltt/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 31 May 2017 00:00:00 -0700</pubDate>
-        <link>/arborapps/otsapps/ltt/</link>
-        <guid isPermaLink="true">/arborapps/otsapps/ltt/</guid>
       </item>
     
   </channel>

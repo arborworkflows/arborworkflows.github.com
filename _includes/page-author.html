@@ -1,11 +1,17 @@
-{% if page.author %}
-  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
-{% endif %}
+<p>
+{% assign authorCount = page.author | size %}
+{% if authorCount == 0 %}
+    {% assign author = site.owner %}
+  {% endif %}
 
-<div class="author-image">
-	<img src="{{ site.baseurl }}/images/{{ author.avatar }}" alt="{{ author.name }}">
-</div><!-- ./author-image -->
-<div class="author-content">
-	<h3 class="author-name" >Written by {% if author.web %}<a href="{{ author.web }}" itemprop="author">{{ author.name }}</a>{% else %}<span itemprop="author">{{ author.name }}</span>{% endif %}</h3>
-	<p class="author-bio">{{ author.bio }}</p>
-</div><!-- ./author-content -->
+{% for author in page.author %}
+  {% assign auth = site.data.authors[author] %}
+        <div class="author-image">
+        	<img src="{{ site.baseurl }}/images/{{ auth.avatar }}" alt="{{ auth.name }}">
+        </div><!-- ./author-image -->
+        <div class="author-content">
+        	<h3 class="author-name" >Written by {% if auth.web %}<a href="{{ auth.web }}" itemprop="author">{{ auth.name }}</a>{% else %}<span itemprop="author">{{ auth.name }}</span>{% endif %}</h3>
+        	<p class="author-bio">{{ auth.bio }}</p>
+        </div><!-- ./author-content -->
+    {% endfor %}
+</p>

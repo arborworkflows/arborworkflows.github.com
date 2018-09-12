@@ -2,6 +2,9 @@
 layout: article
 categories: tutorials
 title: Kembel Biodiversity Workflow
+author:
+  - joseph_kelly
+  - bob_thacker
 summary: Use R package 'picante' to explore and analyze community data
 comments: true
 image:
@@ -83,5 +86,3 @@ The outputs of this analysis can be visualized as before. Under the 'Visualizati
 Arbor workflows are constructed using modules that can be assembled as needed to fit the specific needs of your analysis.   To view the script for a module, click the 'Show script' button under the analysis tab.  You can also choose to download the module as a .json file by clicking on the blue 'Download' button.
 
 ![Screenshot]({{site.baseurl}}/assets/KembelBiodiversity/KBWScreenshot11.png)
-
-Contributed by: Joseph Kelly, Stony Brook University
