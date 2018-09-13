@@ -57,12 +57,10 @@ To download the output, return to the 'Data Management' tab and scroll to the bo
 
 ![Screenshot]({{site.baseurl}}/assets/KembelBiodiversity/KBWScreenshot6.png)
 
-You will need to save intermediate data files to your Arbor directory to continue using them. For this tutorial, be sure to save the files
+You will need to save intermediate data files to your Arbor directory to continue using them. For this tutorial, be sure to save these files into the directory called 'KembelBiodiversityWorkshop'
 * 'KBW.1.enter.visualize.and.transform.data.workflow metadata 3.csv'
 * 'KBW.1.enter.visualize.and.transform.data.workflow comm.after.decostand.no.rownames.csv'
 * 'KBW.1.enter.visualize.and.transform.data.workflow comm.after.decostand.with.rownames.csv'
-
-into the directory called 'KembelBiodiversityWorkshop'
 
 ## Run the visualizing and summarizing biodiversity data workflow
 
