@@ -61,6 +61,7 @@ You will need to save intermediate data files to your Arbor directory to continu
 * 'KBW.1.enter.visualize.and.transform.data.workflow metadata 3.csv'
 * 'KBW.1.enter.visualize.and.transform.data.workflow comm.after.decostand.no.rownames.csv'
 * 'KBW.1.enter.visualize.and.transform.data.workflow comm.after.decostand.with.rownames.csv'
+
 into the directory called 'KembelBiodiversityWorkshop'
 
 ## Run the visualizing and summarizing biodiversity data workflow
