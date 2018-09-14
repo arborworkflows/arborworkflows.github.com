@@ -11,8 +11,6 @@ image:
   teaser: kisspng-spider-silhouette-clip-art-animal-illustration-250x250.png
 ---
 
-# Spider
-
 ## Use R package 'spider' to analyze species delimitation and test for reciprocal monophyly.
 
 This tutorial will guide the user through the spider workflow.  Spider is an R package that includes several useful tests for DNA barcoding studies that are not contained in other comparative method-focused R packages.  Documentation on Spider can be found at [https://CRAN.R-project.org/package=spider](https://CRAN.R-project.org/package=spider ).
