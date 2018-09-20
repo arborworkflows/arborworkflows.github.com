@@ -18,7 +18,7 @@ This tutorial will help you use a new Arbor interface.
 
 First go here and create a user account: (see register in the top right corner)
 
-[http://54.82.147.249:8080]http://54.82.147.249:8080
+<a href='http://54.82.147.249:8080'>http://54.82.147.249:8080</a>
 
 ## Step 2
 
@@ -27,7 +27,7 @@ Email Curt (curtislisle@gmail.com) that you have a login, so that he can add you
 ## Step 3
 
 Navigate to this address (same root with /arbor_apps at the end).  
-http://54.82.147.249:8080/arbor_apps/[http://54.82.147.249:8080/arbor_apps/]
+<a href='http://54.82.147.249:8080/arbor_apps/'>http://54.82.147.249:8080/arbor_apps/]</a>
 
 ## Step 4
 
