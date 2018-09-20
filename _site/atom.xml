@@ -7,7 +7,7 @@
   <subtitle>Arbor workflows</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2018-09-12T15:04:04-07:00</updated>
+  <updated>2018-09-20T10:39:32-04:00</updated>
   <id>/</id>
   <author>
     <name>Luke Harmon</name>
@@ -19,7 +19,7 @@
   <entry>
     <title>Kembel Biodiversity Workflow</title>
     <link href="/tutorials/Kembel-documentation/"/>
-    <updated>2018-09-10T00:00:00-07:00</updated>
+    <updated>2018-09-10T00:00:00-04:00</updated>
     <id>/tutorials/Kembel-documentation</id>
     <author>
       <name>Luke Harmon</name>
@@ -110,7 +110,7 @@
   <entry>
     <title>BiSSE</title>
     <link href="/arborapps/otsapps/bisse/"/>
-    <updated>2018-06-07T00:00:00-07:00</updated>
+    <updated>2018-06-07T00:00:00-04:00</updated>
     <id>/arborapps/otsapps/bisse</id>
     <author>
       <name>Luke Harmon</name>
@@ -129,7 +129,7 @@
   <entry>
     <title>Phylomap</title>
     <link href="/arborapps/otsapps/phylomap/"/>
-    <updated>2018-06-06T00:00:00-07:00</updated>
+    <updated>2018-06-06T00:00:00-04:00</updated>
     <id>/arborapps/otsapps/phylomap</id>
     <author>
       <name>Luke Harmon</name>
@@ -148,7 +148,7 @@
   <entry>
     <title>Slowdown test</title>
     <link href="/arborapps/slowdown/"/>
-    <updated>2018-06-05T00:00:00-07:00</updated>
+    <updated>2018-06-05T00:00:00-04:00</updated>
     <id>/arborapps/slowdown</id>
     <author>
       <name>Luke Harmon</name>
@@ -167,7 +167,7 @@
   <entry>
     <title>Map occurences</title>
     <link href="/arborapps/occurrences/"/>
-    <updated>2018-06-05T00:00:00-07:00</updated>
+    <updated>2018-06-05T00:00:00-04:00</updated>
     <id>/arborapps/occurrences</id>
     <author>
       <name>Luke Harmon</name>
@@ -186,7 +186,7 @@
   <entry>
     <title>Matrix Explorer</title>
     <link href="/arborapps/matrixExplorer/"/>
-    <updated>2018-06-05T00:00:00-07:00</updated>
+    <updated>2018-06-05T00:00:00-04:00</updated>
     <id>/arborapps/matrixExplorer</id>
     <author>
       <name>Luke Harmon</name>
@@ -205,7 +205,7 @@
   <entry>
     <title>Discrete character correlation</title>
     <link href="/arborapps/otsapps/discreteCorrelation/"/>
-    <updated>2018-06-05T00:00:00-07:00</updated>
+    <updated>2018-06-05T00:00:00-04:00</updated>
     <id>/arborapps/otsapps/discreteCorrelation</id>
     <author>
       <name>Luke Harmon</name>
@@ -224,7 +224,7 @@
   <entry>
     <title>Cophylo</title>
     <link href="/arborapps/otsapps/cophylo/"/>
-    <updated>2018-06-05T00:00:00-07:00</updated>
+    <updated>2018-06-05T00:00:00-04:00</updated>
     <id>/arborapps/otsapps/cophylo</id>
     <author>
       <name>Luke Harmon</name>
@@ -243,7 +243,7 @@
   <entry>
     <title>Plot tree using d3</title>
     <link href="/arborapps/treePlot/"/>
-    <updated>2017-05-31T00:00:00-07:00</updated>
+    <updated>2017-05-31T00:00:00-04:00</updated>
     <id>/arborapps/treePlot</id>
     <author>
       <name>Luke Harmon</name>
@@ -262,7 +262,7 @@
   <entry>
     <title>Stochastic character mapping using simmap</title>
     <link href="/arborapps/simmap/"/>
-    <updated>2017-05-31T00:00:00-07:00</updated>
+    <updated>2017-05-31T00:00:00-04:00</updated>
     <id>/arborapps/simmap</id>
     <author>
       <name>Luke Harmon</name>
@@ -281,7 +281,7 @@
   <entry>
     <title>Phylogenetic independent contrasts</title>
     <link href="/arborapps/pic/"/>
-    <updated>2017-05-31T00:00:00-07:00</updated>
+    <updated>2017-05-31T00:00:00-04:00</updated>
     <id>/arborapps/pic</id>
     <author>
       <name>Luke Harmon</name>
@@ -300,7 +300,7 @@
   <entry>
     <title>Lineage-through-time plots</title>
     <link href="/arborapps/otsapps/ltt/"/>
-    <updated>2017-05-31T00:00:00-07:00</updated>
+    <updated>2017-05-31T00:00:00-04:00</updated>
     <id>/arborapps/otsapps/ltt</id>
     <author>
       <name>Luke Harmon</name>
@@ -319,7 +319,7 @@
   <entry>
     <title>PGLS - two variables only (for now!)</title>
     <link href="/arborapps/otsapps/pgls/"/>
-    <updated>2017-05-30T00:00:00-07:00</updated>
+    <updated>2017-05-30T00:00:00-04:00</updated>
     <id>/arborapps/otsapps/pgls</id>
     <author>
       <name>Luke Harmon</name>
@@ -338,7 +338,7 @@
   <entry>
     <title>Ancestral state reconstruction</title>
     <link href="/arborapps/otsapps/ancestral-state/"/>
-    <updated>2017-05-29T00:00:00-07:00</updated>
+    <updated>2017-05-29T00:00:00-04:00</updated>
     <id>/arborapps/otsapps/ancestral-state</id>
     <author>
       <name>Luke Harmon</name>
@@ -357,7 +357,7 @@
   <entry>
     <title>Phylogenetic signal</title>
     <link href="/arborapps/otsapps/phylogenetic-signal/"/>
-    <updated>2017-05-28T00:00:00-07:00</updated>
+    <updated>2017-05-28T00:00:00-04:00</updated>
     <id>/arborapps/otsapps/phylogenetic-signal</id>
     <author>
       <name>Luke Harmon</name>
@@ -376,7 +376,7 @@
   <entry>
     <title>makeBD</title>
     <link href="/collections/diversificationmodels/makeBD/"/>
-    <updated>2017-01-26T00:00:00-08:00</updated>
+    <updated>2017-01-26T00:00:00-05:00</updated>
     <id>/collections/diversificationmodels/makeBD</id>
     <author>
       <name>Luke Harmon</name>
@@ -426,7 +426,7 @@ Load these files into Arbor, and …&lt;/p&gt;
   <entry>
     <title>Web services 2</title>
     <link href="/tutorials/webservices/"/>
-    <updated>2017-01-08T00:00:00-08:00</updated>
+    <updated>2017-01-08T00:00:00-05:00</updated>
     <id>/tutorials/webservices</id>
     <author>
       <name>Luke Harmon</name>
@@ -505,7 +505,7 @@ Load these files into Arbor, and …&lt;/p&gt;
   <entry>
     <title>Creating new collections and functions</title>
     <link href="/tutorials/functions-and-collections/"/>
-    <updated>2017-01-06T00:00:00-08:00</updated>
+    <updated>2017-01-06T00:00:00-05:00</updated>
     <id>/tutorials/functions-and-collections</id>
     <author>
       <name>Luke Harmon</name>
@@ -715,7 +715,7 @@ rescaledPhy$edge.length &amp;lt;- rescaledPhy$edge.length * x
   <entry>
     <title>Using the Arbor webapp</title>
     <link href="/tutorials/runningfunctions/"/>
-    <updated>2017-01-05T00:00:00-08:00</updated>
+    <updated>2017-01-05T00:00:00-05:00</updated>
     <id>/tutorials/runningfunctions</id>
     <author>
       <name>Luke Harmon</name>
@@ -839,7 +839,7 @@ basic analysis of a correlation between two continuous characters using independ
   <entry>
     <title>Example datasets</title>
     <link href="/media/datasets/"/>
-    <updated>2017-01-04T00:00:00-08:00</updated>
+    <updated>2017-01-04T00:00:00-05:00</updated>
     <id>/media/datasets</id>
     <author>
       <name>Luke Harmon</name>
@@ -861,7 +861,7 @@ basic analysis of a correlation between two continuous characters using independ
   <entry>
     <title>bisseMLE</title>
     <link href="/collections/diversificationmodels/bisseMLE/"/>
-    <updated>2017-01-04T00:00:00-08:00</updated>
+    <updated>2017-01-04T00:00:00-05:00</updated>
     <id>/collections/diversificationmodels/bisseMLE</id>
     <author>
       <name>Luke Harmon</name>
@@ -911,7 +911,7 @@ Load these files into Arbor, and …&lt;/p&gt;
   <entry>
     <title>aceArbor</title>
     <link href="/collections/ancestralstates/aceArbor/"/>
-    <updated>2017-01-04T00:00:00-08:00</updated>
+    <updated>2017-01-04T00:00:00-05:00</updated>
     <id>/collections/ancestralstates/aceArbor</id>
     <author>
       <name>Luke Harmon</name>
@@ -967,7 +967,7 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
   <entry>
     <title>Fitting models of trait evolution with Arbor</title>
     <link href="/tasks/trait-models/"/>
-    <updated>2016-08-04T00:00:00-07:00</updated>
+    <updated>2016-08-04T00:00:00-04:00</updated>
     <id>/tasks/trait-models</id>
     <author>
       <name>Luke Harmon</name>
@@ -1033,7 +1033,7 @@ Load these files into Arbor, and use them as inputs to the fitDiscrete function 
   <entry>
     <title>Ancestral character state estimation with Arbor</title>
     <link href="/tasks/ace/"/>
-    <updated>2016-08-03T00:00:00-07:00</updated>
+    <updated>2016-08-03T00:00:00-04:00</updated>
     <id>/tasks/ace</id>
     <author>
       <name>Luke Harmon</name>
@@ -1140,7 +1140,7 @@ the “ecomorph” column for analysis, and select type: discrete and method: ma
   <entry>
     <title>Timetrees</title>
     <link href="/tutorials/timetrees/"/>
-    <updated>2016-04-18T00:00:00-07:00</updated>
+    <updated>2016-04-18T00:00:00-04:00</updated>
     <id>/tutorials/timetrees</id>
     <author>
       <name>Luke Harmon</name>
