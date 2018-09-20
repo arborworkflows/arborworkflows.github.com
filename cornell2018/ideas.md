@@ -13,3 +13,6 @@ image:
 - Make sure citations are available and obvious for apps
 - Tools for sets of trees - e.g. LTT plot with confidence intervals
 - Make sure the tree plotter all fits on the screen
+- Find way to export D3 graphics
+- Add new web viewer that Chelsea likes
+- Update treeplot app to make more flexible
