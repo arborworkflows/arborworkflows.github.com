@@ -22,11 +22,11 @@ You can also explore [all the Arbor apps]({{ site.baseurl }}/arborapps)
 | Time | Event |
 | --- | --- |
 | 9:00-9:15 AM | Welcome and introductions |
-| 9:15-10:00 AM | Lecture: Introduction to comparative methods and Arbor (LH) |
+| 9:15-10:00 AM | Lecture: Introduction to comparative methods and Arbor (LH; [slides]({{ site.baseurl }}/cornell2018/lectures/intro_harmon.pdf)) |
 | 10:00-10:20 AM | Coffee break |
 | 10:20-12:00 PM | Exercise: Introduction to Arbor Apps (CS)|
 | 12:00-1:30 PM | Lunch |
-| 1:30-3:00 PM | Lecture: Traits on trees (LH) |
+| 1:30-3:00 PM | Lecture: Traits on trees (LH; [slides]({{ site.baseurl }}/cornell2018/lectures/traitsOnTrees_harmon.pdf)) |
 | 3:00-3:30 PM | Coffee |
 | 3:30-4:00 PM | Discussion: participants data and goals (CL) |
 | 4:00-5:00 PM | Exercise: Arbor Apps 2 (BT) |
@@ -35,7 +35,7 @@ You can also explore [all the Arbor apps]({{ site.baseurl }}/arborapps)
 
 | Time | Event |
 | --- | --- |
-| 9:00-10:00 AM | Lecture: Geography and comparative methods (LH) |
+| 9:00-10:00 AM | Lecture: Geography and comparative methods (LH; [slides]({{ site.baseurl }}/cornell2018/lectures/diversificationModels.pdf)) |
 | 10:00-10:30 AM | Coffee break |
 | 10:30-12:00 PM | Exercise: Mapping comparative data (CS) |
 | 12:00-1:30 PM | Lunch |

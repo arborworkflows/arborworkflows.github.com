@@ -7,7 +7,7 @@
   <subtitle>Arbor workflows</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="/" rel="alternate" type="text/html"/>
-  <updated>2018-09-20T10:43:39-04:00</updated>
+  <updated>2018-09-20T15:45:17-04:00</updated>
   <id>/</id>
   <author>
     <name>Luke Harmon</name>
@@ -15,6 +15,56 @@
     <email>lukeh@uidaho.edu</email>
   </author>
 
+  
+  <entry>
+    <title>Introduction to a New Arbor Interface</title>
+    <link href="/tutorials/New-Interface-Tutorial/"/>
+    <updated>2018-09-20T00:00:00-04:00</updated>
+    <id>/tutorials/New-Interface-Tutorial</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;use-a-new-interface-to-work-with-arbor-apps&quot;&gt;Use a new interface to work with Arbor apps&lt;/h2&gt;
+
+&lt;p&gt;This tutorial will help you use a new Arbor interface.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-1&quot;&gt;Step 1&lt;/h2&gt;
+
+&lt;p&gt;First go here and create a user account: (see register in the top right corner)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://54.82.147.249:8080&quot;&gt;http://54.82.147.249:8080&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-2&quot;&gt;Step 2&lt;/h2&gt;
+
+&lt;p&gt;Email Curt (curtislisle@gmail.com) that you have a login, so that he can add you to a user group that can run tasks.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-3&quot;&gt;Step 3&lt;/h2&gt;
+
+&lt;p&gt;Navigate to this address (same root with /arbor_apps at the end).&lt;br /&gt;
+&lt;a href=&quot;http://54.82.147.249:8080/arbor_apps/&quot;&gt;http://54.82.147.249:8080/arbor_apps/]&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-4&quot;&gt;Step 4&lt;/h2&gt;
+
+&lt;p&gt;The way to try the interface is to load a tree &amp;amp; matrix, then pick a function to run.   To load the tree and matrix, click the tabs at the bottom of the blue bar (e.g. PHYLOGENETIC TREE).  This moves to the “current tree” panel, which will initially be empty.  Next, click on the title “Phylogenetic ‘Tree (.phy)” below (with the white background).  This should open a dialog that lets you browse any collections on this instance for data.  There is an “example data” collection with trees and matrices in it.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-5&quot;&gt;Step 5&lt;/h2&gt;
+
+&lt;p&gt;Repeat this process to load a character matrix.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-6&quot;&gt;Step 6&lt;/h2&gt;
+
+&lt;p&gt;Other tabs should appear on the blue bar for each easy-mode function loaded.  Select one of these and click the column from the matrix you want to use to perform the operation.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-7&quot;&gt;Step 7&lt;/h2&gt;
+
+&lt;p&gt;You should see a green “progress circle” with status next to it, like Queued, Running, Pushing Output, and then the output of the method should display.&lt;/p&gt;
+
+    </content>
+  </entry>
   
   <entry>
     <title>Kembel Biodiversity Workflow</title>
@@ -74,6 +124,11 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/KembelBiodiversity/KBWScreenshot6.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;You will need to save intermediate data files to your Arbor directory to continue using them. For this tutorial, be sure to save these files into the directory called ‘KembelBiodiversityWorkshop’
+* ‘KBW.1.enter.visualize.and.transform.data.workflow metadata 3.csv’
+* ‘KBW.1.enter.visualize.and.transform.data.workflow comm.after.decostand.no.rownames.csv’
+* ‘KBW.1.enter.visualize.and.transform.data.workflow comm.after.decostand.with.rownames.csv’&lt;/p&gt;
+
 &lt;h2 id=&quot;run-the-visualizing-and-summarizing-biodiversity-data-workflow&quot;&gt;Run the visualizing and summarizing biodiversity data workflow&lt;/h2&gt;
 
 &lt;p&gt;This workflow allows the user to run preliminary analyses to describe differences in biodiversity between habitats.  The workflow is accessed and initiated in the same manner as before.  Start by clicking the ‘Analysis’ tab, then select ‘KBW.1.enter.visualizing.and.summarizing.biodiversity.data.workflow (KembelBiodiversityWorkshop)’ from the dropdown menu.&lt;/p&gt;
@@ -103,6 +158,59 @@
 &lt;p&gt;Arbor workflows are constructed using modules that can be assembled as needed to fit the specific needs of your analysis.   To view the script for a module, click the ‘Show script’ button under the analysis tab.  You can also choose to download the module as a .json file by clicking on the blue ‘Download’ button.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/KembelBiodiversity/KBWScreenshot11.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Spider</title>
+    <link href="/tutorials/Spider-Tutorial/"/>
+    <updated>2018-09-08T00:00:00-04:00</updated>
+    <id>/tutorials/Spider-Tutorial</id>
+    <author>
+      <name>Luke Harmon</name>
+      <uri>/</uri>
+      <email>lukeh@uidaho.edu</email>
+    </author>
+    <content type="html">
+      
+      &lt;h2 id=&quot;use-r-package-spider-to-analyze-species-delimitation-and-test-for-reciprocal-monophyly&quot;&gt;Use R package ‘spider’ to analyze species delimitation and test for reciprocal monophyly.&lt;/h2&gt;
+
+&lt;p&gt;This tutorial will guide the user through the spider workflow.  Spider is an R package that includes several useful tests for DNA barcoding studies that are not contained in other comparative method-focused R packages.  Documentation on Spider can be found at &lt;a href=&quot;https://CRAN.R-project.org/package=spider&quot;&gt;https://CRAN.R-project.org/package=spider&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Arbor instance we will be using for this tutorial can be reached at &lt;a href=&quot;http://52.204.9.236/#&quot;&gt;http://52.204.9.236/&lt;/a&gt;.  To prepare for the tutorial, sign in using your username and password and highlight the eyeball icon next to the Spider directory.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Spider/ArborScreenshot1.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;load-the-example-data&quot;&gt;Load the example data&lt;/h2&gt;
+
+&lt;p&gt;Species delimitation projects using molecular information require a multiple sequence alignment, with each species represented by many sequences.  This tutorial will use a &lt;em&gt;Spheniscus&lt;/em&gt; alignment that was prepared using publicly available sequences from &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/genbank/&quot;&gt;GenBank&lt;/a&gt;, and aligned using the program &lt;a href=&quot;http://www.geneious.com/download&quot;&gt;Geneious v9.0.5&lt;/a&gt;.  This file is saved in the Arbor program, and is called ‘Spheniscus_seqs_arbor.csv (Spider)’.  If you wish to download and view the file, select ‘Spheniscus_seqs_arbor.csv (Spider)’ from the dropdown list at the bottom of the Arbor homepage and click the download button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Spider/ArborScreenshot2.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;run-the-spider-workflow&quot;&gt;Run the Spider workflow&lt;/h2&gt;
+
+&lt;p&gt;A preassembled workflow has been constructed in Arbor.  To access it, click on the ‘Analysis’ tab, then select ‘Spider2.0’ from the dropdown menu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Spider/ArborScreenshot3.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, click on the blue ‘Set up and run’ button.  You will see a popup box listing the outputs of the modules in your workflow.  Note the gray text next to the output; it denotes the format of the output.  For example, &lt;strong&gt;Phylogeny&lt;/strong&gt;’s output will be formatted as an image.  In the middle of the box, select the input file ‘Spheniscus_seqs_arbor.csv’ from the dropdown menu.  To start the analysis, click the blue ‘Run’ button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Spider/ArborScreenshot5.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now let’s have a look at the outputs of our analysis.  Outputs can be viewed under the ‘Visualization’ tab.  To access a given output, select the class of output from the dropdown menu under &lt;strong&gt;select visualization&lt;/strong&gt;.  Next, pull up the output you wish to view from the dropdown menu under &lt;strong&gt;data&lt;/strong&gt;.  Finally, click on the blue ‘Update’ button.  You can click the downward pointing chevron to the right of your login information to collapse the interface to get an unobstructed view of your output.  Clicking on this arrow a second time returns the interface to the screen.  Let’s have a look at the Phylogeny produced by the Spider2.0 workflow.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Spider/ArborScreenshot6.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To download the output, return to the ‘Data Management’ tab and scroll to the bottom of the screen.  Under &lt;strong&gt;Save or download data&lt;/strong&gt; you are able to select your output from the drop down menu.  Next, select the desired file format (.png or .jpeg for images such as our phylogeny), and click the blue ‘Download’ button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Spider/ArborScreenshot7.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;examine-the-r-scripts-for-each-module&quot;&gt;Examine the R scripts for each module&lt;/h2&gt;
+
+&lt;p&gt;Arbor workflows are constructed using modules that can be assembled as needed to fit the specific needs of your analysis.  To view the script, click the ‘Show script button’ under the analysis tab. You can also choose to download the module as a .json file by clicking on the blue ‘Download’ button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Spider/ArborScreenshot4.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
 
     </content>
   </entry>
@@ -1026,160 +1134,6 @@ Load these files into Arbor, and use them as inputs to the fitDiscrete function 
 &lt;p&gt;Lewis, P.O. 2001. A likelihood approach to estimating phylogeny from discrete morphological character data. Systematic Biology 50:913-925.&lt;/p&gt;
 
 &lt;p&gt;Pennell, M. W., J. M. Eastman, G. J. Slater, J. W. Brown, J. C. Uyeda, R. G. Fitzjohn, M. E. Alfaro, and L. J. Harmon. 2014. geiger v2.0: an expanded suite of methods for fitting macroevolutionary models to phylogenetic trees. Bioinformatics 30: 2216-2218.&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Ancestral character state estimation with Arbor</title>
-    <link href="/tasks/ace/"/>
-    <updated>2016-08-03T00:00:00-04:00</updated>
-    <id>/tasks/ace</id>
-    <author>
-      <name>Luke Harmon</name>
-      <uri>/</uri>
-      <email>lukeh@uidaho.edu</email>
-    </author>
-    <content type="html">
-      &lt;img src=&quot;/images/ace.jpg&quot;&gt;&lt;br/&gt;
-      &lt;p&gt;Ancestral state estimate uses some model of evolution - for example, Brownian motion or an Mk model - and estimates ancestral character states for each node in a phylogenetic tree. For example, if we were interested in the evolution of limb presence or absence among squamates (snakes and lizards), we could use ancestral state estimation. We would use a tree and character data from living species to reconstruct character states (limbs or not) for each internal node in the tree.&lt;/p&gt;
-
-&lt;p&gt;It can be difficult to estimate ancestral character states, so most methods return estimates along with some measure of uncertainty. For example, an ancestral state estimate for limbs in squamates might return an estimate with 80% of the marginal likelihood for a limbless state, and 20% for a limbed state - in other words, we think that this species did not have limbs but we are not sure based only on the tree, data, and model of evolution.&lt;/p&gt;
-
-&lt;p&gt;Estimating ancestral character states requires three things:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;a phylogenetic tree with branch lengths&lt;/li&gt;
-  &lt;li&gt;data for the tips of the tree. In Arbor, you don’t have to have a perfect match between the species in the tree and in your data file - but anything that is missing from either of those will be dropped from the analysis.&lt;/li&gt;
-  &lt;li&gt;a model of evolution&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;how-to-do-this-analysis-in-arbor&quot;&gt;How to do this analysis in Arbor&lt;/h2&gt;
-
-&lt;p&gt;Arbor provides several ways to estimate ancestral character states. The easiest option is to use the Arbor App &lt;a href=&quot;/arborapps/ancestral-state/&quot;&gt;Ancestral state estimation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;You can also estimate ancestral character states in Arbor Workflows using the aceArbor function.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/acearbor.png&quot; alt=&quot;aceArbor&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;more-details-acearbor-arbor-workflows-function&quot;&gt;More details: aceArbor (Arbor Workflows function)&lt;/h2&gt;
-
-&lt;p&gt;aceArbor is a function for carrying out ancestral state reconstruction. It works for
-both discrete and continuous variables, and can reconstruct ancestral character states
-under both a maximum-likelihood and a Bayesian framework. The function returns results
-in two formats: a table of ancestral state estimates for each node in the tree, and a plot
-of the results.&lt;/p&gt;
-
-&lt;h3 id=&quot;acearbor-assumptions&quot;&gt;aceArbor assumptions&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;known phylogenetic tree with branch lengths&lt;/li&gt;
-  &lt;li&gt;specified model of evolution (see below)&lt;/li&gt;
-  &lt;li&gt;tip character states known without error&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;acearbor-inputs&quot;&gt;aceArbor inputs&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;table: A data table including species names&lt;/li&gt;
-  &lt;li&gt;tree: A phylogenetic tree&lt;/li&gt;
-  &lt;li&gt;column: The name of the column to analyze&lt;/li&gt;
-  &lt;li&gt;type: The character type
-    &lt;ul&gt;
-      &lt;li&gt;discrete: a character with a discrete number of states&lt;/li&gt;
-      &lt;li&gt;continuous: a continuously varying character&lt;/li&gt;
-      &lt;li&gt;fromData: will attempt to determine the data type from the data itself&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;method: specifies the method used to reconstruct ancestral character states
-    &lt;ul&gt;
-      &lt;li&gt;marginal: marginal ancestral state reconstructions, which reconstruct each node integrating over all possibilities at all other nodes in the tree; this is typically the method used in the literature to reconstruce ACEs&lt;/li&gt;
-      &lt;li&gt;joint: joint ancestral reconstructions, which give the configuration of ancestral states that together maximize the likelihood of the data given model parameters&lt;/li&gt;
-      &lt;li&gt;mcmc: reconstruct ancestral states using Bayesian MCMC. Note that the discrete version of this doesn’t seem to work, and even if it did work it is not a full MCMC ancestral state method&lt;/li&gt;
-      &lt;li&gt;stochastic: create stochastic character map&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;acearbor-outputs&quot;&gt;aceArbor outputs&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;a table and a plot with results of the ancestral state reconstruction.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;acearbor-example&quot;&gt;aceArbor example&lt;/h3&gt;
-
-&lt;p&gt;From the &lt;a href=&quot;/documentation&quot;&gt;docs&lt;/a&gt; page, get anolis.phy and anolis.csv.
-Load these files into Arbor, and use them as inputs to the aceArbor function. Choose
-the “ecomorph” column for analysis, and select type: discrete and method: marginal.&lt;/p&gt;
-
-&lt;p&gt;Your results should look like this.&lt;/p&gt;
-
-&lt;p&gt;Table: A table showing the internal nodes of the tree (numbered following ape’s scheme) along with marginal likelihoods for each character state.
-&lt;img src=&quot;/images/acearbor-exampletable.png&quot; alt=&quot;acearbor-plot&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Plot: A plot of the tree with ancestral state estimates at every node.
-&lt;img src=&quot;/images/acearbor-exampleplot.png&quot; alt=&quot;acearbor-plot&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;acearbor-example-of-use-in-a-workflow&quot;&gt;aceArbor example of use in a workflow&lt;/h3&gt;
-
-&lt;p&gt;You can see a tutorial for constructing a workflow that involves aceArbor
-&lt;a href=&quot;/tutorials/reconstructing-ancestral-characters-discrete&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;acearbor-citations&quot;&gt;aceArbor citations&lt;/h3&gt;
-
-&lt;p&gt;Lewis, P.O. 2001. A likelihood approach to estimating phylogeny from discrete morphological character data. Systematic Biology 50:913-925.&lt;/p&gt;
-
-&lt;p&gt;Pagel, M. 1999. The maximum likelihood approach to reconstructing ancestral character states of discrete characters on phylogenies. Systematic Biology. 48: 612-622.&lt;/p&gt;
-
-&lt;p&gt;Schluter, D., T. Price, A. O. Mooers, and D. Ludwig. 1997. Likelihood of ancestor states in adaptive radiation. Evolution 51: 1699.&lt;/p&gt;
-
-    </content>
-  </entry>
-  
-  <entry>
-    <title>Timetrees</title>
-    <link href="/tutorials/timetrees/"/>
-    <updated>2016-04-18T00:00:00-04:00</updated>
-    <id>/tutorials/timetrees</id>
-    <author>
-      <name>Luke Harmon</name>
-      <uri>/</uri>
-      <email>lukeh@uidaho.edu</email>
-    </author>
-    <content type="html">
-      
-      &lt;h2 id=&quot;creating-timetrees&quot;&gt;Creating timetrees&lt;/h2&gt;
-
-&lt;p&gt;Arbor has a few tools to create time-scaled phylogenetic trees. You can rescale your tree using standard methods like &lt;a href=&quot;&quot;&gt;pathd8&lt;/a&gt;, &lt;a href=&quot;&quot;&gt;penalized likelihood&lt;/a&gt;, or other methods that have been implemented in R. Alternatively, you can use our new tree rescaling method, described below, that calibrates a tree using dates from &lt;a href=&quot;http://timetree.org&quot;&gt;timetree&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;using-arbor-to-rescale-your-tree&quot;&gt;Using Arbor to rescale your tree&lt;/h2&gt;
-
-&lt;p&gt;In this example, we will obtain a tree from &lt;a href=&quot;http://opentree.org&quot;&gt;open tree of life&lt;/a&gt; and rescale it using dates from &lt;a href=&quot;http://timetree.org&quot;&gt;timetree of life&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We start with a list of taxa, &lt;a href=&quot;/assets/testTaxa.csv&quot;&gt;testTaxa.csv&lt;/a&gt;. You can upload that csv file to your arbor instance, or just find it stored in the “treeTimer” collection.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/timetree/timetree-screen1.png&quot; alt=&quot;screen1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now, choose and run the function called “Match taxa to the timetree of life” from the treeTimer collection.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/timetree/timetree-screen2.png&quot; alt=&quot;screen2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Use the following settings for this function:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/timetree/timetree-screen3.png&quot; alt=&quot;screen3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;When the function has stopped running, you should see a success message:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/timetree/timetree-screen4.png&quot; alt=&quot;screen4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can see a plot of the output by choosing the right settings in the Visualization tab.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/timetree/timetree-screen5.png&quot; alt=&quot;screen5&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Here is your timetree:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/timetree/timetree-output.png&quot; alt=&quot;screen6&quot; /&gt;&lt;/p&gt;
 
     </content>
   </entry>
