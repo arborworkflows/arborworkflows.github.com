@@ -1,46 +1,50 @@
 ---
 layout: article
 categories: tutorials
-title: Introduction to a New Arbor Interface
+title: Spider
 author:
+  - joseph_kelly
   - bob_thacker
-summary: Use a new interface for Arbor apps
+summary: Use R package 'spider' to analyze species delimitation
 comments: true
 image:
-  teaser: arbor_logo/arbor_256px.png
+  teaser: kisspng-spider-silhouette-clip-art-animal-illustration-250x250.png
 ---
 
-## Use a new interface to work with Arbor apps
+## Use R package 'spider' to analyze species delimitation and test for reciprocal monophyly.
 
-This tutorial will help you use a new Arbor interface.
+This tutorial will guide the user through the spider workflow.  Spider is an R package that includes several useful tests for DNA barcoding studies that are not contained in other comparative method-focused R packages.  Documentation on Spider can be found at [https://CRAN.R-project.org/package=spider](https://CRAN.R-project.org/package=spider ).
 
-## Step 1
+The Arbor instance we will be using for this tutorial can be reached at [http://52.204.9.236/](http://52.204.9.236/#).  To prepare for the tutorial, sign in using your username and password and highlight the eyeball icon next to the Spider directory.
 
-First go here and create a user account: (see register in the top right corner)
+![Screenshot]({{site.baseurl}}/assets/Spider/ArborScreenshot1.png)
 
-[http://54.82.147.249:8080]http://54.82.147.249:8080
+## Load the example data
 
-## Step 2
+Species delimitation projects using molecular information require a multiple sequence alignment, with each species represented by many sequences.  This tutorial will use a _Spheniscus_ alignment that was prepared using publicly available sequences from [GenBank](https://www.ncbi.nlm.nih.gov/genbank/), and aligned using the program [Geneious v9.0.5](http://www.geneious.com/download).  This file is saved in the Arbor program, and is called ‘Spheniscus_seqs_arbor.csv (Spider)’.  If you wish to download and view the file, select ‘Spheniscus_seqs_arbor.csv (Spider)’ from the dropdown list at the bottom of the Arbor homepage and click the download button.
 
-Email Curt (curtislisle@gmail.com) that you have a login, so that he can add you to a user group that can run tasks.
+![Screenshot]({{site.baseurl}}/assets/Spider/ArborScreenshot2.png)
 
-## Step 3
+## Run the Spider workflow
 
-Navigate to this address (same root with /arbor_apps at the end).  
-http://54.82.147.249:8080/arbor_apps/[http://54.82.147.249:8080/arbor_apps/]
+A preassembled workflow has been constructed in Arbor.  To access it, click on the 'Analysis' tab, then select 'Spider2.0' from the dropdown menu.
 
-## Step 4
+![Screenshot]({{site.baseurl}}/assets/Spider/ArborScreenshot3.png)
 
-The way to try the interface is to load a tree & matrix, then pick a function to run.   To load the tree and matrix, click the tabs at the bottom of the blue bar (e.g. PHYLOGENETIC TREE).  This moves to the “current tree” panel, which will initially be empty.  Next, click on the title “Phylogenetic ‘Tree (.phy)” below (with the white background).  This should open a dialog that lets you browse any collections on this instance for data.  There is an “example data” collection with trees and matrices in it.   
+Next, click on the blue 'Set up and run' button.  You will see a popup box listing the outputs of the modules in your workflow.  Note the gray text next to the output; it denotes the format of the output.  For example, __Phylogeny__'s output will be formatted as an image.  In the middle of the box, select the input file 'Spheniscus_seqs_arbor.csv' from the dropdown menu.  To start the analysis, click the blue 'Run' button.
 
-## Step 5
+![Screenshot]({{site.baseurl}}/assets/Spider/ArborScreenshot5.png)
 
-Repeat this process to load a character matrix.
+Now let's have a look at the outputs of our analysis.  Outputs can be viewed under the 'Visualization' tab.  To access a given output, select the class of output from the dropdown menu under __select visualization__.  Next, pull up the output you wish to view from the dropdown menu under __data__.  Finally, click on the blue 'Update' button.  You can click the downward pointing chevron to the right of your login information to collapse the interface to get an unobstructed view of your output.  Clicking on this arrow a second time returns the interface to the screen.  Let's have a look at the Phylogeny produced by the Spider2.0 workflow.
 
-## Step 6
+![Screenshot]({{site.baseurl}}/assets/Spider/ArborScreenshot6.png)
 
-Other tabs should appear on the blue bar for each easy-mode function loaded.  Select one of these and click the column from the matrix you want to use to perform the operation.  
+To download the output, return to the 'Data Management' tab and scroll to the bottom of the screen.  Under __Save or download data__ you are able to select your output from the drop down menu.  Next, select the desired file format (.png or .jpeg for images such as our phylogeny), and click the blue 'Download' button.
 
-## Step 7
+![Screenshot]({{site.baseurl}}/assets/Spider/ArborScreenshot7.png)
 
-You should see a green “progress circle” with status next to it, like Queued, Running, Pushing Output, and then the output of the method should display.
+## Examine the R scripts for each module
+
+Arbor workflows are constructed using modules that can be assembled as needed to fit the specific needs of your analysis.  To view the script, click the 'Show script button' under the analysis tab. You can also choose to download the module as a .json file by clicking on the blue 'Download' button.
+
+![Screenshot]({{site.baseurl}}/assets/Spider/ArborScreenshot4.png)
