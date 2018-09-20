@@ -54,3 +54,7 @@ You can also explore [all the Arbor apps]({{ site.baseurl }}/arborapps)
 | 1:30-3:00 PM | Wrap-up |
 | 3:00-3:30 PM | Coffee |
 | 3:30-5:00 PM | TBD |
+
+# Add your ideas for Arbor
+
+Use this <a href='https://docs.google.com/document/d/18sq2uQ6BSST8jbUObGlh8EV8qeLFvpCykShXtzzaXC4/edit?usp=sharing'>google doc</a> to add your suggestions.
