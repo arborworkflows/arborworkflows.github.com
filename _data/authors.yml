@@ -2,10 +2,10 @@
 
 bob_thacker:
   name: Bob Thacker
-  web: https://thackerlab.weebly.com/
+  web: https://www.stonybrook.edu/commcms/ecoevo/people/faculty_pages/thacker.html
   email: robert.thacker@stonybrook.edu
   avatar: bob.jpeg
-  bio: "Professor and department chair at Stony Brook University"
+  bio: "Professor and Department Chairperson at Stony Brook University"
   twitter:
   google:
     plus:
@@ -14,7 +14,7 @@ joseph_kelly:
   name: Joseph Kelly
   email: joseph.b.kelly@stonybrook.edu
   avatar: kelly.jpg
-  bio: "Graduate student at Stony Brook University"
+  bio: "Doctoral Student at Stony Brook University"
   twitter:
   google:
     plus:

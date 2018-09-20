@@ -57,6 +57,11 @@ To download the output, return to the 'Data Management' tab and scroll to the bo
 
 ![Screenshot]({{site.baseurl}}/assets/KembelBiodiversity/KBWScreenshot6.png)
 
+You will need to save intermediate data files to your Arbor directory to continue using them. For this tutorial, be sure to save these files into the directory called 'KembelBiodiversityWorkshop'
+* 'KBW.1.enter.visualize.and.transform.data.workflow metadata 3.csv'
+* 'KBW.1.enter.visualize.and.transform.data.workflow comm.after.decostand.no.rownames.csv'
+* 'KBW.1.enter.visualize.and.transform.data.workflow comm.after.decostand.with.rownames.csv'
+
 ## Run the visualizing and summarizing biodiversity data workflow
 
 This workflow allows the user to run preliminary analyses to describe differences in biodiversity between habitats.  The workflow is accessed and initiated in the same manner as before.  Start by clicking the 'Analysis' tab, then select 'KBW.1.enter.visualizing.and.summarizing.biodiversity.data.workflow (KembelBiodiversityWorkshop)' from the dropdown menu.
