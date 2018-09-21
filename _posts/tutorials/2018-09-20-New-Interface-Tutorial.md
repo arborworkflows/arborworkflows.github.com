@@ -4,7 +4,7 @@ categories: tutorials
 title: Introduction to a New Arbor Interface
 author:
   - bob_thacker
-summary: Use a new interface for Arbor apps
+summary: Use a new interface for Arbor apps.
 comments: true
 image:
   teaser: arbor_logo/arbor_256px.png
