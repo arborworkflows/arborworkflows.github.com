@@ -23,4 +23,4 @@ The instructions for PhyloPen are [here]({{ site.baseurl }}/assets/PhyloPen/exer
 
 Next, attempt to complete the same tasks in Mesquite using these [instructions]({{ site.baseurl }}/assets/PhyloPen/exercise.instructions.mesquite.Sept.2018.pdf).
 
-When you have completed the exercises, please provide feedback using this post-actvity <a href="https://docs.google.com/forms/d/1Xe3d0uOOalzmPhpkF-BRYR5YOTCkqQ0L9_Co-bjDGLY/edit?ts=5ba30ebb" target="_blank">survey</a>
+When you have completed the exercises, please provide feedback using this post-activity <a href="https://docs.google.com/forms/d/1Xe3d0uOOalzmPhpkF-BRYR5YOTCkqQ0L9_Co-bjDGLY/edit?ts=5ba30ebb" target="_blank">survey</a>
