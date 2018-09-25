@@ -10,11 +10,6 @@ image:
 
 # Hackathon (go to [workshop]({{ site.baseurl }}/cornell2018/)):
 
-## Materials for the hackathon
-To obtain your course materials, download [this archive]({{ site.baseurl }}/cornell2018/hackathon-data.zip).
-
-You can also explore [all the Arbor apps]({{ site.baseurl }}/arborapps)
-
 ## Hackathon schedule:
 
 *Saturday, September 22*

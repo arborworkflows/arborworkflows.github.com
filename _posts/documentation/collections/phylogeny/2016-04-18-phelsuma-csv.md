@@ -11,6 +11,6 @@ description: Data for Phelsuma
 
 ## Overview
 
-Character data for Phelsuma lizards. Download here: [phelsuma.csv]({{ site.baseurl }}/assets/datasets/phelsuma.csv)
+Character data for Phelsuma lizards. Download here: [phelsuma.csv]({{ site.baseurl }}/assets/datasets/phelsuma.dat)
 
 ## References

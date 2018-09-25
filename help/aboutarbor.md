@@ -24,7 +24,7 @@ Arbor software comes in two flavors. Arbor Workflows are flexible visual analyse
 
 ## What is visual workflow software?
 
-See our post on [what is Arbor]({{ site.baseurl }}/tutorials/what-is-arbor/).
+See our post on [what is Arbor]({{ site.baseurl }}/help/aboutarbor/).
 
 ---
 
