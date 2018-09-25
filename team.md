@@ -73,8 +73,7 @@ permalink: /team/
 
 <div>
   <p style="float: left;margin:0 10px 10px 0">
-    <a href="http://eeb.ku.edu/soberon">
-      <img src="{{ site.baseurl}}/images/jorge.jpeg" width = "150px" border="1px" alt="Jorge"></a></p>
+      <img src="{{ site.baseurl}}/images/jorge.jpeg" width = "150px" border="1px" alt="Jorge"></p>
   <p>
     <i>PI<br>Professor, Department of Ecology and Evolutionary Biology<br>University of Kansas</i></p>
 </div>

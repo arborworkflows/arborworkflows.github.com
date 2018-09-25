@@ -21,7 +21,7 @@ The Arbor instance we will be using for this tutorial can be reached at [http://
 
 ## Load the example data
 
-Species delimitation projects using molecular information require a multiple sequence alignment, with each species represented by many sequences.  This tutorial will use a _Spheniscus_ alignment that was prepared using publicly available sequences from [GenBank](https://www.ncbi.nlm.nih.gov/genbank/), and aligned using the program [Geneious v9.0.5](http://www.geneious.com/download).  This file is saved in the Arbor program, and is called ‘Spheniscus_seqs_arbor.csv (Spider)’.  If you wish to download and view the file, select ‘Spheniscus_seqs_arbor.csv (Spider)’ from the dropdown list at the bottom of the Arbor homepage and click the download button.
+Species delimitation projects using molecular information require a multiple sequence alignment, with each species represented by many sequences.  This tutorial will use a _Spheniscus_ alignment that was prepared using publicly available sequences from GenBank, and aligned using the program [Geneious v9.0.5](http://www.geneious.com/download).  This file is saved in the Arbor program, and is called ‘Spheniscus_seqs_arbor.csv (Spider)’.  If you wish to download and view the file, select ‘Spheniscus_seqs_arbor.csv (Spider)’ from the dropdown list at the bottom of the Arbor homepage and click the download button.
 
 ![Screenshot]({{site.baseurl}}/assets/Spider/ArborScreenshot2.png)
 
