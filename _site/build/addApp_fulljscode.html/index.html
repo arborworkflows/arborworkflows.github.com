@@ -124,7 +124,7 @@
   <article class="post-content">
   <p>Full javascript code (js/main.js) for simmap app. <a href="/build/addApp.html">back to directions</a></p>
 
-<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="cm">/*jslint browser: true, nomen: true */</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/*jslint browser: true, nomen: true */</span>
 
 <span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">flow</span><span class="p">,</span> <span class="nx">$</span><span class="p">,</span> <span class="nx">girder</span><span class="p">)</span> <span class="p">{</span>
     <span class="s1">'use strict'</span><span class="p">;</span>
@@ -191,13 +191,13 @@
                 <span class="c1">// modifications for simple app begin here</span>
                 <span class="c1">// if its a table, get the column names</span>
                 <span class="k">if</span> <span class="p">(</span><span class="nx">typeFormat</span><span class="p">.</span><span class="nx">type</span> <span class="o">==</span> <span class="s2">"table"</span><span class="p">)</span> <span class="p">{</span>
-                    <span class="nx">app</span><span class="p">.</span><span class="nx">table</span> <span class="o">=</span> <span class="nx">dataset</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">'data'</span><span class="p">);</span>
+                    <span class="nx">app</span><span class="p">.</span><span class="nx">table</span> <span class="o">=</span> <span class="nx">dataset</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'data'</span><span class="p">);</span>
                     <span class="nx">app</span><span class="p">.</span><span class="nx">tableFormat</span> <span class="o">=</span> <span class="nx">typeFormat</span><span class="p">.</span><span class="nx">format</span><span class="p">;</span>
                     <span class="nx">d3</span><span class="p">.</span><span class="nx">select</span><span class="p">(</span><span class="s2">"#table-name"</span><span class="p">).</span><span class="nx">html</span><span class="p">(</span><span class="s1">'Table: '</span> <span class="o">+</span> <span class="nx">file</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s1">' &lt;span class="glyphicon glyphicon-ok-circle"&gt;&lt;/span&gt;'</span><span class="p">);</span>
                     <span class="nx">$</span><span class="p">(</span><span class="s2">"#column-input"</span><span class="p">).</span><span class="nx">text</span><span class="p">(</span><span class="s2">"Parsing column names..."</span><span class="p">);</span>
                     <span class="nx">$</span><span class="p">(</span><span class="s2">"#column-names"</span><span class="p">).</span><span class="nx">empty</span><span class="p">();</span>
                     <span class="nx">flow</span><span class="p">.</span><span class="nx">retrieveDatasetAsFormat</span><span class="p">(</span><span class="nx">dataset</span><span class="p">,</span> <span class="s2">"table"</span><span class="p">,</span> <span class="s2">"column.names"</span><span class="p">,</span> <span class="kc">false</span><span class="p">,</span> <span class="nx">_</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">error</span><span class="p">,</span> <span class="nx">dataset</span><span class="p">)</span> <span class="p">{</span>
-                        <span class="kd">var</span> <span class="nx">columnNames</span> <span class="o">=</span> <span class="nx">dataset</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">'data'</span><span class="p">);</span>
+                        <span class="kd">var</span> <span class="nx">columnNames</span> <span class="o">=</span> <span class="nx">dataset</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'data'</span><span class="p">);</span>
                         <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">columnNames</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="o">++</span><span class="nx">i</span><span class="p">)</span> <span class="p">{</span>
                             <span class="c1">// create drag-and-drop elements here</span>
                             <span class="nx">$</span><span class="p">(</span><span class="s2">"#column-names"</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="s1">'&lt;div class="btn btn-info draggable"&gt;'</span> <span class="o">+</span> <span class="nx">columnNames</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">+</span> <span class="s1">'&lt;/div&gt;'</span><span class="p">);</span>
@@ -211,7 +211,7 @@
                     <span class="nx">flow</span><span class="p">.</span><span class="nx">retrieveDatasetAsFormat</span><span class="p">(</span><span class="nx">dataset</span><span class="p">,</span> <span class="s2">"table"</span><span class="p">,</span> <span class="s2">"rows"</span><span class="p">,</span> <span class="kc">false</span><span class="p">,</span> <span class="nx">_</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">error</span><span class="p">,</span> <span class="nx">dataset</span><span class="p">)</span> <span class="p">{</span>
                       <span class="c1">// show the input table to help the user understand if their data</span>
                       <span class="c1">// was parsed correctly or not</span>
-                      <span class="kd">var</span> <span class="nx">rowData</span> <span class="o">=</span> <span class="nx">dataset</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">'data'</span><span class="p">);</span>
+                      <span class="kd">var</span> <span class="nx">rowData</span> <span class="o">=</span> <span class="nx">dataset</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'data'</span><span class="p">);</span>
                       <span class="nx">rowData</span><span class="p">.</span><span class="nx">rows</span> <span class="o">=</span> <span class="nx">rowData</span><span class="p">.</span><span class="nx">rows</span><span class="p">.</span><span class="nx">slice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">);</span>
                       <span class="nx">d3</span><span class="p">.</span><span class="nx">select</span><span class="p">(</span><span class="s2">"#input-table-vis-container"</span><span class="p">).</span><span class="nx">classed</span><span class="p">(</span><span class="s1">'hidden'</span><span class="p">,</span> <span class="kc">false</span><span class="p">);</span>
                       <span class="nx">$</span><span class="p">(</span><span class="s2">"#input-table-vis"</span><span class="p">).</span><span class="nx">table</span><span class="p">({</span> <span class="na">data</span><span class="p">:</span> <span class="nx">rowData</span> <span class="p">});</span>
@@ -221,7 +221,7 @@
                 <span class="p">}</span>
 
                 <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">typeFormat</span><span class="p">.</span><span class="nx">type</span> <span class="o">==</span> <span class="s2">"tree"</span><span class="p">)</span> <span class="p">{</span>
-                    <span class="nx">app</span><span class="p">.</span><span class="nx">tree</span> <span class="o">=</span> <span class="nx">dataset</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">'data'</span><span class="p">);</span>
+                    <span class="nx">app</span><span class="p">.</span><span class="nx">tree</span> <span class="o">=</span> <span class="nx">dataset</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'data'</span><span class="p">);</span>
                     <span class="nx">d3</span><span class="p">.</span><span class="nx">select</span><span class="p">(</span><span class="s2">"#tree-name"</span><span class="p">).</span><span class="nx">html</span><span class="p">(</span><span class="s1">'Tree: '</span> <span class="o">+</span> <span class="nx">file</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s1">' &lt;span class="glyphicon glyphicon-ok-circle"&gt;&lt;/span&gt;'</span><span class="p">);</span>
                 <span class="p">}</span>
                 <span class="nx">app</span><span class="p">.</span><span class="nx">readyToAnalyze</span><span class="p">();</span>
@@ -343,8 +343,7 @@
     <span class="p">});</span>
 <span class="p">}(</span><span class="nb">window</span><span class="p">.</span><span class="nx">flow</span><span class="p">,</span> <span class="nb">window</span><span class="p">.</span><span class="nx">$</span><span class="p">,</span> <span class="nb">window</span><span class="p">.</span><span class="nx">girder</span><span class="p">));</span>
 
-</code></pre>
-</div>
+</code></pre></div></div>
 
   </article>
 </div>

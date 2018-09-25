@@ -136,13 +136,12 @@
 
 <p>To get into the vagrant machine use:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>vagrant ssh
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vagrant ssh
+</code></pre></div></div>
 
 <p>You should see something like:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Lukes-MacBook-Pro:flow lukeharmon$ vagrant ssh
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Lukes-MacBook-Pro:flow lukeharmon$ vagrant ssh
 Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 3.13.0-117-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com/
@@ -169,18 +168,16 @@ Run 'do-release-upgrade' to upgrade to it.
 
 Last login: Wed May 31 20:12:05 2017 from 10.0.2.2
 vagrant@vagrant-ubuntu-trusty-64:~$
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Now start R. You will need administrative privileges, so:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>sudo R
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo R
+</code></pre></div></div>
 
 <p>This starts an R environment.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>vagrant@vagrant-ubuntu-trusty-64:~$ sudo R
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vagrant@vagrant-ubuntu-trusty-64:~$ sudo R
 
 R version 3.4.0 (2017-04-21) -- "You Stupid Darkness"
 Copyright (C) 2017 The R Foundation for Statistical Computing
@@ -201,18 +198,16 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 Type 'q()' to quit R.
 
 &gt;
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Now I can install any package I want. For example:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>install.packages("ouch")
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>install.packages("ouch")
+</code></pre></div></div>
 
 <p>You should get something like:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>&gt; install.packages("ouch")
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; install.packages("ouch")
 Installing package into ‘/usr/local/lib/R/site-library’
 (as ‘lib’ is unspecified)
 trying URL 'https://cran.cnr.berkeley.edu/src/contrib/ouch_2.9-2.tar.gz'
@@ -240,8 +235,7 @@ installing to /usr/local/lib/R/site-library/ouch/libs
 The downloaded source packages are in
 	‘/tmp/RtmpCawCDV/downloaded_packages’
 &gt;
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Now you can use this package in your Arbor functions!</p>
 
@@ -257,7 +251,7 @@ The downloaded source packages are in
 
 <p>R packages to be installed are listed starting on line 42 of that file:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 - name: install packages
   command: /usr/bin/Rscript --slave --no-save --no-restore-history -e "if (! ('' %in% installed.packages()[,'Package'])) install.packages(pkgs='', repos=c('http://cran.cnr.Berkeley.edu'))"
   become: yes
@@ -283,14 +277,13 @@ The downloaded source packages are in
     - tangelo-hub/romanescoTools
     - arborworkflows/aRbor
   environment:
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>New packages can be added to that list and will be installed when the machine is provisioned.</p>
 
 <p>So, add ouch:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>- name: install packages
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- name: install packages
   command: /usr/bin/Rscript --slave --no-save --no-restore-history -e "if (! ('' %in% installed.packages()[,'Package'])) install.packages(pkgs='', repos=c('http://cran.cnr.Berkeley.edu'))"
   become: yes
   with_items:
@@ -306,14 +299,12 @@ The downloaded source packages are in
     - ouch
   environment:
     DISPLAY: :7
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>And reprovision:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>&gt; vagrant provision
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; vagrant provision
+</code></pre></div></div>
 
   </article>
 </div>

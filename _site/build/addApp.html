@@ -139,10 +139,10 @@ of numbers as input, and create a figure as output. Any of these can serve as a 
 
 <p>We can isolate all of the code from that page into a single script.</p>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="n">require</span><span class="p">(</span><span class="n">phytools</span><span class="p">)</span><span class="w">
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">require</span><span class="p">(</span><span class="n">phytools</span><span class="p">)</span><span class="w">
 </span><span class="n">data</span><span class="p">(</span><span class="n">anoletree</span><span class="p">)</span><span class="w">
-</span><span class="c1">## this is just to pull out the tip states from the
-## data object - normally we would read this from file
+</span><span class="c1">## this is just to pull out the tip states from the</span><span class="w">
+</span><span class="c1">## data object - normally we would read this from file</span><span class="w">
 </span><span class="n">x</span><span class="o">&lt;-</span><span class="n">getStates</span><span class="p">(</span><span class="n">anoletree</span><span class="p">,</span><span class="s2">"tips"</span><span class="p">)</span><span class="w">
 </span><span class="n">tree</span><span class="o">&lt;-</span><span class="n">anoletree</span><span class="w">
 </span><span class="n">rm</span><span class="p">(</span><span class="n">anoletree</span><span class="p">)</span><span class="w">
@@ -154,21 +154,20 @@ of numbers as input, and create a figure as output. Any of these can serve as a 
 
 </span><span class="n">add.simmap.legend</span><span class="p">(</span><span class="n">colors</span><span class="o">=</span><span class="n">cols</span><span class="p">,</span><span class="n">prompt</span><span class="o">=</span><span class="kc">FALSE</span><span class="p">,</span><span class="n">x</span><span class="o">=</span><span class="m">0.9</span><span class="o">*</span><span class="n">par</span><span class="p">()</span><span class="o">$</span><span class="n">usr</span><span class="p">[</span><span class="m">1</span><span class="p">],</span><span class="w">
     </span><span class="n">y</span><span class="o">=-</span><span class="nf">max</span><span class="p">(</span><span class="n">nodeHeights</span><span class="p">(</span><span class="n">tree</span><span class="p">)),</span><span class="n">fsize</span><span class="o">=</span><span class="m">0.8</span><span class="p">)</span><span class="w">
-</span></code></pre>
-</div>
+</span></code></pre></div></div>
 
 <h2 id="step-2-convert-code-to-work-with-generic-data-inputs">Step 2. Convert code to work with generic data inputs.</h2>
 
 <p>To do this, we will have to make our function more generic so that instead of using the sample anolis data it will work for an arbitrary tree and data matrix.</p>
 
-<div class="language-r highlighter-rouge"><pre class="highlight"><code><span class="c1"># Example for data on my Desktop
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Example for data on my Desktop</span><span class="w">
 </span><span class="n">variable</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"ecomorph"</span><span class="w">
 </span><span class="n">table</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">read.csv</span><span class="p">(</span><span class="s2">"~/Desktop/theanolefiles/anolisDataAppended.csv"</span><span class="p">)</span><span class="w">
 </span><span class="n">tree</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">read.tree</span><span class="p">(</span><span class="s2">"~/Desktop/theanolefiles/anolis.phy"</span><span class="p">)</span><span class="w">
 </span><span class="n">rownames</span><span class="p">(</span><span class="n">table</span><span class="p">)</span><span class="o">&lt;-</span><span class="n">table</span><span class="p">[,</span><span class="m">1</span><span class="p">]</span><span class="w">
 </span><span class="n">table</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">table</span><span class="p">[,</span><span class="m">-1</span><span class="p">]</span><span class="w">
 
-</span><span class="c1"># Paste into Arbor app starting here
+</span><span class="c1"># Paste into Arbor app starting here</span><span class="w">
 </span><span class="n">require</span><span class="p">(</span><span class="n">phytools</span><span class="p">)</span><span class="w">
 </span><span class="n">require</span><span class="p">(</span><span class="n">cardoonTools</span><span class="p">)</span><span class="w">
 
@@ -187,8 +186,7 @@ of numbers as input, and create a figure as output. Any of these can serve as a 
 
 </span><span class="n">simmapPlot</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">cardoonPlot</span><span class="p">(</span><span class="nf">expression</span><span class="p">(</span><span class="n">simmap_plot</span><span class="p">()),</span><span class="w"> </span><span class="n">width</span><span class="o">=</span><span class="m">1000</span><span class="p">,</span><span class="w"> </span><span class="n">height</span><span class="o">=</span><span class="m">1000</span><span class="p">,</span><span class="w"> </span><span class="n">res</span><span class="o">=</span><span class="m">100</span><span class="p">)</span><span class="w">
 </span><span class="n">simmapPlot</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">simmapPlot</span><span class="o">$</span><span class="n">png</span><span class="w">
-</span></code></pre>
-</div>
+</span></code></pre></div></div>
 
 <p>You will notice that there is some funny business at the bottom for plotting. This is explained more fully on our <a href="/build/plottingInArborWorkflows.html">plotting in Arbor workflows</a> page.</p>
 
@@ -216,7 +214,7 @@ of numbers as input, and create a figure as output. Any of these can serve as a 
 
 <p>lines 3-13: change the title of the page.</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code>    <span class="nt">&lt;head&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">&lt;head&gt;</span>
         <span class="nt">&lt;title&gt;</span>Simmap - stochastic character mapping on trees<span class="nt">&lt;/title&gt;</span>
         <span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css</span> <span class="na">rel=</span><span class="s">stylesheet</span><span class="nt">&gt;</span>
         <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"//fonts.googleapis.com/css?family=Droid+Sans:400,700"</span><span class="nt">&gt;</span>
@@ -226,22 +224,20 @@ of numbers as input, and create a figure as output. Any of these can serve as a 
         <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"../static/built/app.min.css"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"../static/built/plugins/flow/flow.ext.min.css"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"css/arbortools.css"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;style&gt;</span><span class="err">
-</span></code></pre>
-</div>
+        <span class="nt">&lt;style&gt;</span>
+</code></pre></div></div>
 
 <p>lines 37-40 specify the column input box where a user chooses a single column. Since there is a template that already has that feature we don’t need to change a thing!</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="c">&lt;!-- Select Y column --&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- Select Y column --&gt;</span>
 #column-input {
     padding: 50px;
 }
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>lines 69-83 include brief documentation about the function, and should be modified (I didn’t finish though!)</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-group"</span><span class="nt">&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-group"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-default"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-heading"</span><span class="nt">&gt;</span>
       <span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">"panel-title"</span><span class="nt">&gt;</span>
@@ -252,16 +248,15 @@ of numbers as input, and create a figure as output. Any of these can serve as a 
       <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;b&gt;</span>Stochastic character mapping<span class="nt">&lt;/b&gt;</span> is ...
       <span class="nt">&lt;/div&gt;</span>
-      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-footer"</span><span class="nt">&gt;</span>More info <span class="nt">&lt;a</span> <span class="na">href =</span><span class="err"> </span><span class="s">"http://phylogeneticcomparativemethods.com"</span><span class="nt">&gt;</span>textbook<span class="nt">&lt;/a&gt;&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-footer"</span><span class="nt">&gt;</span>More info <span class="nt">&lt;a</span> <span class="na">href = </span><span class="s">"http://phylogeneticcomparativemethods.com"</span><span class="nt">&gt;</span>textbook<span class="nt">&lt;/a&gt;&lt;/div&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>lines 141-148 are where the outputs will go. They are setup to hold both text and a single figure and don’t need to be altered for this app.</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"result"</span> <span class="na">class=</span><span class="s">"col-sm-12 full-width"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
@@ -269,8 +264,7 @@ of numbers as input, and create a figure as output. Any of these can serve as a 
     <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"model-plot"</span> <span class="na">class=</span><span class="s">"col-sm-12 text-center"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>So, basically, all that needs to be changed was the name of the page and the help info.</p>
 
@@ -282,7 +276,7 @@ of numbers as input, and create a figure as output. Any of these can serve as a 
 
 <p>line 12-23: the name of the arbor function must be specified here. This function has to be somewhere in the Arbor instance (can be in any collection). Beware that if the match is not perfect then girder will use a partial match - e.g. if makeSimmap-app does not exist but makeSimmap does, then it will be used!</p>
 
-<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="c1">// Lookup the ID of the analysis that we wish to perform.</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Lookup the ID of the analysis that we wish to perform.</span>
 <span class="nx">app</span><span class="p">.</span><span class="nx">analysisName</span> <span class="o">=</span> <span class="s2">"makeSimmap-app"</span><span class="p">;</span>
 <span class="nx">girder</span><span class="p">.</span><span class="nx">restRequest</span><span class="p">({</span>
     <span class="na">path</span><span class="p">:</span> <span class="s1">'resource/search'</span><span class="p">,</span>
@@ -294,12 +288,11 @@ of numbers as input, and create a figure as output. Any of these can serve as a 
     <span class="nx">app</span><span class="p">.</span><span class="nx">analysisId</span> <span class="o">=</span> <span class="nx">results</span><span class="p">[</span><span class="s2">"item"</span><span class="p">][</span><span class="mi">0</span><span class="p">].</span><span class="nx">_id</span><span class="p">;</span>
     <span class="nx">app</span><span class="p">.</span><span class="nx">readyToAnalyze</span><span class="p">();</span>
 <span class="p">});</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>lines 138-146: these have to match the inputs and outputs of the Arbor function or workflow stated above exactly.</p>
 
-<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">inputs</span> <span class="o">=</span> <span class="p">{</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">inputs</span> <span class="o">=</span> <span class="p">{</span>
     <span class="na">table</span><span class="p">:</span>  <span class="p">{</span><span class="na">type</span><span class="p">:</span> <span class="s2">"table"</span><span class="p">,</span>  <span class="na">format</span><span class="p">:</span> <span class="nx">app</span><span class="p">.</span><span class="nx">tableFormat</span><span class="p">,</span>    <span class="na">data</span><span class="p">:</span> <span class="nx">app</span><span class="p">.</span><span class="nx">table</span><span class="p">},</span>
     <span class="na">tree</span><span class="p">:</span>   <span class="p">{</span><span class="na">type</span><span class="p">:</span> <span class="s2">"tree"</span><span class="p">,</span>   <span class="na">format</span><span class="p">:</span> <span class="s2">"newick"</span><span class="p">,</span>           <span class="na">data</span><span class="p">:</span> <span class="nx">app</span><span class="p">.</span><span class="nx">tree</span><span class="p">},</span>
     <span class="na">variable</span><span class="p">:</span> <span class="p">{</span><span class="na">type</span><span class="p">:</span> <span class="s2">"string"</span><span class="p">,</span> <span class="na">format</span><span class="p">:</span> <span class="s2">"text"</span><span class="p">,</span>             <span class="na">data</span><span class="p">:</span> <span class="nx">app</span><span class="p">.</span><span class="nx">column</span><span class="p">}</span>
@@ -308,41 +301,36 @@ of numbers as input, and create a figure as output. Any of these can serve as a 
 <span class="kd">var</span> <span class="nx">outputs</span> <span class="o">=</span> <span class="p">{</span>
     <span class="na">simmapPlot</span><span class="p">:</span> <span class="p">{</span><span class="na">type</span><span class="p">:</span> <span class="s2">"image"</span><span class="p">,</span> <span class="na">format</span><span class="p">:</span> <span class="s2">"png.base64"</span><span class="p">},</span>
 <span class="p">};</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>lines 160-164: this is where the result is obtained and plotted. The third part of data.result.simmapPlot.data should match the name of your function output above.</p>
 
-<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">result_url</span> <span class="o">=</span> <span class="s1">'/item/'</span> <span class="o">+</span> <span class="k">this</span><span class="p">.</span><span class="nx">ASRId</span> <span class="o">+</span> <span class="s1">'/flow/'</span> <span class="o">+</span> <span class="k">this</span><span class="p">.</span><span class="nx">taskId</span> <span class="o">+</span> <span class="s1">'/result'</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">result_url</span> <span class="o">=</span> <span class="s1">'/item/'</span> <span class="o">+</span> <span class="k">this</span><span class="p">.</span><span class="nx">ASRId</span> <span class="o">+</span> <span class="s1">'/flow/'</span> <span class="o">+</span> <span class="k">this</span><span class="p">.</span><span class="nx">taskId</span> <span class="o">+</span> <span class="s1">'/result'</span>
 <span class="nx">girder</span><span class="p">.</span><span class="nx">restRequest</span><span class="p">({</span><span class="na">path</span><span class="p">:</span> <span class="nx">result_url</span><span class="p">}).</span><span class="nx">done</span><span class="p">(</span><span class="nx">_</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
     <span class="nx">app</span><span class="p">.</span><span class="nx">modelPlot</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nx">result</span><span class="p">.</span><span class="nx">simmapPlot</span><span class="p">.</span><span class="nx">data</span><span class="p">;</span>
   <span class="c1">// render tree plot</span>
   <span class="nx">$</span><span class="p">(</span><span class="s2">"#model-plot"</span><span class="p">).</span><span class="nx">image</span><span class="p">({</span> <span class="na">data</span><span class="p">:</span> <span class="nx">app</span><span class="p">.</span><span class="nx">modelPlot</span> <span class="p">});</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h2 id="step-6-transfer-your-app-to-an-arbor-vagrant-instance">Step 6. Transfer your App to an Arbor vagrant instance.</h2>
 
 <p>ssh into an Arbor instance. Now get your new app folder onto that machine. Perhaps you, being very on the ball, have placed your app on github. Then it’s easy - just clone:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>cd ~
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~
 git clone https://github.com/arborworkflows/ArborWebApps.git
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Now make links to your app in /opt/flow/static.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>cd /opt/flow/static
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd /opt/flow/static
 sudo ln -s ~/ArborWebApps/simmap/ .
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>This is almost enough. But you need to reboot girder so that it will recognize the new app.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>sudo stop girder
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo stop girder
 sudo start girder
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h2 id="step-7-try-the-app">Step 7. Try the App.</h2>
 
