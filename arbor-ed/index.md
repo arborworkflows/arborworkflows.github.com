@@ -20,4 +20,4 @@ UCMP staff, with advisement from a select group of participating high school tea
 
 Ultimately, Arbor will be featured as a practical tool for teaching evolution at UCMP’s annual [Evo Institute](http://www.ucmp.berkeley.edu/about/institute18.php).
 
-Arbor modules with be featured and permanently included in UCMP’s [Understanding Evolution](http://evolution.berkeley.edu/) and [Understanding Science](http://undsci.berkeley.edu/) websites with exercises and teaching materials geared toward making tree-thinking fun and accessible to everyone.
+Arbor modules with be featured and permanently included in UCMP’s [Understanding Evolution](https://evolution.berkeley.edu/) and [Understanding Science](https://undsci.berkeley.edu/) websites with exercises and teaching materials geared toward making tree-thinking fun and accessible to everyone.

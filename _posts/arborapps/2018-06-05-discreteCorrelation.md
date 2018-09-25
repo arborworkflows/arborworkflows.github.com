@@ -7,6 +7,6 @@ image:
   teaser: arbordiscretecorr-400x250.png
 ---
 
-<meta http-equiv="refresh" content="0;url=http://arbor.arborworkflows.com/discreteCorrelation/">
+<meta http-equiv="refresh" content="0;url=http://52.204.46.78/discreteCorrelation/">
 
-You should be automatically forwarded to the Arbor app. If not, click <a href="http://arbor.arborworkflows.com/discreteCorrelation/">here</a>.
+You should be automatically forwarded to the Arbor app. If not, click <a href="http://52.204.46.78/discreteCorrelation/">here</a>.
