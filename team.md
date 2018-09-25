@@ -11,7 +11,7 @@ permalink: /team/
     <a href="http://lukejharmon.github.io/">
       <img src="{{ site.baseurl}}/images/luke.jpeg" width = "150px" border="1px" alt="Luke"></a></p>
   <p>
-    <i>PI<br>Associate Professor, Department of Biology<br>University of Idaho<br><a href="mailto:lukeh@uidaho.edu">lukeh@uidaho.edu</a></i></p>
+    <i>PI<br>Professor, Department of Biology<br>University of Idaho<br><a href="mailto:lukeh@uidaho.edu">lukeh@uidaho.edu</a></i></p>
 </div>
 
 <div style="clear: left;">
@@ -73,7 +73,7 @@ permalink: /team/
 
 <div>
   <p style="float: left;margin:0 10px 10px 0">
-    <a href="http://naturalhistory.ku.edu/biodiversity-modeling/people/jorge-sober%C3%B3n">
+    <a href="https://eeb.ku.edu/soberon">
       <img src="{{ site.baseurl}}/images/jorge.jpeg" width = "150px" border="1px" alt="Jorge"></a></p>
   <p>
     <i>PI<br>Professor, Department of Ecology and Evolutionary Biology<br>University of Kansas</i></p>
